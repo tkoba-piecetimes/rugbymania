@@ -1,0 +1,42 @@
+{
+ "日本体育大": {
+  "team": "日本体育大",
+  "slug": "nittaidai",
+  "block": "総合"
+ },
+ "早稲田大": {
+  "team": "早稲田大",
+  "slug": "waseda",
+  "block": "総合"
+ },
+ "明治大": {
+  "team": "明治大",
+  "slug": "meiji",
+  "block": "総合"
+ },
+ "青山学院大": {
+  "team": "青山学院大",
+  "slug": "aoyamagakuin",
+  "block": "総合"
+ },
+ "慶應義塾大": {
+  "team": "慶應義塾大",
+  "slug": "keio",
+  "block": "総合"
+ },
+ "帝京大": {
+  "team": "帝京大",
+  "slug": "teikyo",
+  "block": "総合"
+ },
+ "立教大": {
+  "team": "立教大",
+  "slug": "rikkyo",
+  "block": "総合"
+ },
+ "筑波大": {
+  "team": "筑波大",
+  "slug": "tsukuba",
+  "block": "総合"
+ }
+}

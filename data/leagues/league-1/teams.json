@@ -1,0 +1,42 @@
+{
+ "流通経済大": {
+  "team": "流通経済大",
+  "slug": "ryutsu-keizai",
+  "block": "総合"
+ },
+ "立正大": {
+  "team": "立正大",
+  "slug": "rissho",
+  "block": "総合"
+ },
+ "日本大": {
+  "team": "日本大",
+  "slug": "nihon",
+  "block": "総合"
+ },
+ "東洋大": {
+  "team": "東洋大",
+  "slug": "toyo",
+  "block": "総合"
+ },
+ "専修大": {
+  "team": "専修大",
+  "slug": "senshu",
+  "block": "総合"
+ },
+ "東海大": {
+  "team": "東海大",
+  "slug": "tokai",
+  "block": "総合"
+ },
+ "法政大": {
+  "team": "法政大",
+  "slug": "hosei",
+  "block": "総合"
+ },
+ "関東学院大": {
+  "team": "関東学院大",
+  "slug": "kantogakuin",
+  "block": "総合"
+ }
+}

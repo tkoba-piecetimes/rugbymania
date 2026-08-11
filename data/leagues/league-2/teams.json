@@ -1,0 +1,42 @@
+{
+ "中央大": {
+  "team": "中央大",
+  "slug": "chuo",
+  "block": "総合"
+ },
+ "新潟食料農業大": {
+  "team": "新潟食料農業大",
+  "slug": "niigatashokuryounougyou",
+  "block": "総合"
+ },
+ "朝鮮大": {
+  "team": "朝鮮大",
+  "slug": "chousen",
+  "block": "総合"
+ },
+ "専修大": {
+  "team": "専修大",
+  "slug": "senshu",
+  "block": "総合"
+ },
+ "山梨学院大": {
+  "team": "山梨学院大",
+  "slug": "yamanashi-gakuin",
+  "block": "総合"
+ },
+ "國學院大": {
+  "team": "國學院大",
+  "slug": "kokugakuin",
+  "block": "総合"
+ },
+ "拓殖大": {
+  "team": "拓殖大",
+  "slug": "takushoku",
+  "block": "総合"
+ },
+ "白鷗大": {
+  "team": "白鷗大",
+  "slug": "hakuou",
+  "block": "総合"
+ }
+}

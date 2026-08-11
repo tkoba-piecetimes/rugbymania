@@ -1,0 +1,42 @@
+{
+ "学習院大": {
+  "team": "学習院大",
+  "slug": "gakushuin",
+  "block": "総合"
+ },
+ "成蹊大": {
+  "team": "成蹊大",
+  "slug": "seikei",
+  "block": "総合"
+ },
+ "武蔵大": {
+  "team": "武蔵大",
+  "slug": "musashi",
+  "block": "総合"
+ },
+ "成城大": {
+  "team": "成城大",
+  "slug": "seijo",
+  "block": "総合"
+ },
+ "明治学院大": {
+  "team": "明治学院大",
+  "slug": "meijigakuin",
+  "block": "総合"
+ },
+ "一橋大": {
+  "team": "一橋大",
+  "slug": "hitotsubashi",
+  "block": "総合"
+ },
+ "東京大": {
+  "team": "東京大",
+  "slug": "toukyou",
+  "block": "総合"
+ },
+ "上智大": {
+  "team": "上智大",
+  "slug": "jouchi",
+  "block": "総合"
+ }
+}

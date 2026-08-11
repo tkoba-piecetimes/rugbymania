@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "rugbymania",
+      "runtimeExecutable": "python",
+      "runtimeArgs": ["-m", "http.server", "8940", "-d", "C:/Users/tatsu/claudecode/rugbymania/site"],
+      "port": 8940
+    }
+  ]
+}
