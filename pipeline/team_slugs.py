@@ -48,6 +48,40 @@ TEAM_SLUGS = {
     "城西・関東学院": "josai-kantogakuin",
     "慶應義塾高": "keio-hs",
     "学習院大": "gakushuin",
+
+    # ---- 関西大学ラグビー（rugby-kansai.or.jpは「○○大学」のフル表記） ----
+    "立命館大学": "ritsumeikan",
+    "京都産業大学": "kyoto-sangyo",
+    "摂南大学": "setsunan",
+    "天理大学": "tenri",
+    "関西大学": "kansai-u",
+    "同志社大学": "doshisha",
+    "近畿大学": "kindai",
+    "関西学院大学": "kwansei-gakuin",
+    "大阪体育大学": "osaka-taiiku",
+    "京都大学": "kyoto-u",
+    "甲南大学": "konan",
+    "大阪経済大学": "osaka-keizai",
+    "龍谷大学": "ryukoku",
+    "大阪国際大学": "osaka-kokusai",
+    "追手門学院大学": "otemon-gakuin",
+    "大阪産業大学": "osaka-sangyo",
+    "関西外国語大学": "kansaigaidai",
+    "大阪工業大学": "osaka-kogyo",
+    "大阪学院大学": "osaka-gakuin",
+    "大阪大学": "osaka-u",
+    "神戸大学": "kobe-u",
+    "大阪公立大学": "osaka-metropolitan",
+    "大阪教育大学": "osaka-kyoiku",
+    "花園大学": "hanazono",
+
+    # ---- 九州学生ラグビー（rugby-kyushu.jpも「○○大学」のフル表記） ----
+    "福岡大学": "fukuoka-u",
+    "西南学院大学": "seinan-gakuin",
+    "九州共立大学": "kyushu-kyoritsu",
+    "日本文理大学": "nihon-bunri",
+    "鹿児島大学": "kagoshima-u",
+    "福岡工業大学": "fukuoka-it",
 }
 
 _kks = None

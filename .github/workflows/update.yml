@@ -29,8 +29,8 @@ jobs:
           python-version: "3.12"
       - name: Install dependencies
         run: pip install pykakasi
-      - name: Fetch rugby.or.jp data
-        run: python pipeline/fetch_rugby.py
+      - name: Fetch rugby data (関東・関西・九州)
+        run: python pipeline/fetch_all.py
       - name: Generate site
         run: python pipeline/generate_site.py
       - name: Commit updated data & site

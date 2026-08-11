@@ -1,0 +1,32 @@
+{
+ "志學館大学": {
+  "team": "志學館大学",
+  "slug": "shigakukan",
+  "block": "総合"
+ },
+ "長崎大学": {
+  "team": "長崎大学",
+  "slug": "nagasaki",
+  "block": "総合"
+ },
+ "九州産業大学": {
+  "team": "九州産業大学",
+  "slug": "kyuushuusangyou",
+  "block": "総合"
+ },
+ "九州工業大学": {
+  "team": "九州工業大学",
+  "slug": "kyuushuukougyou",
+  "block": "総合"
+ },
+ "佐賀大学": {
+  "team": "佐賀大学",
+  "slug": "saga",
+  "block": "総合"
+ },
+ "名桜大学": {
+  "team": "名桜大学",
+  "slug": "meiou",
+  "block": "総合"
+ }
+}

@@ -1,0 +1,57 @@
+{
+ "九州歯科大学": {
+  "team": "九州歯科大学",
+  "slug": "kyuushuushika",
+  "block": "総合"
+ },
+ "福岡大学医学部": {
+  "team": "福岡大学医学部",
+  "slug": "fukuokadaigakuigakubu",
+  "block": "総合"
+ },
+ "九州大学歯学部": {
+  "team": "九州大学歯学部",
+  "slug": "kyuushuudaigakushigakubu",
+  "block": "総合"
+ },
+ "北九州市立大学": {
+  "team": "北九州市立大学",
+  "slug": "kitakyuushuushiritsu",
+  "block": "総合"
+ },
+ "久留米大学医学部": {
+  "team": "久留米大学医学部",
+  "slug": "kurumedaigakuigakubu",
+  "block": "総合"
+ },
+ "久留米大学": {
+  "team": "久留米大学",
+  "slug": "kurume",
+  "block": "総合"
+ },
+ "佐賀大学": {
+  "team": "佐賀大学",
+  "slug": "saga",
+  "block": "総合"
+ },
+ "九州歯科大学 （⑤の敗者）": {
+  "team": "九州歯科大学 （⑤の敗者）",
+  "slug": "kyuushuushikadaigaku-nohaisha",
+  "block": "総合"
+ },
+ "北九州市立大学 （④の敗者）": {
+  "team": "北九州市立大学 （④の敗者）",
+  "slug": "kitakyuushuushiritsudaigaku-nohaisha",
+  "block": "総合"
+ },
+ "佐賀大学 （⑤の勝者）": {
+  "team": "佐賀大学 （⑤の勝者）",
+  "slug": "sagadaigaku-noshousha",
+  "block": "総合"
+ },
+ "久留米大学 （④の勝者）": {
+  "team": "久留米大学 （④の勝者）",
+  "slug": "kurumedaigaku-noshousha",
+  "block": "総合"
+ }
+}

@@ -26,7 +26,12 @@ SITE_BASE = "https://rugbymania.jp/"
 GA_MEASUREMENT_ID = ""  # GA4のG-XXXXXXXXXXを設定すると計測タグが入る
 
 WEEKDAYS_JP = ["月", "火", "水", "木", "金", "土", "日"]
-LEAGUE_ORDER = ["taiko-a", "taiko-b", "league-1", "league-2"]
+LEAGUE_ORDER = [
+    "kanto-taiko-a", "kanto-taiko-b", "kanto-league-1", "kanto-league-2",
+    "kansai-a", "kansai-b",
+    "kyushu-a", "kyushu-b", "kyushu-c", "kyushu-d",
+]
+REGION_ORDER = ["関東", "関西", "九州"]
 RECORDS_MIN_PLAYED = 30  # 記録室を生成する最低試合数（データが薄いリーグは非表示）
 
 _sitemap_paths: list[str] = []
@@ -273,7 +278,7 @@ def page(rel, title, body, meta, *, path="", desc="", extra_head="", og_type="we
         _sitemap_paths.append(path)
     else:
         extra_head = '<meta name="robots" content="noindex, nofollow">\n' + extra_head
-    desc = desc or "関東大学ラグビーの試合結果・日程・順位表・チーム戦績を毎日更新する情報メディア。"
+    desc = desc or "全国の大学ラグビーの試合結果・日程・順位表・チーム戦績を毎日更新する情報メディア。"
     url = SITE_BASE + path
     og_image = ""
     if (ASSETS / "ogp.png").exists():
@@ -285,6 +290,11 @@ def page(rel, title, body, meta, *, path="", desc="", extra_head="", og_type="we
               '<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}'
               f"gtag('js',new Date());gtag('config','{GA_MEASUREMENT_ID}');</script>")
     nav = "".join(f'<a href="{rel}{href}">{label}</a>' for href, label in NAV_ITEMS)
+    if "sources" in meta:
+        src_html = " / ".join(
+            f'<a href="{escape(s["url"])}">{escape(s["label"])}</a>' for s in meta["sources"])
+    else:
+        src_html = f'<a href="{escape(meta["source_url"])}">{escape(meta["source"])}</a>'
     return f"""<!DOCTYPE html>
 <html lang="ja">
 <head>
@@ -317,9 +327,9 @@ def page(rel, title, body, meta, *, path="", desc="", extra_head="", og_type="we
   <div class="footer-inner">
     <p class="footer-brand">ラグビーマニア</p>
     <nav class="footer-nav">{nav}</nav>
-    <p>試合データ出典: <a href="{escape(meta['source_url'])}">{escape(meta['source'])}</a>
+    <p>試合データ出典: {src_html}
     （情報更新日: {escape(meta['fetched_at'][:10])}）</p>
-    <p>ラグビーマニアは大学ラグビーの情報メディアです。掲載の順位・成績の集計値は編集部の集計によるものです。確定情報は協会公式の発表をご確認ください。</p>
+    <p>ラグビーマニアは大学ラグビーの情報メディアです。掲載の順位・成績の集計値は編集部の集計によるものです。確定情報は各協会公式の発表をご確認ください。</p>
   </div>
 </footer>
 </body>
@@ -425,23 +435,34 @@ def preview_sections(m, matches, standings):
 def build_portal(leagues, articles, meta):
     rel = ""
     total_teams = sum(len(lg["teams"]) for lg in leagues)
+    regions_present = [r for r in REGION_ORDER if any(lg["meta"]["region"] == r for lg in leagues)]
+    region_kicker = "・".join(regions_present) + "の大学ラグビー"
     body = ('<div class="hero"><div class="hero-inner">'
-            '<p class="hero-kicker">関東大学ラグビー</p>'
+            f'<p class="hero-kicker">{escape(region_kicker)}</p>'
             '<h1>大学ラグビーの試合結果・日程・順位を毎日更新</h1>'
-            f'<p class="hero-sub">対抗戦・リーグ戦 全{len(leagues)}カテゴリ・{total_teams}チームの結果・順位・過去の対戦データを掲載　|　最終更新 {escape(meta["fetched_at"][:10])}</p>'
+            f'<p class="hero-sub">全{len(leagues)}カテゴリ・{total_teams}チームの結果・順位・過去の対戦データを掲載　|　最終更新 {escape(meta["fetched_at"][:10])}</p>'
             '</div></div>')
-    for group in ("対抗戦", "リーグ戦"):
-        cards = ""
-        for lg in leagues:
-            if lg["meta"]["group"] != group:
-                continue
-            played = sum(1 for m in lg["matches"] if m["status"] == "played")
-            cards += (f'<div class="digest-card"><h3><a href="{lg["code"]}/index.html">'
-                      f'{escape(lg["label"])}</a></h3>'
-                      f'<p class="cat-line"><span class="cat">チーム {len(lg["teams"])}</span> '
-                      f'<span class="cat">消化 {played}/{len(lg["matches"])}試合</span></p></div>')
-        if cards:
-            body += f'<section><h2>関東大学{group}</h2><div class="digest">{cards}</div></section>'
+    for region in REGION_ORDER:
+        region_leagues = [lg for lg in leagues if lg["meta"]["region"] == region]
+        if not region_leagues:
+            continue
+        groups = list(dict.fromkeys(lg["meta"]["group"] for lg in region_leagues))
+        body += f'<section><h2>{escape(region)}の大学ラグビー</h2>'
+        for group in groups:
+            cards = ""
+            for lg in region_leagues:
+                if lg["meta"]["group"] != group:
+                    continue
+                played = sum(1 for m in lg["matches"] if m["status"] == "played")
+                cards += (f'<div class="digest-card"><h3><a href="{lg["code"]}/index.html">'
+                          f'{escape(lg["label"])}</a></h3>'
+                          f'<p class="cat-line"><span class="cat">チーム {len(lg["teams"])}</span> '
+                          f'<span class="cat">消化 {played}/{len(lg["matches"])}試合</span></p></div>')
+            if cards:
+                if len(groups) > 1:
+                    body += f'<h3>{escape(group)}</h3>'
+                body += f'<div class="digest">{cards}</div>'
+        body += '</section>'
     recent = []
     for lg in leagues:
         for m in lg["matches"]:
@@ -459,7 +480,7 @@ def build_portal(leagues, articles, meta):
                  + f'</div><p class="more"><a class="cta" href="articles/index.html">読みもの一覧へ →</a></p></section>')
     write_page("", page(rel, "ラグビーマニア | 大学ラグビーの試合結果・順位・データ", body, meta,
                         path="",
-                        desc=f"関東大学ラグビー対抗戦・リーグ戦の試合結果・日程・順位表を毎日更新。過去の対戦データも掲載。"))
+                        desc=f"{region_kicker}の試合結果・日程・順位表を毎日更新。過去の対戦データも掲載。"))
 
 
 # ---------------------------------------------------------------- league pages
@@ -708,7 +729,7 @@ def build_records(lg):
                  '<div class="tbl"><table><thead><tr><th>年度</th><th>チーム</th>'
                  f'<th>成績</th></tr></thead><tbody>{rows}</tbody></table></div>'
                  '<p class="note">※順位は試合結果から編集部が算出した参考値です。公式記録は'
-                 '<a href="https://www.rugby.or.jp/">関東ラグビーフットボール協会</a>をご確認ください。</p></section>')
+                 f'<a href="{escape(meta["source_url"])}">{escape(meta["source"])}</a>をご確認ください。</p></section>')
 
     rows = "".join(
         f'<tr><td><a href="{L}clubs/{entries[0]["slug"]}/index.html">{escape(entries[0]["team"])}</a></td>'
@@ -1029,7 +1050,10 @@ def main():
     global_meta = dict(leagues[0]["meta"])
     global_meta["fetched_at"] = max(lg["meta"]["fetched_at"] for lg in leagues)
     global_meta["source_updated_at"] = max(lg["meta"]["source_updated_at"] for lg in leagues)
-    global_meta["source_url"] = "https://www.rugby.or.jp/univ/"
+    seen_sources: dict[str, str] = {}
+    for lg in leagues:
+        seen_sources.setdefault(lg["meta"]["source"], lg["meta"]["source_url"])
+    global_meta["sources"] = [{"label": k, "url": v} for k, v in seen_sources.items()]
 
     (SITE / "style.css").write_text(STYLE, encoding="utf-8")
     (SITE / "assets").mkdir()

@@ -1,0 +1,32 @@
+{
+ "福岡大学": {
+  "team": "福岡大学",
+  "slug": "fukuoka-u",
+  "block": "総合"
+ },
+ "西南学院大学": {
+  "team": "西南学院大学",
+  "slug": "seinan-gakuin",
+  "block": "総合"
+ },
+ "九州共立大学": {
+  "team": "九州共立大学",
+  "slug": "kyushu-kyoritsu",
+  "block": "総合"
+ },
+ "日本文理大学": {
+  "team": "日本文理大学",
+  "slug": "nihon-bunri",
+  "block": "総合"
+ },
+ "鹿児島大学": {
+  "team": "鹿児島大学",
+  "slug": "kagoshima-u",
+  "block": "総合"
+ },
+ "福岡工業大学": {
+  "team": "福岡工業大学",
+  "slug": "fukuoka-it",
+  "block": "総合"
+ }
+}
