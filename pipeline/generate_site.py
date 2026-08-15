@@ -26,7 +26,22 @@ SITE_BASE = "https://rugbymania.jp/"
 GA_MEASUREMENT_ID = "G-CT0EPG6E4Q"
 # Search Console所有権確認トークン（tatsuya.koba@piecetimes.jpアカウント・2026-08-14登録）
 GSC_VERIFICATION = "0X77J6-cDQak8VJkyt1PGegqMjZwEI2HWAYjkwl3OF0"
-SPONSOR_CTA_URL = "https://tunakare.jp/?utm_source=rugbymania&utm_medium=referral&utm_campaign=sponsor"
+
+# ---- ツナカレ接続導線（部活メディア→ツナカレ接続設計 2026-08 D1〜D5） ----
+TUNAKARE_LINKS_FILE = ROOT / "data" / "tunakare_links.json"
+UTM_SOURCE = "rugbymania"
+SPONSOR_SEARCH_URL = f"https://tunakare.jp/?utm_source={UTM_SOURCE}&utm_medium=referral&utm_campaign=sponsor"
+LISTING_LP_URL = f"https://lp.tunakare.jp/s01/?utm_source={UTM_SOURCE}&utm_medium=referral&utm_campaign=listing"
+MEDIA_CONTACT_URL = f"https://media.tunakare.jp/contact/student/?utm_source={UTM_SOURCE}&utm_medium=referral&utm_campaign=media-pr"
+SHUKATSU_URL = f"https://shukatsu.tunakare.jp/?utm_source={UTM_SOURCE}&utm_medium=referral&utm_campaign=shukatsu"
+CAREER_URL = f"https://career.tunakare.jp/?utm_source={UTM_SOURCE}&utm_medium=referral&utm_campaign=career"
+# 後方互換（旧単一協賛CTA定数を参照している箇所向け）
+SPONSOR_CTA_URL = SPONSOR_SEARCH_URL
+
+
+def sponsor_slug_url(slug):
+    return (f"https://tunakare.jp/sponsorship/search/p/{slug}"
+            f"?utm_source={UTM_SOURCE}&utm_medium=referral&utm_campaign=sponsor")
 
 WEEKDAYS_JP = ["月", "火", "水", "木", "金", "土", "日"]
 LEAGUE_ORDER = [
@@ -84,6 +99,14 @@ def load_articles():
         arts.append(a)
     arts.sort(key=lambda a: (a.get("date", ""), a["slug"]), reverse=True)
     return arts
+
+
+def load_tunakare_links():
+    """team_slug -> {"sponsorship_slug", "community", "title"} のマッピング。
+    未整備のteam_slugはキーが存在せず、応援ブロックはマッピング無しパターンで出力される。"""
+    if not TUNAKARE_LINKS_FILE.exists():
+        return {}
+    return json.loads(TUNAKARE_LINKS_FILE.read_text(encoding="utf-8"))
 
 
 # ---------------------------------------------------------------- text helpers
@@ -386,6 +409,70 @@ def article_card(a, rel):
             f'<p class="note">{escape(a["description"])}</p></div>')
 
 
+def cv_link(url, label, event, *, outline=False):
+    cls = "cta cta-outline" if outline else "cta"
+    return (f'<a class="{cls}" href="{escape(url)}" target="_blank" rel="noopener sponsored" '
+            f'onclick="window.gtag&&gtag(\'event\',\'{event}\')">'
+            f'<span class="pr-tag">PR</span>{escape(label)} →</a>')
+
+
+def sponsor_block(team_slug, tunakare_links):
+    """チームページの応援ブロック（D2）。マッピング有無で3導線に出し分ける。"""
+    link_info = tunakare_links.get(team_slug)
+    if link_info:
+        url = sponsor_slug_url(link_info["sponsorship_slug"])
+        label = f'{link_info["community"]}の協賛募集を見る'
+        primary = f'<p>{cv_link(url, label, "cv_sponsor_click")}</p>'
+    else:
+        primary = (
+            f'<p>{cv_link(SPONSOR_SEARCH_URL, "応援できる部活を探す", "cv_sponsor_click")}</p>'
+            f'<p>{cv_link(LISTING_LP_URL, "この部の関係者の方へ：協賛募集を無料で掲載", "cv_listing_click", outline=True)}</p>'
+        )
+    media_pr = f'<p>{cv_link(MEDIA_CONTACT_URL, "取材してほしい部活を募集中", "cv_media_pr_click", outline=True)}</p>'
+    return f'<section class="sponsor"><h2>この部活を応援する</h2>{primary}{media_pr}</section>'
+
+
+ARTICLE_CTA = {
+    "shukatsu": ("部活と就活の両立、ひとりで悩まない方へ", "無料で相談する", SHUKATSU_URL, "cv_shukatsu_click"),
+    "career": ("体育会出身の転職・キャリアに関心のある方へ", "キャリア相談を見る", CAREER_URL, "cv_career_click"),
+    "listing": ("遠征費・運営資金にお困りの部活の方へ", "協賛募集を無料で掲載する", LISTING_LP_URL, "cv_listing_click"),
+    "sponsor": ("この部活・競技を応援したい方へ", "協賛募集を見る", SPONSOR_SEARCH_URL, "cv_sponsor_click"),
+}
+
+
+def article_cta_band(article):
+    """記事CTA帯（D3）。frontmatterのcta値で出し分け。未指定/noneなら帯なし。"""
+    kind = article.get("cta", "none")
+    cfg = ARTICLE_CTA.get(kind)
+    if not cfg:
+        return ""
+    headline, label, url, event = cfg
+    return (f'<section class="article-cta"><p>{escape(headline)}</p>'
+            f'<p>{cv_link(url, label, event)}</p></section>')
+
+
+def support_section():
+    """トップページ支援セクション（D4）。応援する/無料で掲載/取材募集の3カード。"""
+    cards = [
+        ("部活を応援する", "気になる部活の協賛募集を探して支援できます。",
+         SPONSOR_SEARCH_URL, "応援できる部活を探す →", "cv_sponsor_click"),
+        ("無料で掲載する", "部活の運営者の方へ。遠征費・運営資金の協賛募集を無料で掲載できます。",
+         LISTING_LP_URL, "協賛募集を掲載する（無料） →", "cv_listing_click"),
+        ("取材を希望する", "取材してほしい部活・エピソードを募集しています。",
+         MEDIA_CONTACT_URL, "取材を希望する →", "cv_media_pr_click"),
+    ]
+    card_html = "".join(
+        f'<div class="digest-card support-card"><span class="pr-tag">PR</span>'
+        f'<h3>{escape(title)}</h3><p class="note">{escape(desc)}</p>'
+        f'<p><a class="cta cta-outline" href="{escape(url)}" target="_blank" rel="noopener sponsored" '
+        f'onclick="window.gtag&&gtag(\'event\',\'{event}\')">{escape(label)}</a></p></div>'
+        for title, desc, url, label, event in cards)
+    return ('<section class="support"><h2>ツナカレと連携しています</h2>'
+            '<p class="lead">ラグビーマニアは学生スポーツ支援プラットフォーム'
+            '「ツナカレ」と連携し、部活動への応援・掲載・取材の窓口を提供しています。</p>'
+            f'<div class="digest">{card_html}</div></section>')
+
+
 def h2h_section(m, matches_by_year):
     pair = [(y, x) for y, x in h2h_list(m["home"], m["away"], matches_by_year)
             if x["id"] != m["id"]]
@@ -468,6 +555,7 @@ def build_portal(leagues, articles, meta):
                     body += f'<h3>{escape(group)}</h3>'
                 body += f'<div class="digest">{cards}</div>'
         body += '</section>'
+    body += support_section()
     recent = []
     for lg in leagues:
         for m in lg["matches"]:
@@ -490,7 +578,7 @@ def build_portal(leagues, articles, meta):
 
 # ---------------------------------------------------------------- league pages
 
-def build_league(lg, articles):
+def build_league(lg, articles, tunakare_links):
     code = lg["code"]
     meta, matches, standings = lg["meta"], lg["matches"], lg["standings"]
     league_name = meta["league"]
@@ -615,10 +703,7 @@ def build_league(lg, articles):
                 for a in articles[:3])
             body += (f'<section><h2>読みもの</h2><ul>{art_links}</ul>'
                      f'<p class="more"><a href="{R}articles/index.html">読みもの一覧へ →</a></p></section>')
-        body += ('<section class="sponsor"><h2>この部活を応援する企業</h2>'
-                 '<p class="todo">（協賛メニュー連携枠：スポンサー企業ロゴ・リンクをここに配置）</p>'
-                 f'<p><a class="cta" href="{SPONSOR_CTA_URL}" target="_blank" rel="noopener" '
-                 'onclick="window.gtag&&gtag(\'event\',\'cv_sponsor_click\')">協賛について問い合わせる →</a></p></section>')
+        body += sponsor_block(slug, tunakare_links)
         write_page(f"{code}/clubs/{slug}",
                    page(R, f'{name} 試合結果・日程・戦績 | ラグビーマニア', body, meta,
                         path=f"{code}/clubs/{slug}/",
@@ -779,6 +864,7 @@ def build_articles(articles, meta):
                  f' <span class="note">{escape(a["date"])}</span></p>')
         body += f'<h1>{escape(a["title"])}</h1>'
         body += f'<div class="article">{md_to_html(a["body"])}</div>'
+        body += article_cta_band(a)
         body += f'<section><h2>あわせて読む</h2><ul>{related}</ul></section>'
         write_page(f"articles/{a['slug']}",
                    page(rel, f'{a["title"]} | ラグビーマニア', body, meta,
@@ -1002,6 +1088,13 @@ table.detail td { white-space:normal; }
 .cta { display:inline-block; background:var(--accent); color:#fff; font-weight:700;
   font-size:.85rem; text-decoration:none; padding:.5em 1.1em; border-radius:8px; }
 .cta:hover { background:var(--accent-dark); color:#fff; }
+.cta-outline { background:transparent; color:var(--navy-2); border:1.5px solid var(--navy-2); }
+.cta-outline:hover { background:var(--navy-2); color:#fff; }
+.pr-tag { display:inline-block; background:#8a8f8c; color:#fff; font-size:.62rem;
+  font-weight:800; letter-spacing:.05em; padding:.1em .45em; border-radius:4px;
+  margin-right:.4em; vertical-align:.1em; }
+.cta .pr-tag, .cta-outline .pr-tag { background:rgba(255,255,255,.25); }
+.cta-outline .pr-tag { background:rgba(31,77,60,.12); color:var(--navy-2); }
 
 .stat-row { display:flex; gap:.8rem; flex-wrap:wrap; }
 .stat { background:var(--surface); border:1px solid var(--line); border-radius:10px;
@@ -1023,8 +1116,13 @@ table.detail td { white-space:normal; }
 .team-list { list-style:none; margin:0; padding:0; columns:2; font-size:.9rem; }
 .team-list li { margin:.25em 0; break-inside:avoid; }
 
-.sponsor .todo { color:var(--sub); background:var(--surface);
-  border:1px dashed var(--line); border-radius:10px; padding:.8rem; font-size:.85rem; }
+.sponsor p { margin:.6rem 0; }
+.support-card { text-align:left; }
+.support-card h3 { margin:.5em 0 .4em; }
+.article-cta { background:var(--surface); border:1px solid var(--line);
+  border-left:4px solid var(--navy-2); border-radius:10px; padding:1rem 1.2rem;
+  margin-top:2.4em; }
+.article-cta p:first-child { font-weight:700; margin-top:0; }
 
 .cat-line { font-size:.8rem; margin:.4rem 0; }
 .article { background:var(--surface); border:1px solid var(--line); border-radius:10px;
@@ -1051,6 +1149,7 @@ def main():
 
     leagues = load_leagues()
     articles = load_articles()
+    tunakare_links = load_tunakare_links()
     if not leagues:
         raise SystemExit("リーグデータがありません（fetch_rugby.pyを先に実行）")
     global_meta = dict(leagues[0]["meta"])
@@ -1070,7 +1169,7 @@ def main():
 
     build_portal(leagues, articles, global_meta)
     for lg in leagues:
-        build_league(lg, articles)
+        build_league(lg, articles, tunakare_links)
     build_articles(articles, global_meta)
     build_videos(global_meta)
     build_glossary(global_meta)
