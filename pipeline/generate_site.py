@@ -34,6 +34,7 @@ LISTING_LP_URL = f"https://lp.tunakare.jp/s01/?utm_source={UTM_SOURCE}&utm_mediu
 MEDIA_CONTACT_URL = f"https://media.tunakare.jp/contact/student/?utm_source={UTM_SOURCE}&utm_medium=referral&utm_campaign=media-pr"
 SHUKATSU_URL = f"https://shukatsu.tunakare.jp/?utm_source={UTM_SOURCE}&utm_medium=referral&utm_campaign=shukatsu"
 CAREER_URL = f"https://career.tunakare.jp/?utm_source={UTM_SOURCE}&utm_medium=referral&utm_campaign=career"
+BIZ_GUIDE_URL = f"https://shukatsu.tunakare.jp/biz/guide?utm_source={UTM_SOURCE}&utm_medium=referral&utm_campaign=biz-guide"
 # 後方互換（旧単一協賛CTA定数を参照している箇所向け）
 SPONSOR_CTA_URL = SPONSOR_SEARCH_URL
 
@@ -416,6 +417,8 @@ def sponsor_block():
     """
     primary = (
         f'<p>この部活・競技を応援したい方へ：{cv_link(SPONSOR_SEARCH_URL, "ツナカレで協賛募集中の部活を探す", "cv_sponsor_click")}</p>'
+        f'<p>この部の学生の方へ：{cv_link(SHUKATSU_URL, "部活と両立できる就活相談（無料・メールで回答）", "cv_shukatsu_click")}</p>'
+        f'<p>体育会学生の採用を検討中の企業の方へ：{cv_link(BIZ_GUIDE_URL, "体育会学生採用ガイド2026（無料資料）", "cv_guide_click", outline=True)}</p>'
         f'<p>この部の関係者の方へ：{cv_link(LISTING_LP_URL, "協賛募集を無料で掲載", "cv_listing_click", outline=True)}</p>'
     )
     media_pr = f'<p>{cv_link(MEDIA_CONTACT_URL, "取材してほしい部活を募集中", "cv_media_pr_click", outline=True)}</p>'
@@ -431,14 +434,23 @@ ARTICLE_CTA = {
 
 
 def article_cta_band(article):
-    """記事CTA帯（D3）。frontmatterのcta値で出し分け。未指定/noneなら帯なし。"""
+    """記事CTA帯（D3）。frontmatterのcta値で出し分け。未指定/noneなら帯なし。
+
+    cta: sponsor の記事は読者の大半が学生・保護者・OBのため、sponsor帯の直後に
+    学生向け就活相談の副帯（outlineスタイル）を必ず追加する。
+    """
     kind = article.get("cta", "none")
     cfg = ARTICLE_CTA.get(kind)
     if not cfg:
         return ""
     headline, label, url, event = cfg
-    return (f'<section class="article-cta"><p>{escape(headline)}</p>'
+    band = (f'<section class="article-cta"><p>{escape(headline)}</p>'
             f'<p>{cv_link(url, label, event)}</p></section>')
+    if kind == "sponsor":
+        s_headline, s_label, s_url, s_event = ARTICLE_CTA["shukatsu"]
+        band += (f'<section class="article-cta cta-band-sub"><p>{escape(s_headline)}</p>'
+                 f'<p>{cv_link(s_url, s_label, s_event, outline=True)}</p></section>')
+    return band
 
 
 def support_section():
