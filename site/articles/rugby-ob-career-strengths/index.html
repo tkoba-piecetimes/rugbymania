@@ -16,7 +16,7 @@
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-CT0EPG6E4Q"></script><script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-CT0EPG6E4Q');</script>
 <link rel="stylesheet" href="../../style.css">
 </head>
-<body>
+<body class="has-sticky-cta">
 <header class="site-header">
   <div class="header-inner">
     <a class="brand" href="../../index.html"><span class="brand-tick"></span>ラグビーマニア<span class="brand-sub">JAPAN COLLEGE RUGBY</span></a>
@@ -55,7 +55,7 @@
 <li><a href="https://www.rugby.or.jp/">関東ラグビーフットボール協会</a></li>
 <li><a href="https://rugby-kansai.or.jp/">関西ラグビーフットボール協会</a></li>
 <li><a href="https://www.rugby-kyushu.jp/">九州ラグビーフットボール協会</a></li>
-</ul></div><section class="article-cta"><p>体育会出身の転職・キャリアに関心のある方へ</p><p><a class="cta" href="https://career.tunakare.jp/?utm_source=rugbymania&amp;utm_medium=referral&amp;utm_campaign=career" target="_blank" rel="noopener sponsored" onclick="window.gtag&&gtag('event','cv_career_click')"><span class="pr-tag">PR</span>キャリア相談を見る →</a></p></section><section><h2>あわせて読む</h2><ul><li><a href="../university-rugby-crowdfunding-guide/index.html">大学ラグビー部の資金調達、クラウドファンディングという選択肢とは？広がる背景と始める前の注意点</a></li><li><a href="../university-rugby-selection-preparation-guide/index.html">大学ラグビー部の練習参加・セレクション、申し込み前に確認しておきたい5つのこと</a></li><li><a href="../university-rugby-captain-leadership-career/index.html">大学ラグビー部の主将・副将経験はキャリアにどう活きる？リーダーシップの言語化と仕事への繋げ方</a></li></ul></section>
+</ul></div><section class="article-cta" data-cta="cv_career_click" data-position="cta_band"><p>体育会出身の転職・キャリアに関心のある方へ</p><p><a class="cta" href="https://career.tunakare.jp/?utm_source=rugbymania&amp;utm_medium=referral&amp;utm_campaign=career" target="_blank" rel="noopener sponsored" onclick="window.gtag&&gtag('event','cv_career_click')"><span class="pr-tag">PR</span>キャリア相談を見る →</a></p></section><section><h2>あわせて読む</h2><ul><li><a href="../university-rugby-selection-setback-guide/index.html">大学ラグビー部のスポーツ推薦・セレクションがうまくいかなかったら？進路を立て直す考え方</a></li><li><a href="../university-rugby-crowdfunding-guide/index.html">大学ラグビー部の資金調達、クラウドファンディングという選択肢とは？広がる背景と始める前の注意点</a></li><li><a href="../university-rugby-selection-preparation-guide/index.html">大学ラグビー部の練習参加・セレクション、申し込み前に確認しておきたい5つのこと</a></li></ul></section>
 </main>
 <footer class="site-footer">
   <div class="footer-inner">
@@ -66,5 +66,37 @@
     <p>ラグビーマニアは大学ラグビーの情報メディアです。掲載の順位・成績の集計値は編集部の集計によるものです。確定情報は各協会公式の発表をご確認ください。</p>
   </div>
 </footer>
+<div class="sticky-cta" id="sticky-cta" data-cta="cv_gakuchika_click" data-position="sticky"><span class="pr-tag">PR</span><span class="sticky-cta-text">ラグビー部のガクチカ テンプレ＆例文集（無料PDF）</span><a class="cta" href="https://shukatsu.tunakare.jp/download/gakuchika-template?utm_source=rugbymania&amp;utm_medium=referral&amp;utm_campaign=gakuchika-template" target="_blank" rel="noopener sponsored" onclick="window.gtag&&gtag('event','cv_gakuchika_click')">受け取る</a><button type="button" class="sticky-cta-close" aria-label="閉じる" onclick="window.__dismissStickyCta&&window.__dismissStickyCta()">×</button></div>
+<script>
+(function () {
+  var KEY = 'gakuchika_sticky_dismissed';
+  var bar = document.getElementById('sticky-cta');
+  window.__dismissStickyCta = function () {
+    if (bar) { bar.style.display = 'none'; }
+    try { sessionStorage.setItem(KEY, '1'); } catch (e) {}
+  };
+  if (bar) {
+    try {
+      if (sessionStorage.getItem(KEY)) { bar.style.display = 'none'; }
+    } catch (e) {}
+  }
+  if ('IntersectionObserver' in window) {
+    var seen = new WeakSet();
+    var io = new IntersectionObserver(function (entries) {
+      entries.forEach(function (entry) {
+        if (entry.isIntersecting && !seen.has(entry.target)) {
+          seen.add(entry.target);
+          var el = entry.target;
+          window.gtag && gtag('event', 'cta_view', {
+            cta: el.dataset.cta,
+            position: el.dataset.position
+          });
+        }
+      });
+    }, { threshold: 0.5 });
+    document.querySelectorAll('[data-cta]').forEach(function (el) { io.observe(el); });
+  }
+})();
+</script>
 </body>
 </html>
