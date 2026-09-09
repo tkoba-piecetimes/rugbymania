@@ -2,7 +2,7 @@
  {
   "id": "2026-09-13-ryutsu-keizai-vs-rissho",
   "date": "2026-09-13",
-  "time": "12:30",
+  "time": "11:30",
   "category": "関東大学リーグ戦1部",
   "home": "流通経済大",
   "away": "立正大",
@@ -62,7 +62,7 @@
  {
   "id": "2026-09-20-kantogakuin-vs-rissho",
   "date": "2026-09-20",
-  "time": "12:30",
+  "time": "11:30",
   "category": "関東大学リーグ戦1部",
   "home": "関東学院大",
   "away": "立正大",
@@ -150,21 +150,6 @@
   "note": ""
  },
  {
-  "id": "2026-10-04-hosei-vs-tokai",
-  "date": "2026-10-04",
-  "time": "13:00",
-  "category": "関東大学リーグ戦1部",
-  "home": "法政大",
-  "away": "東海大",
-  "home_slug": "hosei",
-  "away_slug": "tokai",
-  "venue": "東海大G",
-  "status": "scheduled",
-  "home_score": null,
-  "away_score": null,
-  "note": ""
- },
- {
   "id": "2026-10-04-senshu-vs-kantogakuin",
   "date": "2026-10-04",
   "time": "14:00",
@@ -174,6 +159,21 @@
   "home_slug": "senshu",
   "away_slug": "kantogakuin",
   "venue": "セナリオHフィールド三郷",
+  "status": "scheduled",
+  "home_score": null,
+  "away_score": null,
+  "note": ""
+ },
+ {
+  "id": "2026-10-04-hosei-vs-tokai",
+  "date": "2026-10-04",
+  "time": "15:00",
+  "category": "関東大学リーグ戦1部",
+  "home": "法政大",
+  "away": "東海大",
+  "home_slug": "hosei",
+  "away_slug": "tokai",
+  "venue": "東海大G",
   "status": "scheduled",
   "home_score": null,
   "away_score": null,
