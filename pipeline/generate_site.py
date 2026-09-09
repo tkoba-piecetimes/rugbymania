@@ -34,7 +34,7 @@ LISTING_LP_URL = f"https://lp.tunakare.jp/s01/?utm_source={UTM_SOURCE}&utm_mediu
 MEDIA_CONTACT_URL = f"https://media.tunakare.jp/contact/student/?utm_source={UTM_SOURCE}&utm_medium=referral&utm_campaign=media-pr"
 SHUKATSU_URL = f"https://shukatsu.tunakare.jp/?utm_source={UTM_SOURCE}&utm_medium=referral&utm_campaign=shukatsu"
 CAREER_URL = f"https://career.tunakare.jp/?utm_source={UTM_SOURCE}&utm_medium=referral&utm_campaign=career"
-BIZ_GUIDE_URL = f"https://shukatsu.tunakare.jp/biz/guide?utm_source={UTM_SOURCE}&utm_medium=referral&utm_campaign=biz-guide"
+BIZ_GUIDE_URL = f"https://career.tunakare.jp/biz/guide?utm_source={UTM_SOURCE}&utm_medium=referral&utm_campaign=biz-guide"
 # 後方互換（旧単一協賛CTA定数を参照している箇所向け）
 SPONSOR_CTA_URL = SPONSOR_SEARCH_URL
 
