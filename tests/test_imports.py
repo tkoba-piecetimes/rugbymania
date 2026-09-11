@@ -12,6 +12,18 @@ from fetch_rugby import parse_matches as parse_kanto
 def fixture(name):return (ROOT/'tests'/'fixtures'/name).read_text(encoding='utf8')
 
 class Imports(unittest.TestCase):
+    def test_article_generation_excludes_archive_only_categories(self):
+        import tempfile
+        from unittest.mock import patch
+        import generate_articles
+        with tempfile.TemporaryDirectory() as folder:
+            root=Path(folder)
+            (root/'kyushu-1'/'history').mkdir(parents=True)
+            (root/'kyushu-a').mkdir()
+            (root/'kyushu-a'/'meta.json').write_text('{}')
+            with patch.object(generate_articles,'DATA_DIR',root):
+                self.assertEqual(generate_articles.current_league_codes(),['kyushu-a'])
+
     def test_kyushu_combined_date_and_rowspan(self):
         ms=parse_matches(fixture('kyushu-2026-A.html'),'九州学生リーグA',2026)
         self.assertEqual(len(ms),15)

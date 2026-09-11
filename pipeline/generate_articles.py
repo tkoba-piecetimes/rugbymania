@@ -60,6 +60,13 @@ CATEGORY_SEASON = "シーズン記録"
 
 # ---------------------------------------------------------------- data loading
 
+def current_league_codes():
+    if not DATA_DIR.exists():
+        return []
+    # Archive-only categories have history but no current-season metadata.
+    return sorted(p.name for p in DATA_DIR.iterdir() if p.is_dir() and (p / "meta.json").exists())
+
+
 def load_league(code: str) -> dict:
     d = DATA_DIR / code
     hist = []
@@ -317,7 +324,7 @@ def write_article(c: dict) -> None:
 
 
 def main() -> None:
-    league_codes = sorted(p.name for p in DATA_DIR.iterdir() if p.is_dir()) if DATA_DIR.exists() else []
+    league_codes = current_league_codes()
     if not league_codes:
         print("[generate_articles] リーグデータがありません（先にfetch_all.pyを実行）。スキップします。")
         return

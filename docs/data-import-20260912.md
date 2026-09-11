@@ -31,9 +31,11 @@
 - 順位表はスコアのある試合の参考集計。複数ステージは合算、公式勝ち点・最終順位とは異なるため明示。
 
 ## 検証
-`python -m unittest discover -s tests -v`（6件）
+`python -m unittest discover -s tests -v`（7件）
 `python pipeline/generate_site.py`
 `python pipeline/validate_site.py`
 日次公開にもテストと全リンク・データ整合性検査を追加。
 
 テストfixtureは上記公式ページから2026-09-12に取得した該当リーグの表部分。画面で2021年九州Ⅰ部、2022年関西A、2026年九州Cの不戦表記を照合。
+
+過去専用リーグを日次記事生成の当年対象から除外する回帰テストも追加。
