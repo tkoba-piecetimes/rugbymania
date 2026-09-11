@@ -38,7 +38,7 @@ def parse_matches(html, label, year):
                 mo,day=text(row[headers.index('月')]),text(row[headers.index('日')])
                 date=match_date_iso(int(mo),int(day),year) if mo.isdigit() and day.isdigit() else None
             else:
-                dm=re.fullmatch(r'(\d{1,2})月(\d{1,2})日(?:[（(][^）)]*[）)])?',raw_date)
+                dm=re.fullmatch(r'(\d{1,2})月(\d{1,2})日(?:[（(][^）)]*[）)])?',''.join(raw_date.split()))
                 date=match_date_iso(int(dm[1]),int(dm[2]),year) if dm else None
             hs,away,status,note=score(row[home+1])
             if date is None:note=' / '.join(x for x in (note,'日程：'+raw_date) if x)

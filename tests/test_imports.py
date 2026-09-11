@@ -23,6 +23,8 @@ class Imports(unittest.TestCase):
     def test_ambiguous_date_and_forfeit(self):
         ms=parse_matches(fixture('kyushu-2026-C.html'),'九州学生リーグC',2026)
         self.assertEqual(len(ms),15)
+        self.assertEqual(sum(m['date'] is None for m in ms),2)
+        self.assertEqual(next(m for m in ms if m['home']=='九州産業大学' and m['away']=='佐賀大学')['date'],'2026-10-17')
         uncertain=next(m for m in ms if m['home']=='九州産業大学' and m['away']=='志學館大学')
         self.assertIsNone(uncertain['date'])
         self.assertIn('11月14日or15日',''.join(uncertain['note'].split()))
