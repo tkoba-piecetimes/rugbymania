@@ -1,22 +1,12 @@
 {
+ "source_url": "https://www.rugby-kyushu.jp/kyushuleague/2025-2026/kyushugakusei.html",
+ "fetched_at": "2026-09-11T17:22:22+00:00",
+ "import_version": 2,
+ "coverage_note": "公式掲載の対戦チーム確定済み試合。未確定枠・別見出しの順位決定戦は除外。不戦・中止はスコア集計対象外。",
+ "standings_kind": "reference",
  "year": 2025,
  "league": "九州学生リーグC",
  "matches": [
-  {
-   "id": "2025-09-21-shigakukan-vs-nagasaki",
-   "date": "2025-09-21",
-   "time": "14:00",
-   "category": "九州学生リーグC",
-   "home": "志學館大学",
-   "away": "長崎大学",
-   "home_slug": "shigakukan",
-   "away_slug": "nagasaki",
-   "venue": "鹿児島県サッカーラグビー場Ｂ",
-   "status": "played",
-   "home_score": 19,
-   "away_score": 36,
-   "note": ""
-  },
   {
    "id": "2025-09-21-kyuushuusangyou-vs-kyuushuukougyou",
    "date": "2025-09-21",
@@ -26,11 +16,12 @@
    "away": "九州工業大学",
    "home_slug": "kyuushuusangyou",
    "away_slug": "kyuushuukougyou",
-   "venue": "福岡大学グラウンド",
-   "status": "played",
    "home_score": 31,
    "away_score": 32,
-   "note": ""
+   "status": "played",
+   "venue": "福岡大学グラウンド",
+   "note": "",
+   "source_url": "https://www.rugby-kyushu.jp/var/rev0/0015/0599/20250920c2.pdf"
   },
   {
    "id": "2025-09-21-saga-vs-meiou",
@@ -41,11 +32,28 @@
    "away": "名桜大学",
    "home_slug": "saga",
    "away_slug": "meiou",
-   "venue": "福岡大学グラウンド",
-   "status": "played",
    "home_score": 34,
    "away_score": 5,
-   "note": ""
+   "status": "played",
+   "venue": "福岡大学グラウンド",
+   "note": "",
+   "source_url": "https://www.rugby-kyushu.jp/var/rev0/0015/0600/20250920c3.pdf"
+  },
+  {
+   "id": "2025-09-21-shigakukan-vs-nagasaki",
+   "date": "2025-09-21",
+   "time": "14:00",
+   "category": "九州学生リーグC",
+   "home": "志學館大学",
+   "away": "長崎大学",
+   "home_slug": "shigakukan",
+   "away_slug": "nagasaki",
+   "home_score": 19,
+   "away_score": 36,
+   "status": "played",
+   "venue": "鹿児島県サッカーラグビー場Ｂ",
+   "note": "",
+   "source_url": "https://www.rugby-kyushu.jp/var/rev0/0015/0598/20250921c1.pdf"
   },
   {
    "id": "2025-10-04-kyuushuukougyou-vs-nagasaki",
@@ -56,11 +64,12 @@
    "away": "長崎大学",
    "home_slug": "kyuushuukougyou",
    "away_slug": "nagasaki",
-   "venue": "久留米大学医学部グラウンド ※雷により試合中止となったため、11月8日に実施",
-   "status": "played",
    "home_score": 19,
    "away_score": 41,
-   "note": ""
+   "status": "played",
+   "venue": "久留米大学医学部グラウンド ※雷により試合中止となったため、11月8日に実施",
+   "note": "",
+   "source_url": "https://www.rugby-kyushu.jp/var/rev0/0015/0601/20251108c1.pdf"
   },
   {
    "id": "2025-10-05-shigakukan-vs-saga",
@@ -71,11 +80,12 @@
    "away": "佐賀大学",
    "home_slug": "shigakukan",
    "away_slug": "saga",
-   "venue": "鹿児島県ふれあいスポーツランド",
-   "status": "played",
    "home_score": 64,
    "away_score": 21,
-   "note": ""
+   "status": "played",
+   "venue": "鹿児島県ふれあいスポーツランド",
+   "note": "",
+   "source_url": "https://www.rugby-kyushu.jp/var/rev0/0015/0602/20251005c02.pdf"
   },
   {
    "id": "2025-10-05-meiou-vs-kyuushuusangyou",
@@ -86,11 +96,12 @@
    "away": "九州産業大学",
    "home_slug": "meiou",
    "away_slug": "kyuushuusangyou",
-   "venue": "名桜大学グラウンド",
-   "status": "played",
    "home_score": 7,
    "away_score": 76,
-   "note": ""
+   "status": "played",
+   "venue": "名桜大学グラウンド",
+   "note": "",
+   "source_url": "https://www.rugby-kyushu.jp/var/rev0/0015/0603/20251005c03.pdf"
   },
   {
    "id": "2025-10-18-saga-vs-kyuushuukougyou",
@@ -101,26 +112,12 @@
    "away": "九州工業大学",
    "home_slug": "saga",
    "away_slug": "kyuushuukougyou",
-   "venue": "SAGAサンライズパーク ボールフィールド南",
-   "status": "played",
    "home_score": 5,
    "away_score": 45,
-   "note": ""
-  },
-  {
-   "id": "2025-10-19-meiou-vs-shigakukan",
-   "date": "2025-10-19",
-   "time": "‐",
-   "category": "九州学生リーグC",
-   "home": "名桜大学",
-   "away": "志學館大学",
-   "home_slug": "meiou",
-   "away_slug": "shigakukan",
-   "venue": "沖縄国際大学",
-   "status": "scheduled",
-   "home_score": null,
-   "away_score": null,
-   "note": ""
+   "status": "played",
+   "venue": "SAGAサンライズパーク ボールフィールド南",
+   "note": "",
+   "source_url": "https://www.rugby-kyushu.jp/var/rev0/0015/0604/20251018c01.pdf"
   },
   {
    "id": "2025-10-19-kyuushuusangyou-vs-nagasaki",
@@ -131,11 +128,28 @@
    "away": "長崎大学",
    "home_slug": "kyuushuusangyou",
    "away_slug": "nagasaki",
-   "venue": "福岡大学グラウンド",
-   "status": "played",
    "home_score": 10,
    "away_score": 38,
-   "note": ""
+   "status": "played",
+   "venue": "福岡大学グラウンド",
+   "note": "",
+   "source_url": "https://www.rugby-kyushu.jp/var/rev0/0015/0605/20251019c03.pdf"
+  },
+  {
+   "id": "2025-10-19-meiou-vs-shigakukan",
+   "date": "2025-10-19",
+   "time": "‐",
+   "category": "九州学生リーグC",
+   "home": "名桜大学",
+   "away": "志學館大学",
+   "home_slug": "meiou",
+   "away_slug": "shigakukan",
+   "home_score": null,
+   "away_score": null,
+   "status": "unscored",
+   "venue": "沖縄国際大学",
+   "note": "不戦勝-棄権",
+   "source_url": "https://www.rugby-kyushu.jp/kyushuleague/2025-2026/kyushugakusei.html"
   },
   {
    "id": "2025-11-01-kyuushuukougyou-vs-shigakukan",
@@ -146,11 +160,12 @@
    "away": "志學館大学",
    "home_slug": "kyuushuukougyou",
    "away_slug": "shigakukan",
-   "venue": "福岡大学グラウンド",
-   "status": "played",
    "home_score": 29,
    "away_score": 17,
-   "note": ""
+   "status": "played",
+   "venue": "福岡大学グラウンド",
+   "note": "",
+   "source_url": "https://www.rugby-kyushu.jp/var/rev0/0015/0606/20251101c1.pdf"
   },
   {
    "id": "2025-11-02-nagasaki-vs-meiou",
@@ -161,11 +176,12 @@
    "away": "名桜大学",
    "home_slug": "nagasaki",
    "away_slug": "meiou",
-   "venue": "長崎市営ラグビー·サッカー場",
-   "status": "played",
    "home_score": 64,
    "away_score": 7,
-   "note": ""
+   "status": "played",
+   "venue": "長崎市営ラグビー·サッカー場",
+   "note": "",
+   "source_url": "https://www.rugby-kyushu.jp/var/rev0/0015/0607/20251102c2.pdf"
   },
   {
    "id": "2025-11-03-saga-vs-kyuushuusangyou",
@@ -176,11 +192,12 @@
    "away": "九州産業大学",
    "home_slug": "saga",
    "away_slug": "kyuushuusangyou",
-   "venue": "SAGAサンライズパーク ボールフィールド南",
-   "status": "played",
    "home_score": 17,
    "away_score": 31,
-   "note": ""
+   "status": "played",
+   "venue": "SAGAサンライズパーク ボールフィールド南",
+   "note": "",
+   "source_url": "https://www.rugby-kyushu.jp/var/rev0/0015/0608/20251103c3.pdf"
   },
   {
    "id": "2025-11-15-kyuushuusangyou-vs-shigakukan",
@@ -191,11 +208,12 @@
    "away": "志學館大学",
    "home_slug": "kyuushuusangyou",
    "away_slug": "shigakukan",
-   "venue": "福岡大学グラウンド",
-   "status": "played",
    "home_score": 31,
    "away_score": 29,
-   "note": ""
+   "status": "played",
+   "venue": "福岡大学グラウンド",
+   "note": "",
+   "source_url": "https://www.rugby-kyushu.jp/var/rev0/0015/0609/20251115c1.pdf"
   },
   {
    "id": "2025-11-15-kyuushuukougyou-vs-meiou",
@@ -206,11 +224,12 @@
    "away": "名桜大学",
    "home_slug": "kyuushuukougyou",
    "away_slug": "meiou",
-   "venue": "福岡大学グラウンド",
-   "status": "scheduled",
    "home_score": null,
    "away_score": null,
-   "note": ""
+   "status": "unscored",
+   "venue": "福岡大学グラウンド",
+   "note": "不戦勝-棄権",
+   "source_url": "https://www.rugby-kyushu.jp/kyushuleague/2025-2026/kyushugakusei.html"
   },
   {
    "id": "2025-11-16-saga-vs-nagasaki",
@@ -221,11 +240,12 @@
    "away": "長崎大学",
    "home_slug": "saga",
    "away_slug": "nagasaki",
-   "venue": "SAGAサンライズパーク ボールフィールド南",
-   "status": "played",
    "home_score": 12,
    "away_score": 33,
-   "note": ""
+   "status": "played",
+   "venue": "SAGAサンライズパーク ボールフィールド南",
+   "note": "",
+   "source_url": "https://www.rugby-kyushu.jp/var/rev0/0015/0610/20251116c3.pdf"
   }
  ],
  "standings": {

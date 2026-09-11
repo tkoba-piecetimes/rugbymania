@@ -1,4 +1,9 @@
 {
+ "source_url": "https://www.rugby-kyushu.jp/kyushuleague/2024-2025/kyushugakusei.html",
+ "fetched_at": "2026-09-11T17:22:22+00:00",
+ "import_version": 2,
+ "coverage_note": "公式掲載の対戦チーム確定済み試合。未確定枠・別見出しの順位決定戦は除外。不戦・中止はスコア集計対象外。",
+ "standings_kind": "reference",
  "year": 2024,
  "league": "九州学生リーグB",
  "matches": [
@@ -11,11 +16,12 @@
    "away": "志學館大学",
    "home_slug": "kumamoto",
    "away_slug": "shigakukan",
-   "venue": "山鹿市カルチャースポーツセンター",
-   "status": "scheduled",
    "home_score": null,
    "away_score": null,
-   "note": ""
+   "status": "unscored",
+   "venue": "山鹿市カルチャースポーツセンター",
+   "note": "不戦勝-辞退",
+   "source_url": "https://www.rugby-kyushu.jp/kyushuleague/2024-2025/kyushugakusei.html"
   },
   {
    "id": "2024-09-22-kyuushuu-vs-okinawakokusai",
@@ -26,11 +32,12 @@
    "away": "沖縄国際大学",
    "home_slug": "kyuushuu",
    "away_slug": "okinawakokusai",
-   "venue": "沖縄県総合公園蹴球場",
-   "status": "played",
    "home_score": 58,
    "away_score": 5,
-   "note": ""
+   "status": "played",
+   "venue": "沖縄県総合公園蹴球場",
+   "note": "",
+   "source_url": "https://www.rugby-kyushu.jp/var/rev0/0014/5632/g2024092202b.pdf"
   },
   {
    "id": "2024-09-22-ooita-vs-miyazaki",
@@ -41,11 +48,12 @@
    "away": "宮崎大学",
    "home_slug": "ooita",
    "away_slug": "miyazaki",
-   "venue": "立命館アジア太平洋大学グラウンド",
-   "status": "scheduled",
    "home_score": null,
    "away_score": null,
-   "note": ""
+   "status": "scheduled",
+   "venue": "立命館アジア太平洋大学グラウンド",
+   "note": "順延 （天候不良）",
+   "source_url": "https://www.rugby-kyushu.jp/kyushuleague/2024-2025/kyushugakusei.html"
   },
   {
    "id": "2024-09-28-kyuushuu-vs-miyazaki",
@@ -56,11 +64,12 @@
    "away": "宮崎大学",
    "home_slug": "kyuushuu",
    "away_slug": "miyazaki",
-   "venue": "九大総合グラウンド",
-   "status": "played",
    "home_score": 100,
    "away_score": 0,
-   "note": ""
+   "status": "played",
+   "venue": "九大総合グラウンド",
+   "note": "",
+   "source_url": "https://www.rugby-kyushu.jp/var/rev0/0014/5633/g2024092801b.pdf"
   },
   {
    "id": "2024-09-28-kumamoto-vs-ooita",
@@ -71,11 +80,12 @@
    "away": "大分大学",
    "home_slug": "kumamoto",
    "away_slug": "ooita",
-   "venue": "大分スポーツ公園レゾナックサッカーラグビー場B",
-   "status": "played",
    "home_score": 29,
    "away_score": 19,
-   "note": ""
+   "status": "played",
+   "venue": "大分スポーツ公園レゾナックサッカーラグビー場B",
+   "note": "",
+   "source_url": "https://www.rugby-kyushu.jp/kyushuleague/2024-2025/kyushugakusei.html"
   },
   {
    "id": "2024-09-29-shigakukan-vs-okinawakokusai",
@@ -86,11 +96,12 @@
    "away": "沖縄国際大学",
    "home_slug": "shigakukan",
    "away_slug": "okinawakokusai",
-   "venue": "鹿児島県立サッカー・ラグビー場 Cコート",
-   "status": "scheduled",
    "home_score": null,
    "away_score": null,
-   "note": ""
+   "status": "unscored",
+   "venue": "鹿児島県立サッカー・ラグビー場 Cコート",
+   "note": "棄権-不戦勝",
+   "source_url": "https://www.rugby-kyushu.jp/kyushuleague/2024-2025/kyushugakusei.html"
   },
   {
    "id": "2024-10-05-kumamoto-vs-okinawakokusai",
@@ -101,11 +112,12 @@
    "away": "沖縄国際大学",
    "home_slug": "kumamoto",
    "away_slug": "okinawakokusai",
-   "venue": "沖縄国際大学グラウンド",
-   "status": "played",
    "home_score": 29,
    "away_score": 29,
-   "note": ""
+   "status": "played",
+   "venue": "沖縄国際大学 グラウンド",
+   "note": "",
+   "source_url": "https://www.rugby-kyushu.jp/var/rev0/0014/5634/g2024100501b.pdf"
   },
   {
    "id": "2024-10-12-kyuushuu-vs-ooita",
@@ -116,11 +128,12 @@
    "away": "大分大学",
    "home_slug": "kyuushuu",
    "away_slug": "ooita",
-   "venue": "大分スポーツ公園レゾナックサッカーラグビー場B",
-   "status": "played",
    "home_score": 47,
    "away_score": 5,
-   "note": ""
+   "status": "played",
+   "venue": "大分スポーツ公園レゾナックサッカーラグビー場B",
+   "note": "",
+   "source_url": "https://www.rugby-kyushu.jp/var/rev0/0014/5635/g2024101202b.pdf"
   },
   {
    "id": "2024-10-13-shigakukan-vs-miyazaki",
@@ -131,11 +144,12 @@
    "away": "宮崎大学",
    "home_slug": "shigakukan",
    "away_slug": "miyazaki",
-   "venue": "日向市お倉ケ浜運動公園",
-   "status": "scheduled",
    "home_score": null,
    "away_score": null,
-   "note": ""
+   "status": "unscored",
+   "venue": "日向市お倉ケ浜運動公園",
+   "note": "棄権-不戦勝",
+   "source_url": "https://www.rugby-kyushu.jp/kyushuleague/2024-2025/kyushugakusei.html"
   },
   {
    "id": "2024-10-19-kyuushuu-vs-shigakukan",
@@ -146,11 +160,12 @@
    "away": "志學館大学",
    "home_slug": "kyuushuu",
    "away_slug": "shigakukan",
-   "venue": "九大総合グラウンド",
-   "status": "scheduled",
    "home_score": null,
    "away_score": null,
-   "note": ""
+   "status": "unscored",
+   "venue": "九大総合グラウンド",
+   "note": "不戦勝-棄権",
+   "source_url": "https://www.rugby-kyushu.jp/kyushuleague/2024-2025/kyushugakusei.html"
   },
   {
    "id": "2024-10-19-ooita-vs-okinawakokusai",
@@ -161,11 +176,12 @@
    "away": "沖縄国際大学",
    "home_slug": "ooita",
    "away_slug": "okinawakokusai",
-   "venue": "九大総合グラウンド",
-   "status": "played",
    "home_score": 19,
    "away_score": 19,
-   "note": ""
+   "status": "played",
+   "venue": "九大総合グラウンド",
+   "note": "",
+   "source_url": "https://www.rugby-kyushu.jp/var/rev0/0014/5636/g2024101902b.pdf"
   },
   {
    "id": "2024-10-20-kumamoto-vs-miyazaki",
@@ -176,11 +192,12 @@
    "away": "宮崎大学",
    "home_slug": "kumamoto",
    "away_slug": "miyazaki",
-   "venue": "ひなた宮崎県総合運動公園補助球技場",
-   "status": "played",
    "home_score": 65,
    "away_score": 12,
-   "note": ""
+   "status": "played",
+   "venue": "ひなた宮崎県総合運動公園補助球技場",
+   "note": "",
+   "source_url": "https://www.rugby-kyushu.jp/var/rev0/0014/5637/g2024102003b.pdf"
   },
   {
    "id": "2024-10-26-kyuushuu-vs-kumamoto",
@@ -191,11 +208,12 @@
    "away": "熊本大学",
    "home_slug": "kyuushuu",
    "away_slug": "kumamoto",
-   "venue": "九大総合グラウンド",
-   "status": "played",
    "home_score": 61,
    "away_score": 10,
-   "note": ""
+   "status": "played",
+   "venue": "九大総合グラウンド",
+   "note": "",
+   "source_url": "https://www.rugby-kyushu.jp/var/rev0/0014/5638/g2024102601b.pdf"
   },
   {
    "id": "2024-10-26-miyazaki-vs-okinawakokusai",
@@ -206,11 +224,12 @@
    "away": "沖縄国際大学",
    "home_slug": "miyazaki",
    "away_slug": "okinawakokusai",
-   "venue": "沖縄国際大学グラウンド",
-   "status": "scheduled",
    "home_score": null,
    "away_score": null,
-   "note": ""
+   "status": "unscored",
+   "venue": "沖縄国際大学 グラウンド",
+   "note": "棄権-不戦勝",
+   "source_url": "https://www.rugby-kyushu.jp/kyushuleague/2024-2025/kyushugakusei.html"
   },
   {
    "id": "2024-10-27-shigakukan-vs-ooita",
@@ -221,11 +240,12 @@
    "away": "大分大学",
    "home_slug": "shigakukan",
    "away_slug": "ooita",
-   "venue": "鹿児島そうしんグラウンド",
-   "status": "scheduled",
    "home_score": null,
    "away_score": null,
-   "note": ""
+   "status": "unscored",
+   "venue": "鹿児島そうしんグラウンド",
+   "note": "棄権-不戦勝",
+   "source_url": "https://www.rugby-kyushu.jp/kyushuleague/2024-2025/kyushugakusei.html"
   },
   {
    "id": "2024-11-04-ooita-vs-miyazaki",
@@ -236,11 +256,12 @@
    "away": "宮崎大学",
    "home_slug": "ooita",
    "away_slug": "miyazaki",
-   "venue": "湯布院スポーツセンターAグランド",
-   "status": "played",
    "home_score": 65,
    "away_score": 0,
-   "note": ""
+   "status": "played",
+   "venue": "湯布院スポーツセンターAグランド",
+   "note": "",
+   "source_url": "https://www.rugby-kyushu.jp/var/rev0/0014/5639/g20241104b01.pdf"
   }
  ],
  "standings": {

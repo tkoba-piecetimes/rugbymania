@@ -1,5 +1,53 @@
 [
  {
+  "id": "2026-09-12-nittaidai-vs-waseda",
+  "date": "2026-09-12",
+  "time": "15:00",
+  "category": "関東大学対抗戦Aグループ",
+  "home": "日本体育大",
+  "away": "早稲田大",
+  "home_slug": "nittaidai",
+  "away_slug": "waseda",
+  "venue": "駒沢",
+  "status": "scheduled",
+  "home_score": null,
+  "away_score": null,
+  "note": "",
+  "source_url": "https://www.rugby.or.jp/univ/result/2904/"
+ },
+ {
+  "id": "2026-09-12-meiji-vs-aoyamagakuin",
+  "date": "2026-09-12",
+  "time": "15:30",
+  "category": "関東大学対抗戦Aグループ",
+  "home": "明治大",
+  "away": "青山学院大",
+  "home_slug": "meiji",
+  "away_slug": "aoyamagakuin",
+  "venue": "秩父宮",
+  "status": "scheduled",
+  "home_score": null,
+  "away_score": null,
+  "note": "",
+  "source_url": "https://www.rugby.or.jp/univ/result/2904/"
+ },
+ {
+  "id": "2026-09-12-keio-vs-teikyo",
+  "date": "2026-09-12",
+  "time": "18:00",
+  "category": "関東大学対抗戦Aグループ",
+  "home": "慶應義塾大",
+  "away": "帝京大",
+  "home_slug": "keio",
+  "away_slug": "teikyo",
+  "venue": "秩父宮",
+  "status": "scheduled",
+  "home_score": null,
+  "away_score": null,
+  "note": "",
+  "source_url": "https://www.rugby.or.jp/univ/result/2904/"
+ },
+ {
   "id": "2026-09-13-rikkyo-vs-tsukuba",
   "date": "2026-09-13",
   "time": "13:00",
@@ -12,7 +60,8 @@
   "status": "scheduled",
   "home_score": null,
   "away_score": null,
-  "note": ""
+  "note": "",
+  "source_url": "https://www.rugby.or.jp/univ/result/2904/"
  },
  {
   "id": "2026-09-26-aoyamagakuin-vs-keio",
@@ -27,7 +76,8 @@
   "status": "scheduled",
   "home_score": null,
   "away_score": null,
-  "note": ""
+  "note": "",
+  "source_url": "https://www.rugby.or.jp/univ/result/2904/"
  },
  {
   "id": "2026-09-27-nittaidai-vs-meiji",
@@ -42,7 +92,8 @@
   "status": "scheduled",
   "home_score": null,
   "away_score": null,
-  "note": ""
+  "note": "",
+  "source_url": "https://www.rugby.or.jp/univ/result/2904/"
  },
  {
   "id": "2026-09-27-rikkyo-vs-waseda",
@@ -57,7 +108,8 @@
   "status": "scheduled",
   "home_score": null,
   "away_score": null,
-  "note": ""
+  "note": "",
+  "source_url": "https://www.rugby.or.jp/univ/result/2904/"
  },
  {
   "id": "2026-09-27-tsukuba-vs-teikyo",
@@ -72,7 +124,8 @@
   "status": "scheduled",
   "home_score": null,
   "away_score": null,
-  "note": ""
+  "note": "",
+  "source_url": "https://www.rugby.or.jp/univ/result/2904/"
  },
  {
   "id": "2026-10-11-keio-vs-rikkyo",
@@ -87,7 +140,8 @@
   "status": "scheduled",
   "home_score": null,
   "away_score": null,
-  "note": ""
+  "note": "",
+  "source_url": "https://www.rugby.or.jp/univ/result/2904/"
  },
  {
   "id": "2026-10-11-waseda-vs-aoyamagakuin",
@@ -102,7 +156,8 @@
   "status": "scheduled",
   "home_score": null,
   "away_score": null,
-  "note": ""
+  "note": "",
+  "source_url": "https://www.rugby.or.jp/univ/result/2904/"
  },
  {
   "id": "2026-10-11-nittaidai-vs-teikyo",
@@ -117,7 +172,8 @@
   "status": "scheduled",
   "home_score": null,
   "away_score": null,
-  "note": ""
+  "note": "",
+  "source_url": "https://www.rugby.or.jp/univ/result/2904/"
  },
  {
   "id": "2026-10-11-tsukuba-vs-meiji",
@@ -132,7 +188,8 @@
   "status": "scheduled",
   "home_score": null,
   "away_score": null,
-  "note": ""
+  "note": "",
+  "source_url": "https://www.rugby.or.jp/univ/result/2904/"
  },
  {
   "id": "2026-10-24-nittaidai-vs-keio",
@@ -147,7 +204,8 @@
   "status": "scheduled",
   "home_score": null,
   "away_score": null,
-  "note": ""
+  "note": "",
+  "source_url": "https://www.rugby.or.jp/univ/result/2904/"
  },
  {
   "id": "2026-10-24-meiji-vs-rikkyo",
@@ -162,7 +220,8 @@
   "status": "scheduled",
   "home_score": null,
   "away_score": null,
-  "note": ""
+  "note": "",
+  "source_url": "https://www.rugby.or.jp/univ/result/2904/"
  },
  {
   "id": "2026-10-25-teikyo-vs-aoyamagakuin",
@@ -177,7 +236,8 @@
   "status": "scheduled",
   "home_score": null,
   "away_score": null,
-  "note": ""
+  "note": "",
+  "source_url": "https://www.rugby.or.jp/univ/result/2904/"
  },
  {
   "id": "2026-10-25-waseda-vs-tsukuba",
@@ -192,7 +252,8 @@
   "status": "scheduled",
   "home_score": null,
   "away_score": null,
-  "note": ""
+  "note": "",
+  "source_url": "https://www.rugby.or.jp/univ/result/2904/"
  },
  {
   "id": "2026-11-01-teikyo-vs-waseda",
@@ -207,7 +268,8 @@
   "status": "scheduled",
   "home_score": null,
   "away_score": null,
-  "note": ""
+  "note": "",
+  "source_url": "https://www.rugby.or.jp/univ/result/2904/"
  },
  {
   "id": "2026-11-01-meiji-vs-keio",
@@ -222,7 +284,8 @@
   "status": "scheduled",
   "home_score": null,
   "away_score": null,
-  "note": ""
+  "note": "",
+  "source_url": "https://www.rugby.or.jp/univ/result/2904/"
  },
  {
   "id": "2026-11-08-rikkyo-vs-nittaidai",
@@ -237,7 +300,8 @@
   "status": "scheduled",
   "home_score": null,
   "away_score": null,
-  "note": ""
+  "note": "",
+  "source_url": "https://www.rugby.or.jp/univ/result/2904/"
  },
  {
   "id": "2026-11-08-aoyamagakuin-vs-tsukuba",
@@ -252,7 +316,8 @@
   "status": "scheduled",
   "home_score": null,
   "away_score": null,
-  "note": ""
+  "note": "",
+  "source_url": "https://www.rugby.or.jp/univ/result/2904/"
  },
  {
   "id": "2026-11-22-aoyamagakuin-vs-rikkyo",
@@ -267,7 +332,8 @@
   "status": "scheduled",
   "home_score": null,
   "away_score": null,
-  "note": ""
+  "note": "",
+  "source_url": "https://www.rugby.or.jp/univ/result/2904/"
  },
  {
   "id": "2026-11-22-teikyo-vs-meiji",
@@ -282,7 +348,8 @@
   "status": "scheduled",
   "home_score": null,
   "away_score": null,
-  "note": ""
+  "note": "",
+  "source_url": "https://www.rugby.or.jp/univ/result/2904/"
  },
  {
   "id": "2026-11-22-tsukuba-vs-nittaidai",
@@ -297,7 +364,8 @@
   "status": "scheduled",
   "home_score": null,
   "away_score": null,
-  "note": ""
+  "note": "",
+  "source_url": "https://www.rugby.or.jp/univ/result/2904/"
  },
  {
   "id": "2026-11-23-keio-vs-waseda",
@@ -312,7 +380,8 @@
   "status": "scheduled",
   "home_score": null,
   "away_score": null,
-  "note": ""
+  "note": "",
+  "source_url": "https://www.rugby.or.jp/univ/result/2904/"
  },
  {
   "id": "2026-12-05-keio-vs-tsukuba",
@@ -327,7 +396,8 @@
   "status": "scheduled",
   "home_score": null,
   "away_score": null,
-  "note": ""
+  "note": "",
+  "source_url": "https://www.rugby.or.jp/univ/result/2904/"
  },
  {
   "id": "2026-12-06-aoyamagakuin-vs-nittaidai",
@@ -342,7 +412,8 @@
   "status": "scheduled",
   "home_score": null,
   "away_score": null,
-  "note": ""
+  "note": "",
+  "source_url": "https://www.rugby.or.jp/univ/result/2904/"
  },
  {
   "id": "2026-12-06-teikyo-vs-rikkyo",
@@ -357,7 +428,8 @@
   "status": "scheduled",
   "home_score": null,
   "away_score": null,
-  "note": ""
+  "note": "",
+  "source_url": "https://www.rugby.or.jp/univ/result/2904/"
  },
  {
   "id": "2026-12-06-waseda-vs-meiji",
@@ -372,6 +444,7 @@
   "status": "scheduled",
   "home_score": null,
   "away_score": null,
-  "note": ""
+  "note": "",
+  "source_url": "https://www.rugby.or.jp/univ/result/2904/"
  }
 ]

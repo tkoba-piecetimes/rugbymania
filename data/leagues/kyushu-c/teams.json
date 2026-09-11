@@ -4,9 +4,9 @@
   "slug": "shigakukan",
   "block": "総合"
  },
- "長崎大学": {
-  "team": "長崎大学",
-  "slug": "nagasaki",
+ "佐賀大学": {
+  "team": "佐賀大学",
+  "slug": "saga",
   "block": "総合"
  },
  "九州産業大学": {
@@ -19,14 +19,14 @@
   "slug": "kyuushuukougyou",
   "block": "総合"
  },
- "佐賀大学": {
-  "team": "佐賀大学",
-  "slug": "saga",
+ "宮崎大学": {
+  "team": "宮崎大学",
+  "slug": "miyazaki",
   "block": "総合"
  },
- "名桜大学": {
-  "team": "名桜大学",
-  "slug": "meiou",
+ "九州大学医学部": {
+  "team": "九州大学医学部",
+  "slug": "kyuushuudaigakuigakubu",
   "block": "総合"
  }
 }

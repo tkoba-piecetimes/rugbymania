@@ -1,4 +1,19 @@
 {
+ "大分大学": {
+  "team": "大分大学",
+  "slug": "ooita",
+  "block": "総合"
+ },
+ "熊本大学": {
+  "team": "熊本大学",
+  "slug": "kumamoto",
+  "block": "総合"
+ },
+ "長崎大学": {
+  "team": "長崎大学",
+  "slug": "nagasaki",
+  "block": "総合"
+ },
  "九州大学": {
   "team": "九州大学",
   "slug": "kyuushuu",
@@ -9,24 +24,9 @@
   "slug": "ritsumeikanajiataiheiyou",
   "block": "総合"
  },
- "宮崎大学": {
-  "team": "宮崎大学",
-  "slug": "miyazaki",
-  "block": "総合"
- },
  "沖縄国際大学": {
   "team": "沖縄国際大学",
   "slug": "okinawakokusai",
-  "block": "総合"
- },
- "熊本大学": {
-  "team": "熊本大学",
-  "slug": "kumamoto",
-  "block": "総合"
- },
- "大分大学": {
-  "team": "大分大学",
-  "slug": "ooita",
   "block": "総合"
  }
 }

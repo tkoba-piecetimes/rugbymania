@@ -1,4 +1,9 @@
 {
+ "source_url": "https://www.rugby.or.jp/univ/result/2520/",
+ "fetched_at": "2026-09-11T17:22:21+00:00",
+ "import_version": 2,
+ "coverage_note": "公式日程ページの掲載試合。入替戦は対象外。",
+ "standings_kind": "reference",
  "year": 2023,
  "league": "関東大学リーグ戦2部",
  "matches": [
@@ -15,7 +20,8 @@
    "status": "played",
    "home_score": 21,
    "away_score": 20,
-   "note": ""
+   "note": "",
+   "source_url": "https://www.rugby.or.jp/univ/result/2520/"
   },
   {
    "id": "2023-09-17-chuo-vs-hakuou",
@@ -30,7 +36,8 @@
    "status": "played",
    "home_score": 33,
    "away_score": 7,
-   "note": ""
+   "note": "",
+   "source_url": "https://www.rugby.or.jp/univ/result/2520/"
   },
   {
    "id": "2023-09-17-chousen-vs-senshu",
@@ -42,10 +49,11 @@
    "home_slug": "chousen",
    "away_slug": "senshu",
    "venue": "朝鮮大G",
-   "status": "played",
-   "home_score": 0,
-   "away_score": 21,
-   "note": ""
+   "status": "unscored",
+   "home_score": null,
+   "away_score": null,
+   "note": "不戦敗●-○不戦勝",
+   "source_url": "https://www.rugby.or.jp/univ/result/2520/"
   },
   {
    "id": "2023-09-17-kokushikan-vs-kantogakuin",
@@ -60,7 +68,8 @@
    "status": "played",
    "home_score": 24,
    "away_score": 45,
-   "note": ""
+   "note": "",
+   "source_url": "https://www.rugby.or.jp/univ/result/2520/"
   },
   {
    "id": "2023-09-24-yamanashi-gakuin-vs-hakuou",
@@ -75,7 +84,8 @@
    "status": "played",
    "home_score": 29,
    "away_score": 31,
-   "note": ""
+   "note": "",
+   "source_url": "https://www.rugby.or.jp/univ/result/2520/"
   },
   {
    "id": "2023-09-24-chuo-vs-kokugakuin",
@@ -90,7 +100,8 @@
    "status": "played",
    "home_score": 55,
    "away_score": 7,
-   "note": ""
+   "note": "",
+   "source_url": "https://www.rugby.or.jp/univ/result/2520/"
   },
   {
    "id": "2023-09-24-kokushikan-vs-senshu",
@@ -105,7 +116,8 @@
    "status": "played",
    "home_score": 14,
    "away_score": 78,
-   "note": ""
+   "note": "",
+   "source_url": "https://www.rugby.or.jp/univ/result/2520/"
   },
   {
    "id": "2023-09-24-chousen-vs-kantogakuin",
@@ -117,10 +129,11 @@
    "home_slug": "chousen",
    "away_slug": "kantogakuin",
    "venue": "朝鮮大G",
-   "status": "played",
-   "home_score": 0,
-   "away_score": 21,
-   "note": ""
+   "status": "unscored",
+   "home_score": null,
+   "away_score": null,
+   "note": "不戦敗●-○不戦勝",
+   "source_url": "https://www.rugby.or.jp/univ/result/2520/"
   },
   {
    "id": "2023-10-08-yamanashi-gakuin-vs-chousen",
@@ -135,7 +148,8 @@
    "status": "played",
    "home_score": 61,
    "away_score": 12,
-   "note": ""
+   "note": "",
+   "source_url": "https://www.rugby.or.jp/univ/result/2520/"
   },
   {
    "id": "2023-10-08-kokushikan-vs-chuo",
@@ -150,7 +164,8 @@
    "status": "played",
    "home_score": 0,
    "away_score": 49,
-   "note": ""
+   "note": "",
+   "source_url": "https://www.rugby.or.jp/univ/result/2520/"
   },
   {
    "id": "2023-10-08-senshu-vs-kokugakuin",
@@ -165,7 +180,8 @@
    "status": "played",
    "home_score": 43,
    "away_score": 10,
-   "note": ""
+   "note": "",
+   "source_url": "https://www.rugby.or.jp/univ/result/2520/"
   },
   {
    "id": "2023-10-08-hakuou-vs-kantogakuin",
@@ -180,7 +196,8 @@
    "status": "played",
    "home_score": 28,
    "away_score": 47,
-   "note": ""
+   "note": "",
+   "source_url": "https://www.rugby.or.jp/univ/result/2520/"
   },
   {
    "id": "2023-10-15-yamanashi-gakuin-vs-kokushikan",
@@ -195,7 +212,8 @@
    "status": "played",
    "home_score": 76,
    "away_score": 12,
-   "note": ""
+   "note": "",
+   "source_url": "https://www.rugby.or.jp/univ/result/2520/"
   },
   {
    "id": "2023-10-15-chuo-vs-chousen",
@@ -207,10 +225,11 @@
    "home_slug": "chuo",
    "away_slug": "chousen",
    "venue": "中央大G",
-   "status": "played",
-   "home_score": 21,
-   "away_score": 0,
-   "note": ""
+   "status": "unscored",
+   "home_score": null,
+   "away_score": null,
+   "note": "不戦勝○-○●不戦敗",
+   "source_url": "https://www.rugby.or.jp/univ/result/2520/"
   },
   {
    "id": "2023-10-15-senshu-vs-hakuou",
@@ -225,7 +244,8 @@
    "status": "played",
    "home_score": 27,
    "away_score": 26,
-   "note": ""
+   "note": "",
+   "source_url": "https://www.rugby.or.jp/univ/result/2520/"
   },
   {
    "id": "2023-10-15-kantogakuin-vs-kokugakuin",
@@ -240,7 +260,8 @@
    "status": "played",
    "home_score": 83,
    "away_score": 7,
-   "note": ""
+   "note": "",
+   "source_url": "https://www.rugby.or.jp/univ/result/2520/"
   },
   {
    "id": "2023-10-29-hakuou-vs-chousen",
@@ -255,7 +276,8 @@
    "status": "played",
    "home_score": 35,
    "away_score": 17,
-   "note": ""
+   "note": "",
+   "source_url": "https://www.rugby.or.jp/univ/result/2520/"
   },
   {
    "id": "2023-10-29-kokugakuin-vs-kokushikan",
@@ -270,7 +292,8 @@
    "status": "played",
    "home_score": 26,
    "away_score": 19,
-   "note": ""
+   "note": "",
+   "source_url": "https://www.rugby.or.jp/univ/result/2520/"
   },
   {
    "id": "2023-10-29-senshu-vs-chuo",
@@ -285,7 +308,8 @@
    "status": "played",
    "home_score": 53,
    "away_score": 28,
-   "note": ""
+   "note": "",
+   "source_url": "https://www.rugby.or.jp/univ/result/2520/"
   },
   {
    "id": "2023-10-29-kantogakuin-vs-yamanashi-gakuin",
@@ -300,7 +324,8 @@
    "status": "played",
    "home_score": 21,
    "away_score": 33,
-   "note": ""
+   "note": "",
+   "source_url": "https://www.rugby.or.jp/univ/result/2520/"
   },
   {
    "id": "2023-11-12-hakuou-vs-kokushikan",
@@ -315,7 +340,8 @@
    "status": "played",
    "home_score": 33,
    "away_score": 7,
-   "note": ""
+   "note": "",
+   "source_url": "https://www.rugby.or.jp/univ/result/2520/"
   },
   {
    "id": "2023-11-12-kokugakuin-vs-chousen",
@@ -330,7 +356,8 @@
    "status": "played",
    "home_score": 31,
    "away_score": 11,
-   "note": ""
+   "note": "",
+   "source_url": "https://www.rugby.or.jp/univ/result/2520/"
   },
   {
    "id": "2023-11-12-senshu-vs-yamanashi-gakuin",
@@ -345,7 +372,8 @@
    "status": "played",
    "home_score": 20,
    "away_score": 18,
-   "note": ""
+   "note": "",
+   "source_url": "https://www.rugby.or.jp/univ/result/2520/"
   },
   {
    "id": "2023-11-12-kantogakuin-vs-chuo",
@@ -360,7 +388,8 @@
    "status": "played",
    "home_score": 28,
    "away_score": 25,
-   "note": ""
+   "note": "",
+   "source_url": "https://www.rugby.or.jp/univ/result/2520/"
   },
   {
    "id": "2023-11-26-chousen-vs-kokushikan",
@@ -375,7 +404,8 @@
    "status": "played",
    "home_score": 36,
    "away_score": 14,
-   "note": ""
+   "note": "",
+   "source_url": "https://www.rugby.or.jp/univ/result/2520/"
   },
   {
    "id": "2023-11-26-kokugakuin-vs-hakuou",
@@ -390,7 +420,8 @@
    "status": "played",
    "home_score": 11,
    "away_score": 50,
-   "note": ""
+   "note": "",
+   "source_url": "https://www.rugby.or.jp/univ/result/2520/"
   },
   {
    "id": "2023-11-26-chuo-vs-yamanashi-gakuin",
@@ -405,7 +436,8 @@
    "status": "played",
    "home_score": 31,
    "away_score": 22,
-   "note": ""
+   "note": "",
+   "source_url": "https://www.rugby.or.jp/univ/result/2520/"
   },
   {
    "id": "2023-11-26-kantogakuin-vs-senshu",
@@ -420,7 +452,8 @@
    "status": "played",
    "home_score": 43,
    "away_score": 33,
-   "note": ""
+   "note": "",
+   "source_url": "https://www.rugby.or.jp/univ/result/2520/"
   }
  ],
  "standings": {
@@ -428,44 +461,30 @@
    {
     "team": "関東学院大",
     "slug": "kantogakuin",
-    "points": 18,
-    "games": 7,
-    "wins": 6,
+    "points": 15,
+    "games": 6,
+    "wins": 5,
     "draws": 0,
     "losses": 1,
-    "gf": 288,
+    "gf": 267,
     "ga": 150,
     "rank": 1,
-    "goal_diff": "+138",
-    "goals_for": 288
+    "goal_diff": "+117",
+    "goals_for": 267
    },
    {
     "team": "専修大",
     "slug": "senshu",
-    "points": 18,
-    "games": 7,
-    "wins": 6,
-    "draws": 0,
-    "losses": 1,
-    "gf": 275,
-    "ga": 139,
-    "rank": 2,
-    "goal_diff": "+136",
-    "goals_for": 275
-   },
-   {
-    "team": "中央大",
-    "slug": "chuo",
     "points": 15,
-    "games": 7,
+    "games": 6,
     "wins": 5,
     "draws": 0,
-    "losses": 2,
-    "gf": 242,
-    "ga": 117,
-    "rank": 3,
-    "goal_diff": "+125",
-    "goals_for": 242
+    "losses": 1,
+    "gf": 254,
+    "ga": 139,
+    "rank": 2,
+    "goal_diff": "+115",
+    "goals_for": 254
    },
    {
     "team": "山梨学院大",
@@ -477,9 +496,23 @@
     "losses": 3,
     "gf": 260,
     "ga": 147,
-    "rank": 4,
+    "rank": 3,
     "goal_diff": "+113",
     "goals_for": 260
+   },
+   {
+    "team": "中央大",
+    "slug": "chuo",
+    "points": 12,
+    "games": 6,
+    "wins": 4,
+    "draws": 0,
+    "losses": 2,
+    "gf": 221,
+    "ga": 117,
+    "rank": 4,
+    "goal_diff": "+104",
+    "goals_for": 221
    },
    {
     "team": "白鷗大",
@@ -513,14 +546,14 @@
     "team": "朝鮮大",
     "slug": "chousen",
     "points": 3,
-    "games": 7,
+    "games": 4,
     "wins": 1,
     "draws": 0,
-    "losses": 6,
+    "losses": 3,
     "gf": 76,
-    "ga": 204,
+    "ga": 141,
     "rank": 7,
-    "goal_diff": "-128",
+    "goal_diff": "-65",
     "goals_for": 76
    },
    {

@@ -1,4 +1,9 @@
 {
+ "source_url": "https://www.rugby.or.jp/univ/result/2667/",
+ "fetched_at": "2026-09-11T17:22:21+00:00",
+ "import_version": 2,
+ "coverage_note": "公式日程ページの掲載試合。入替戦は対象外。",
+ "standings_kind": "reference",
  "year": 2024,
  "league": "関東大学対抗戦Bグループ",
  "matches": [
@@ -15,7 +20,8 @@
    "status": "played",
    "home_score": 0,
    "away_score": 75,
-   "note": ""
+   "note": "",
+   "source_url": "https://www.rugby.or.jp/univ/result/2667/"
   },
   {
    "id": "2024-09-08-seikei-vs-seijo",
@@ -30,7 +36,8 @@
    "status": "played",
    "home_score": 80,
    "away_score": 10,
-   "note": ""
+   "note": "",
+   "source_url": "https://www.rugby.or.jp/univ/result/2667/"
   },
   {
    "id": "2024-09-08-jouchi-vs-musashi",
@@ -45,7 +52,8 @@
    "status": "played",
    "home_score": 8,
    "away_score": 17,
-   "note": ""
+   "note": "",
+   "source_url": "https://www.rugby.or.jp/univ/result/2667/"
   },
   {
    "id": "2024-09-08-toukyou-vs-hitotsubashi",
@@ -60,7 +68,8 @@
    "status": "played",
    "home_score": 35,
    "away_score": 0,
-   "note": ""
+   "note": "",
+   "source_url": "https://www.rugby.or.jp/univ/result/2667/"
   },
   {
    "id": "2024-09-15-musashi-vs-hitotsubashi",
@@ -75,7 +84,8 @@
    "status": "played",
    "home_score": 47,
    "away_score": 7,
-   "note": ""
+   "note": "",
+   "source_url": "https://www.rugby.or.jp/univ/result/2667/"
   },
   {
    "id": "2024-09-15-jouchi-vs-toukyou",
@@ -90,7 +100,8 @@
    "status": "played",
    "home_score": 21,
    "away_score": 42,
-   "note": ""
+   "note": "",
+   "source_url": "https://www.rugby.or.jp/univ/result/2667/"
   },
   {
    "id": "2024-09-15-seikei-vs-gakushuin",
@@ -105,7 +116,8 @@
    "status": "played",
    "home_score": 89,
    "away_score": 7,
-   "note": ""
+   "note": "",
+   "source_url": "https://www.rugby.or.jp/univ/result/2667/"
   },
   {
    "id": "2024-09-15-meijigakuin-vs-seijo",
@@ -120,7 +132,8 @@
    "status": "played",
    "home_score": 76,
    "away_score": 14,
-   "note": ""
+   "note": "",
+   "source_url": "https://www.rugby.or.jp/univ/result/2667/"
   },
   {
    "id": "2024-09-29-hitotsubashi-vs-meijigakuin",
@@ -135,7 +148,8 @@
    "status": "played",
    "home_score": 0,
    "away_score": 64,
-   "note": ""
+   "note": "",
+   "source_url": "https://www.rugby.or.jp/univ/result/2667/"
   },
   {
    "id": "2024-09-29-seijo-vs-musashi",
@@ -150,7 +164,8 @@
    "status": "played",
    "home_score": 7,
    "away_score": 79,
-   "note": ""
+   "note": "",
+   "source_url": "https://www.rugby.or.jp/univ/result/2667/"
   },
   {
    "id": "2024-09-29-gakushuin-vs-toukyou",
@@ -165,7 +180,8 @@
    "status": "played",
    "home_score": 0,
    "away_score": 54,
-   "note": ""
+   "note": "",
+   "source_url": "https://www.rugby.or.jp/univ/result/2667/"
   },
   {
    "id": "2024-10-06-jouchi-vs-seikei",
@@ -180,7 +196,8 @@
    "status": "played",
    "home_score": 20,
    "away_score": 47,
-   "note": ""
+   "note": "",
+   "source_url": "https://www.rugby.or.jp/univ/result/2667/"
   },
   {
    "id": "2024-10-13-musashi-vs-gakushuin",
@@ -195,7 +212,8 @@
    "status": "played",
    "home_score": 54,
    "away_score": 12,
-   "note": ""
+   "note": "",
+   "source_url": "https://www.rugby.or.jp/univ/result/2667/"
   },
   {
    "id": "2024-10-13-seijo-vs-toukyou",
@@ -210,7 +228,8 @@
    "status": "played",
    "home_score": 10,
    "away_score": 35,
-   "note": ""
+   "note": "",
+   "source_url": "https://www.rugby.or.jp/univ/result/2667/"
   },
   {
    "id": "2024-10-13-hitotsubashi-vs-seikei",
@@ -225,7 +244,8 @@
    "status": "played",
    "home_score": 3,
    "away_score": 82,
-   "note": ""
+   "note": "",
+   "source_url": "https://www.rugby.or.jp/univ/result/2667/"
   },
   {
    "id": "2024-10-13-meijigakuin-vs-jouchi",
@@ -237,10 +257,11 @@
    "home_slug": "meijigakuin",
    "away_slug": "jouchi",
    "venue": "上智大G",
-   "status": "played",
-   "home_score": 21,
-   "away_score": 0,
-   "note": ""
+   "status": "unscored",
+   "home_score": null,
+   "away_score": null,
+   "note": "不戦勝○-●不戦敗",
+   "source_url": "https://www.rugby.or.jp/univ/result/2667/"
   },
   {
    "id": "2024-10-27-gakushuin-vs-jouchi",
@@ -255,7 +276,8 @@
    "status": "played",
    "home_score": 22,
    "away_score": 33,
-   "note": ""
+   "note": "",
+   "source_url": "https://www.rugby.or.jp/univ/result/2667/"
   },
   {
    "id": "2024-10-27-seijo-vs-hitotsubashi",
@@ -270,7 +292,8 @@
    "status": "played",
    "home_score": 29,
    "away_score": 7,
-   "note": ""
+   "note": "",
+   "source_url": "https://www.rugby.or.jp/univ/result/2667/"
   },
   {
    "id": "2024-10-27-toukyou-vs-seikei",
@@ -285,7 +308,8 @@
    "status": "played",
    "home_score": 8,
    "away_score": 28,
-   "note": ""
+   "note": "",
+   "source_url": "https://www.rugby.or.jp/univ/result/2667/"
   },
   {
    "id": "2024-10-27-musashi-vs-meijigakuin",
@@ -300,7 +324,8 @@
    "status": "played",
    "home_score": 15,
    "away_score": 28,
-   "note": ""
+   "note": "",
+   "source_url": "https://www.rugby.or.jp/univ/result/2667/"
   },
   {
    "id": "2024-11-10-musashi-vs-seikei",
@@ -315,7 +340,8 @@
    "status": "played",
    "home_score": 12,
    "away_score": 48,
-   "note": ""
+   "note": "",
+   "source_url": "https://www.rugby.or.jp/univ/result/2667/"
   },
   {
    "id": "2024-11-10-seijo-vs-jouchi",
@@ -330,7 +356,8 @@
    "status": "played",
    "home_score": 21,
    "away_score": 59,
-   "note": ""
+   "note": "",
+   "source_url": "https://www.rugby.or.jp/univ/result/2667/"
   },
   {
    "id": "2024-11-10-hitotsubashi-vs-gakushuin",
@@ -345,7 +372,8 @@
    "status": "played",
    "home_score": 29,
    "away_score": 0,
-   "note": ""
+   "note": "",
+   "source_url": "https://www.rugby.or.jp/univ/result/2667/"
   },
   {
    "id": "2024-11-10-toukyou-vs-meijigakuin",
@@ -360,7 +388,8 @@
    "status": "played",
    "home_score": 0,
    "away_score": 73,
-   "note": ""
+   "note": "",
+   "source_url": "https://www.rugby.or.jp/univ/result/2667/"
   },
   {
    "id": "2024-11-24-toukyou-vs-musashi",
@@ -375,7 +404,8 @@
    "status": "played",
    "home_score": 28,
    "away_score": 42,
-   "note": ""
+   "note": "",
+   "source_url": "https://www.rugby.or.jp/univ/result/2667/"
   },
   {
    "id": "2024-11-24-jouchi-vs-hitotsubashi",
@@ -390,7 +420,8 @@
    "status": "played",
    "home_score": 19,
    "away_score": 17,
-   "note": ""
+   "note": "",
+   "source_url": "https://www.rugby.or.jp/univ/result/2667/"
   },
   {
    "id": "2024-11-24-seikei-vs-meijigakuin",
@@ -405,7 +436,8 @@
    "status": "played",
    "home_score": 34,
    "away_score": 28,
-   "note": ""
+   "note": "",
+   "source_url": "https://www.rugby.or.jp/univ/result/2667/"
   },
   {
    "id": "2024-11-30-gakushuin-vs-seijo",
@@ -420,7 +452,8 @@
    "status": "played",
    "home_score": 12,
    "away_score": 41,
-   "note": ""
+   "note": "",
+   "source_url": "https://www.rugby.or.jp/univ/result/2667/"
   }
  ],
  "standings": {
@@ -442,16 +475,16 @@
    {
     "team": "明治学院大",
     "slug": "meijigakuin",
-    "points": 18,
-    "games": 7,
-    "wins": 6,
+    "points": 15,
+    "games": 6,
+    "wins": 5,
     "draws": 0,
     "losses": 1,
-    "gf": 365,
+    "gf": 344,
     "ga": 63,
     "rank": 2,
-    "goal_diff": "+302",
-    "goals_for": 365
+    "goal_diff": "+281",
+    "goals_for": 344
    },
    {
     "team": "武蔵大",
@@ -485,14 +518,14 @@
     "team": "上智大",
     "slug": "jouchi",
     "points": 9,
-    "games": 7,
+    "games": 6,
     "wins": 3,
     "draws": 0,
-    "losses": 4,
+    "losses": 3,
     "gf": 160,
-    "ga": 187,
+    "ga": 166,
     "rank": 5,
-    "goal_diff": "-27",
+    "goal_diff": "-6",
     "goals_for": 160
    },
    {

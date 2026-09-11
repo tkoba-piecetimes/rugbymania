@@ -1,4 +1,9 @@
 {
+ "source_url": "https://www.rugby.or.jp/univ/result/2807/",
+ "fetched_at": "2026-09-11T17:22:21+00:00",
+ "import_version": 2,
+ "coverage_note": "公式日程ページの掲載試合。入替戦は対象外。",
+ "standings_kind": "reference",
  "year": 2025,
  "league": "関東大学リーグ戦2部",
  "matches": [
@@ -15,7 +20,8 @@
    "status": "played",
    "home_score": 113,
    "away_score": 7,
-   "note": ""
+   "note": "",
+   "source_url": "https://www.rugby.or.jp/univ/result/2807/"
   },
   {
    "id": "2025-09-14-chousen-vs-senshu",
@@ -30,7 +36,8 @@
    "status": "played",
    "home_score": 7,
    "away_score": 67,
-   "note": ""
+   "note": "",
+   "source_url": "https://www.rugby.or.jp/univ/result/2807/"
   },
   {
    "id": "2025-09-14-yamanashi-gakuin-vs-kokugakuin",
@@ -45,7 +52,8 @@
    "status": "played",
    "home_score": 73,
    "away_score": 46,
-   "note": ""
+   "note": "",
+   "source_url": "https://www.rugby.or.jp/univ/result/2807/"
   },
   {
    "id": "2025-09-14-takushoku-vs-hakuou",
@@ -60,7 +68,8 @@
    "status": "played",
    "home_score": 36,
    "away_score": 38,
-   "note": ""
+   "note": "",
+   "source_url": "https://www.rugby.or.jp/univ/result/2807/"
   },
   {
    "id": "2025-09-21-chousen-vs-chuo",
@@ -75,7 +84,8 @@
    "status": "played",
    "home_score": 26,
    "away_score": 59,
-   "note": ""
+   "note": "",
+   "source_url": "https://www.rugby.or.jp/univ/result/2807/"
   },
   {
    "id": "2025-09-21-senshu-vs-niigatashokuryounougyou",
@@ -90,7 +100,8 @@
    "status": "played",
    "home_score": 104,
    "away_score": 0,
-   "note": ""
+   "note": "",
+   "source_url": "https://www.rugby.or.jp/univ/result/2807/"
   },
   {
    "id": "2025-09-21-yamanashi-gakuin-vs-hakuou",
@@ -105,7 +116,8 @@
    "status": "played",
    "home_score": 47,
    "away_score": 28,
-   "note": ""
+   "note": "",
+   "source_url": "https://www.rugby.or.jp/univ/result/2807/"
   },
   {
    "id": "2025-09-21-takushoku-vs-kokugakuin",
@@ -120,7 +132,8 @@
    "status": "played",
    "home_score": 21,
    "away_score": 22,
-   "note": ""
+   "note": "",
+   "source_url": "https://www.rugby.or.jp/univ/result/2807/"
   },
   {
    "id": "2025-10-05-kokugakuin-vs-chuo",
@@ -135,7 +148,8 @@
    "status": "played",
    "home_score": 10,
    "away_score": 54,
-   "note": ""
+   "note": "",
+   "source_url": "https://www.rugby.or.jp/univ/result/2807/"
   },
   {
    "id": "2025-10-05-senshu-vs-hakuou",
@@ -150,7 +164,8 @@
    "status": "played",
    "home_score": 31,
    "away_score": 7,
-   "note": ""
+   "note": "",
+   "source_url": "https://www.rugby.or.jp/univ/result/2807/"
   },
   {
    "id": "2025-10-05-yamanashi-gakuin-vs-niigatashokuryounougyou",
@@ -165,7 +180,8 @@
    "status": "played",
    "home_score": 96,
    "away_score": 7,
-   "note": ""
+   "note": "",
+   "source_url": "https://www.rugby.or.jp/univ/result/2807/"
   },
   {
    "id": "2025-10-05-takushoku-vs-chousen",
@@ -180,7 +196,8 @@
    "status": "played",
    "home_score": 57,
    "away_score": 19,
-   "note": ""
+   "note": "",
+   "source_url": "https://www.rugby.or.jp/univ/result/2807/"
   },
   {
    "id": "2025-10-12-chuo-vs-hakuou",
@@ -195,7 +212,8 @@
    "status": "played",
    "home_score": 52,
    "away_score": 35,
-   "note": ""
+   "note": "",
+   "source_url": "https://www.rugby.or.jp/univ/result/2807/"
   },
   {
    "id": "2025-10-12-senshu-vs-kokugakuin",
@@ -210,7 +228,8 @@
    "status": "played",
    "home_score": 49,
    "away_score": 21,
-   "note": ""
+   "note": "",
+   "source_url": "https://www.rugby.or.jp/univ/result/2807/"
   },
   {
    "id": "2025-10-12-yamanashi-gakuin-vs-chousen",
@@ -225,7 +244,8 @@
    "status": "played",
    "home_score": 113,
    "away_score": 19,
-   "note": ""
+   "note": "",
+   "source_url": "https://www.rugby.or.jp/univ/result/2807/"
   },
   {
    "id": "2025-10-12-takushoku-vs-niigatashokuryounougyou",
@@ -240,7 +260,8 @@
    "status": "played",
    "home_score": 113,
    "away_score": 21,
-   "note": ""
+   "note": "",
+   "source_url": "https://www.rugby.or.jp/univ/result/2807/"
   },
   {
    "id": "2025-10-26-chuo-vs-takushoku",
@@ -255,7 +276,8 @@
    "status": "played",
    "home_score": 37,
    "away_score": 29,
-   "note": ""
+   "note": "",
+   "source_url": "https://www.rugby.or.jp/univ/result/2807/"
   },
   {
    "id": "2025-10-26-senshu-vs-yamanashi-gakuin",
@@ -270,7 +292,8 @@
    "status": "played",
    "home_score": 22,
    "away_score": 0,
-   "note": ""
+   "note": "",
+   "source_url": "https://www.rugby.or.jp/univ/result/2807/"
   },
   {
    "id": "2025-10-26-hakuou-vs-niigatashokuryounougyou",
@@ -285,7 +308,8 @@
    "status": "played",
    "home_score": 88,
    "away_score": 0,
-   "note": ""
+   "note": "",
+   "source_url": "https://www.rugby.or.jp/univ/result/2807/"
   },
   {
    "id": "2025-10-26-kokugakuin-vs-chousen",
@@ -300,7 +324,8 @@
    "status": "played",
    "home_score": 38,
    "away_score": 31,
-   "note": ""
+   "note": "",
+   "source_url": "https://www.rugby.or.jp/univ/result/2807/"
   },
   {
    "id": "2025-11-09-chuo-vs-yamanashi-gakuin",
@@ -315,7 +340,8 @@
    "status": "played",
    "home_score": 19,
    "away_score": 17,
-   "note": ""
+   "note": "",
+   "source_url": "https://www.rugby.or.jp/univ/result/2807/"
   },
   {
    "id": "2025-11-09-senshu-vs-takushoku",
@@ -330,7 +356,8 @@
    "status": "played",
    "home_score": 55,
    "away_score": 10,
-   "note": ""
+   "note": "",
+   "source_url": "https://www.rugby.or.jp/univ/result/2807/"
   },
   {
    "id": "2025-11-09-hakuou-vs-chousen",
@@ -345,7 +372,8 @@
    "status": "played",
    "home_score": 33,
    "away_score": 20,
-   "note": ""
+   "note": "",
+   "source_url": "https://www.rugby.or.jp/univ/result/2807/"
   },
   {
    "id": "2025-11-09-kokugakuin-vs-niigatashokuryounougyou",
@@ -360,7 +388,8 @@
    "status": "played",
    "home_score": 120,
    "away_score": 5,
-   "note": ""
+   "note": "",
+   "source_url": "https://www.rugby.or.jp/univ/result/2807/"
   },
   {
    "id": "2025-11-23-chuo-vs-senshu",
@@ -375,7 +404,8 @@
    "status": "played",
    "home_score": 15,
    "away_score": 13,
-   "note": ""
+   "note": "",
+   "source_url": "https://www.rugby.or.jp/univ/result/2807/"
   },
   {
    "id": "2025-11-23-yamanashi-gakuin-vs-takushoku",
@@ -390,7 +420,8 @@
    "status": "played",
    "home_score": 52,
    "away_score": 35,
-   "note": ""
+   "note": "",
+   "source_url": "https://www.rugby.or.jp/univ/result/2807/"
   },
   {
    "id": "2025-11-23-hakuou-vs-kokugakuin",
@@ -405,7 +436,8 @@
    "status": "played",
    "home_score": 48,
    "away_score": 47,
-   "note": ""
+   "note": "",
+   "source_url": "https://www.rugby.or.jp/univ/result/2807/"
   },
   {
    "id": "2025-11-23-chousen-vs-niigatashokuryounougyou",
@@ -420,7 +452,8 @@
    "status": "played",
    "home_score": 67,
    "away_score": 7,
-   "note": ""
+   "note": "",
+   "source_url": "https://www.rugby.or.jp/univ/result/2807/"
   }
  ],
  "standings": {

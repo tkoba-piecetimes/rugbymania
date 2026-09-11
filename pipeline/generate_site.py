@@ -15,6 +15,7 @@ import shutil
 from datetime import date
 from html import escape
 from pathlib import Path
+from urllib.parse import quote
 
 ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "data"
@@ -86,6 +87,21 @@ def load_leagues():
         lg["has_records"] = lg["played_total"] >= RECORDS_MIN_PLAYED
         lg["label"] = lg["meta"]["league"]
         leagues.append(lg)
+    for code in ('kyushu-1', 'kyushu-2'):
+        src = DATA / 'leagues' / code / 'history' / '2021.json'
+        if not src.exists():
+            continue
+        h = json.loads(src.read_text(encoding='utf8'))
+        from common import build_teams
+        from team_slugs import slug_for
+        matches = h['matches']
+        meta = dict(code=code, region='九州', league=h['league'], season_year=2021,
+                    fetched_at=h['fetched_at'], source_updated_at=h['fetched_at'][:10],
+                    source_url=h['source_url'], source='九州ラグビーフットボール協会', archive_only=True)
+        leagues.append(dict(code=code, matches=matches, standings=h['standings'],
+                            teams=build_teams(matches, slug_for), meta=meta, hist=[],
+                            matches_by_year=[(2021,matches)], played_total=len(matches),
+                            has_records=False, label=h['league']))
     return leagues
 
 
@@ -114,7 +130,7 @@ def date_jp(iso, with_year=False):
 
 
 def score_str(m):
-    return f'{m["home_score"]} - {m["away_score"]}' if m["status"] == "played" else "—"
+    return f'{m["home_score"]} - {m["away_score"]}' if m["status"] == "played" else (m.get("note") or "—")
 
 
 def club_label(team):
@@ -122,6 +138,8 @@ def club_label(team):
 
 
 def match_headline(m):
+    if m["status"] not in ("played", "scheduled"):
+        return f'{m["home"]} vs {m["away"]}｜{m.get("note") or "公式発表あり"}'
     if m["status"] != "played":
         d = f'（{date_jp(m["date"])}）' if m["date"] else ""
         return f'【{m["category"]}】{m["home"]} vs {m["away"]}{d}'
@@ -134,6 +152,8 @@ def match_headline(m):
 
 def match_report(m, standings, league_name):
     d = date_jp(m["date"], with_year=True) if m["date"] else "日程未定"
+    if m["status"] not in ("played", "scheduled"):
+        return f'{d}の{m["home"]}対{m["away"]}。公式発表：{m.get("note") or "スコア未公表"}。通常の得失点・勝敗集計には含めていません。'
     if m["status"] != "played":
         t = f'、{m["time"]}キックオフ予定' if m["time"] != "未定" else ""
         return (f'{d}、{m["venue"]}にて{league_name}の'
@@ -281,7 +301,11 @@ def md_to_html(md):
 # ---------------------------------------------------------------- page shell
 
 NAV_ITEMS = [
-    ("index.html", "トップ"),
+    ("index.html#match-center", "試合・結果"),
+    ("index.html#leagues", "リーグ"),
+    ("articles/index.html", "読みもの"),
+    ("archive/index.html", "データベース"),
+    ("index.html#my-team", "マイチーム"),
     ("contact/index.html", "お問い合わせ"),
 ]
 
@@ -370,6 +394,8 @@ def page(rel, title, body, meta, *, path="", desc="", extra_head="", og_type="we
 <link rel="canonical" href="{escape(url)}">
 {extra_head}{ga}
 <link rel="stylesheet" href="{rel}style.css">
+<link rel="stylesheet" href="{rel}assets/clubhouse.css">
+<script defer src="{rel}assets/clubhouse.js"></script>
 </head>
 <body{body_cls}>
 <header class="site-header">
@@ -392,6 +418,7 @@ def page(rel, title, body, meta, *, path="", desc="", extra_head="", og_type="we
   </div>
 </footer>
 {sticky}
+<nav class="mobile-dock" aria-label="クイックメニュー"><a href="{rel}index.html#match-center">試合・結果</a><a href="{rel}archive/index.html">過去の記録</a><a href="{rel}index.html#my-team">マイチーム</a></nav>
 {CTA_VIEW_SCRIPT}
 </body>
 </html>"""
@@ -678,6 +705,7 @@ def build_league(lg, articles):
     sub = league_subnav(lg, L)
     played = [m for m in matches if m["status"] == "played"]
     scheduled = [m for m in matches if m["status"] == "scheduled"]
+    announcements = [m for m in matches if m["status"] not in ("played", "scheduled")]
     upcoming = [m for m in scheduled if m["date"] and m["date"] >= today][:8]
     awaiting = [m for m in scheduled if m["date"] and m["date"] < today]
     recent = list(reversed([m for m in played if m["date"]]))[:8]
@@ -716,6 +744,11 @@ def build_league(lg, articles):
     if awaiting:
         body += ('<section><h2>結果反映待ちの試合</h2>'
                  + match_table("".join(match_row(m, L) for m in awaiting)) + "</section>")
+    undated = [m for m in scheduled if not m["date"]]
+    if undated:
+        body += '<section><h2>日程未確定</h2>' + match_table("".join(match_row(m,L) for m in undated)) + '</section>'
+    if announcements:
+        body += '<section><h2>不戦・中止等の公式発表</h2>' + match_table("".join(match_row(m,L) for m in announcements)) + '</section>'
     write_page(f"{code}/schedule",
                page(R, f'試合日程・結果 | {league_name} | ラグビーマニア', body, meta,
                     path=f"{code}/schedule/", desc=f'{league_name}の全試合日程と結果の一覧。',
@@ -755,6 +788,7 @@ def build_league(lg, articles):
         body = (f'<p class="breadcrumb"><a href="{R}index.html">トップ</a> › '
                 f'<a href="{L}index.html">{escape(lg["label"])}</a> › {escape(name)}</p>')
         body += f'<h1>{escape(name)}</h1>'
+        body += f'<p><a href="{R}archive/index.html?team={quote(team)}">全年度の成績・過去の対戦を調べる →</a></p>'
         body += f'<p class="lead">{escape(league_name)} 所属。</p>'
         if entry:
             body += ('<section><h2>現在の戦績</h2><div class="stat-row">'
@@ -1370,6 +1404,22 @@ button.cta:disabled { opacity:.55; cursor:default; }
 """
 
 
+def build_legacy_team_pages(leagues):
+    legacy_path = DATA / 'legacy-team-urls.json'
+    if not legacy_path.exists():
+        return
+    for item in json.loads(legacy_path.read_text(encoding='utf8')):
+        path = f"{item['code']}/clubs/{item['slug']}"
+        if (SITE/path/'index.html').exists():
+            continue
+        lg = next((lg for lg in leagues if lg['code']==item['code']), None)
+        if lg is None:
+            continue
+        team = item['team']
+        body = f'<h1>{escape(team)}の過去の記録</h1><p>このURLは過去の所属リーグのページです。年度ごとの所属・対戦記録はデータベースでご確認ください。</p><p><a class="cta" href="../../../archive/index.html?team={quote(team)}">{escape(team)}の全年度の記録を見る →</a></p>'
+        write_page(path,page('../../../',f'{team}の過去の記録 | ラグビーマニア',body,lg['meta'],path=path+'/'))
+
+
 def main():
     if SITE.exists():
         shutil.rmtree(SITE)
@@ -1395,14 +1445,17 @@ def main():
         for f in ASSETS.iterdir():
             shutil.copy(f, SITE / "assets" / f.name)
 
-    build_portal(leagues, articles, global_meta)
+    import clubhouse, sys
+    clubhouse.build(sys.modules[__name__], leagues, articles, global_meta)
     for lg in leagues:
-        build_league(lg, articles)
+        if not lg["meta"].get("archive_only"):
+            build_league(lg, articles)
+    build_legacy_team_pages(leagues)
     build_articles(articles, global_meta)
     build_videos(global_meta)
     build_glossary(global_meta)
     build_contact(global_meta)
-    build_dashboard(leagues, articles, global_meta)
+    build_dashboard([lg for lg in leagues if not lg["meta"].get("archive_only")], articles, global_meta)
     write_sitemap_and_robots()
 
     print(f"OK: {len(_sitemap_paths)} pages ({len(leagues)} leagues) in {SITE}")

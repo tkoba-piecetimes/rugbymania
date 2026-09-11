@@ -1,4 +1,9 @@
 {
+ "source_url": "https://www.rugby-kyushu.jp/kyushuleague/2023-2024/kyushugakusei.html",
+ "fetched_at": "2026-09-11T17:22:22+00:00",
+ "import_version": 2,
+ "coverage_note": "公式掲載の対戦チーム確定済み試合。未確定枠・別見出しの順位決定戦は除外。不戦・中止はスコア集計対象外。",
+ "standings_kind": "reference",
  "year": 2023,
  "league": "九州学生リーグD",
  "matches": [
@@ -11,11 +16,12 @@
    "away": "福岡大学医学部",
    "home_slug": "kyuushuushika",
    "away_slug": "fukuokadaigakuigakubu",
-   "venue": "福岡大学グラウンド",
-   "status": "played",
    "home_score": 52,
    "away_score": 7,
-   "note": ""
+   "status": "played",
+   "venue": "福岡大学グラウンド",
+   "note": "",
+   "source_url": "https://www.rugby-kyushu.jp/var/rev0/0014/1663/g20231009d1.pdf"
   },
   {
    "id": "2023-10-15-kyuushuudaigakushigakubu-vs-kitakyuushuushiritsu",
@@ -26,11 +32,12 @@
    "away": "北九州市立大学",
    "home_slug": "kyuushuudaigakushigakubu",
    "away_slug": "kitakyuushuushiritsu",
-   "venue": "久留米大学医学部グラウンド",
-   "status": "played",
    "home_score": 22,
    "away_score": 29,
-   "note": ""
+   "status": "played",
+   "venue": "久留米大学医学部グラウンド",
+   "note": "",
+   "source_url": "https://www.rugby-kyushu.jp/var/rev0/0014/1664/g20231015d1.pdf"
   },
   {
    "id": "2023-10-15-kurumedaigakuigakubu-vs-kyuushuushika",
@@ -41,11 +48,12 @@
    "away": "九州歯科大学",
    "home_slug": "kurumedaigakuigakubu",
    "away_slug": "kyuushuushika",
-   "venue": "久留米大学医学部グラウンド",
-   "status": "played",
    "home_score": 19,
    "away_score": 22,
-   "note": ""
+   "status": "played",
+   "venue": "久留米大学医学部グラウンド",
+   "note": "",
+   "source_url": "https://www.rugby-kyushu.jp/var/rev0/0014/1665/g20231015d2.pdf"
   },
   {
    "id": "2023-10-28-kitakyuushuushiritsu-vs-kurume",
@@ -56,11 +64,12 @@
    "away": "久留米大学",
    "home_slug": "kitakyuushuushiritsu",
    "away_slug": "kurume",
-   "venue": "佐賀大学医学部グラウンド",
-   "status": "scheduled",
    "home_score": null,
    "away_score": null,
-   "note": ""
+   "status": "cancelled",
+   "venue": "佐賀大学医学部グラウンド",
+   "note": "中止",
+   "source_url": "https://www.rugby-kyushu.jp/kyushuleague/2023-2024/kyushugakusei.html"
   },
   {
    "id": "2023-10-28-saga-vs-kyuushuushika",
@@ -71,11 +80,12 @@
    "away": "九州歯科大学",
    "home_slug": "saga",
    "away_slug": "kyuushuushika",
-   "venue": "佐賀大学医学部グラウンド",
-   "status": "played",
    "home_score": 24,
    "away_score": 5,
-   "note": ""
+   "status": "played",
+   "venue": "佐賀大学医学部グラウンド",
+   "note": "",
+   "source_url": "https://www.rugby-kyushu.jp/var/rev0/0014/1666/g20231028d1.pdf"
   },
   {
    "id": "2023-10-29-kurumedaigakuigakubu-vs-kyuushuudaigakushigakubu",
@@ -86,45 +96,62 @@
    "away": "九州大学歯学部",
    "home_slug": "kurumedaigakuigakubu",
    "away_slug": "kyuushuudaigakushigakubu",
-   "venue": "九州大学歯学部グラウンド",
-   "status": "played",
    "home_score": 27,
    "away_score": 20,
-   "note": ""
+   "status": "played",
+   "venue": "九州大学歯学部グラウンド",
+   "note": "",
+   "source_url": "https://www.rugby-kyushu.jp/var/rev0/0014/1667/g20231029d3.pdf"
   },
   {
-   "id": "2023-11-12-kyuushuushikadaigaku-nohaisha-vs-kitakyuushuushiritsudaigaku-nohaisha",
+   "id": "2023-11-12-kyuushuushika-vs-kitakyuushuushiritsu",
    "date": "2023-11-12",
    "time": "12:30",
    "category": "九州学生リーグD",
-   "home": "九州歯科大学 （⑤の敗者）",
-   "away": "北九州市立大学 （④の敗者）",
-   "home_slug": "kyuushuushikadaigaku-nohaisha",
-   "away_slug": "kitakyuushuushiritsudaigaku-nohaisha",
-   "venue": "福岡大学グラウンド",
-   "status": "scheduled",
+   "home": "九州歯科大学",
+   "away": "北九州市立大学",
+   "home_slug": "kyuushuushika",
+   "away_slug": "kitakyuushuushiritsu",
    "home_score": null,
    "away_score": null,
-   "note": ""
+   "status": "cancelled",
+   "venue": "福岡大学グラウンド",
+   "note": "中止",
+   "source_url": "https://www.rugby-kyushu.jp/kyushuleague/2023-2024/kyushugakusei.html"
   },
   {
-   "id": "2023-11-12-sagadaigaku-noshousha-vs-kurumedaigaku-noshousha",
+   "id": "2023-11-12-saga-vs-kurume",
    "date": "2023-11-12",
    "time": "14:00",
    "category": "九州学生リーグD",
-   "home": "佐賀大学 （⑤の勝者）",
-   "away": "久留米大学 （④の勝者）",
-   "home_slug": "sagadaigaku-noshousha",
-   "away_slug": "kurumedaigaku-noshousha",
-   "venue": "福岡大学グラウンド",
-   "status": "played",
+   "home": "佐賀大学",
+   "away": "久留米大学",
+   "home_slug": "saga",
+   "away_slug": "kurume",
    "home_score": 34,
    "away_score": 12,
-   "note": ""
+   "status": "played",
+   "venue": "福岡大学グラウンド",
+   "note": "",
+   "source_url": "https://www.rugby-kyushu.jp/var/rev0/0014/1668/g20231112d2.pdf"
   }
  ],
  "standings": {
   "総合": [
+   {
+    "team": "佐賀大学",
+    "slug": "saga",
+    "points": 6,
+    "games": 2,
+    "wins": 2,
+    "draws": 0,
+    "losses": 0,
+    "gf": 58,
+    "ga": 17,
+    "rank": 1,
+    "goal_diff": "+41",
+    "goals_for": 58
+   },
    {
     "team": "九州歯科大学",
     "slug": "kyuushuushika",
@@ -135,37 +162,9 @@
     "losses": 1,
     "gf": 79,
     "ga": 50,
-    "rank": 1,
+    "rank": 2,
     "goal_diff": "+29",
     "goals_for": 79
-   },
-   {
-    "team": "佐賀大学 （⑤の勝者）",
-    "slug": "sagadaigaku-noshousha",
-    "points": 3,
-    "games": 1,
-    "wins": 1,
-    "draws": 0,
-    "losses": 0,
-    "gf": 34,
-    "ga": 12,
-    "rank": 2,
-    "goal_diff": "+22",
-    "goals_for": 34
-   },
-   {
-    "team": "佐賀大学",
-    "slug": "saga",
-    "points": 3,
-    "games": 1,
-    "wins": 1,
-    "draws": 0,
-    "losses": 0,
-    "gf": 24,
-    "ga": 5,
-    "rank": 3,
-    "goal_diff": "+19",
-    "goals_for": 24
    },
    {
     "team": "北九州市立大学",
@@ -177,7 +176,7 @@
     "losses": 0,
     "gf": 29,
     "ga": 22,
-    "rank": 4,
+    "rank": 3,
     "goal_diff": "+7",
     "goals_for": 29
    },
@@ -191,7 +190,7 @@
     "losses": 1,
     "gf": 46,
     "ga": 42,
-    "rank": 5,
+    "rank": 4,
     "goal_diff": "+4",
     "goals_for": 46
    },
@@ -205,13 +204,13 @@
     "losses": 2,
     "gf": 42,
     "ga": 56,
-    "rank": 6,
+    "rank": 5,
     "goal_diff": "-14",
     "goals_for": 42
    },
    {
-    "team": "久留米大学 （④の勝者）",
-    "slug": "kurumedaigaku-noshousha",
+    "team": "久留米大学",
+    "slug": "kurume",
     "points": 0,
     "games": 1,
     "wins": 0,
@@ -219,7 +218,7 @@
     "losses": 1,
     "gf": 12,
     "ga": 34,
-    "rank": 7,
+    "rank": 6,
     "goal_diff": "-22",
     "goals_for": 12
    },
@@ -233,7 +232,7 @@
     "losses": 1,
     "gf": 7,
     "ga": 52,
-    "rank": 8,
+    "rank": 7,
     "goal_diff": "-45",
     "goals_for": 7
    }

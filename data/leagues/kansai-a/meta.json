@@ -1,12 +1,15 @@
 {
+ "source_url": "https://rugby-kansai.or.jp/gameuniversity",
+ "fetched_at": "2026-09-11T17:22:22+00:00",
+ "import_version": 2,
+ "coverage_note": "公式日程ページの掲載試合。入替戦は対象外。",
+ "standings_kind": "reference",
  "code": "kansai-a",
  "region": "関西",
  "gender": "男子",
- "group": "関西大学リーグ",
+ "group": "リーグ戦",
  "league": "関西大学ラグビーAリーグ",
  "season_year": 2026,
  "source": "関西ラグビーフットボール協会",
- "source_url": "https://rugby-kansai.or.jp/university",
- "source_updated_at": "2026-09-10",
- "fetched_at": "2026-09-10T21:15:27"
+ "source_updated_at": "2026-09-11"
 }

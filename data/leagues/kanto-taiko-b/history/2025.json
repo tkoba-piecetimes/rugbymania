@@ -1,4 +1,9 @@
 {
+ "source_url": "https://www.rugby.or.jp/univ/result/2804/",
+ "fetched_at": "2026-09-11T17:22:21+00:00",
+ "import_version": 2,
+ "coverage_note": "公式日程ページの掲載試合。入替戦は対象外。",
+ "standings_kind": "reference",
  "year": 2025,
  "league": "関東大学対抗戦Bグループ",
  "matches": [
@@ -15,7 +20,8 @@
    "status": "played",
    "home_score": 14,
    "away_score": 71,
-   "note": ""
+   "note": "",
+   "source_url": "https://www.rugby.or.jp/univ/result/2804/"
   },
   {
    "id": "2025-09-14-musashi-vs-seijo",
@@ -30,7 +36,8 @@
    "status": "played",
    "home_score": 75,
    "away_score": 0,
-   "note": ""
+   "note": "",
+   "source_url": "https://www.rugby.or.jp/univ/result/2804/"
   },
   {
    "id": "2025-09-14-meijigakuin-vs-hitotsubashi",
@@ -45,7 +52,8 @@
    "status": "played",
    "home_score": 61,
    "away_score": 12,
-   "note": ""
+   "note": "",
+   "source_url": "https://www.rugby.or.jp/univ/result/2804/"
   },
   {
    "id": "2025-09-14-toukyou-vs-jouchi",
@@ -60,7 +68,8 @@
    "status": "played",
    "home_score": 31,
    "away_score": 26,
-   "note": ""
+   "note": "",
+   "source_url": "https://www.rugby.or.jp/univ/result/2804/"
   },
   {
    "id": "2025-09-28-toukyou-vs-seijo",
@@ -75,7 +84,8 @@
    "status": "played",
    "home_score": 36,
    "away_score": 40,
-   "note": ""
+   "note": "",
+   "source_url": "https://www.rugby.or.jp/univ/result/2804/"
   },
   {
    "id": "2025-09-28-musashi-vs-jouchi",
@@ -90,7 +100,8 @@
    "status": "played",
    "home_score": 96,
    "away_score": 3,
-   "note": ""
+   "note": "",
+   "source_url": "https://www.rugby.or.jp/univ/result/2804/"
   },
   {
    "id": "2025-09-28-meijigakuin-vs-gakushuin",
@@ -105,7 +116,8 @@
    "status": "played",
    "home_score": 47,
    "away_score": 14,
-   "note": ""
+   "note": "",
+   "source_url": "https://www.rugby.or.jp/univ/result/2804/"
   },
   {
    "id": "2025-09-28-seikei-vs-hitotsubashi",
@@ -120,7 +132,8 @@
    "status": "played",
    "home_score": 52,
    "away_score": 5,
-   "note": ""
+   "note": "",
+   "source_url": "https://www.rugby.or.jp/univ/result/2804/"
   },
   {
    "id": "2025-10-05-gakushuin-vs-musashi",
@@ -135,7 +148,8 @@
    "status": "played",
    "home_score": 7,
    "away_score": 62,
-   "note": ""
+   "note": "",
+   "source_url": "https://www.rugby.or.jp/univ/result/2804/"
   },
   {
    "id": "2025-10-05-seijo-vs-seikei",
@@ -150,7 +164,8 @@
    "status": "played",
    "home_score": 14,
    "away_score": 68,
-   "note": ""
+   "note": "",
+   "source_url": "https://www.rugby.or.jp/univ/result/2804/"
   },
   {
    "id": "2025-10-05-jouchi-vs-meijigakuin",
@@ -165,7 +180,8 @@
    "status": "played",
    "home_score": 19,
    "away_score": 57,
-   "note": ""
+   "note": "",
+   "source_url": "https://www.rugby.or.jp/univ/result/2804/"
   },
   {
    "id": "2025-10-05-hitotsubashi-vs-toukyou",
@@ -180,7 +196,8 @@
    "status": "played",
    "home_score": 12,
    "away_score": 43,
-   "note": ""
+   "note": "",
+   "source_url": "https://www.rugby.or.jp/univ/result/2804/"
   },
   {
    "id": "2025-10-19-toukyou-vs-gakushuin",
@@ -195,7 +212,8 @@
    "status": "played",
    "home_score": 26,
    "away_score": 10,
-   "note": ""
+   "note": "",
+   "source_url": "https://www.rugby.or.jp/univ/result/2804/"
   },
   {
    "id": "2025-10-19-seikei-vs-jouchi",
@@ -210,7 +228,8 @@
    "status": "played",
    "home_score": 81,
    "away_score": 7,
-   "note": ""
+   "note": "",
+   "source_url": "https://www.rugby.or.jp/univ/result/2804/"
   },
   {
    "id": "2025-10-19-seijo-vs-meijigakuin",
@@ -225,7 +244,8 @@
    "status": "played",
    "home_score": 17,
    "away_score": 108,
-   "note": ""
+   "note": "",
+   "source_url": "https://www.rugby.or.jp/univ/result/2804/"
   },
   {
    "id": "2025-10-19-hitotsubashi-vs-musashi",
@@ -240,7 +260,8 @@
    "status": "played",
    "home_score": 21,
    "away_score": 80,
-   "note": ""
+   "note": "",
+   "source_url": "https://www.rugby.or.jp/univ/result/2804/"
   },
   {
    "id": "2025-11-02-jouchi-vs-gakushuin",
@@ -255,7 +276,8 @@
    "status": "played",
    "home_score": 40,
    "away_score": 21,
-   "note": ""
+   "note": "",
+   "source_url": "https://www.rugby.or.jp/univ/result/2804/"
   },
   {
    "id": "2025-11-02-hitotsubashi-vs-seijo",
@@ -270,7 +292,8 @@
    "status": "played",
    "home_score": 37,
    "away_score": 26,
-   "note": ""
+   "note": "",
+   "source_url": "https://www.rugby.or.jp/univ/result/2804/"
   },
   {
    "id": "2025-11-02-meijigakuin-vs-musashi",
@@ -285,7 +308,8 @@
    "status": "played",
    "home_score": 12,
    "away_score": 21,
-   "note": ""
+   "note": "",
+   "source_url": "https://www.rugby.or.jp/univ/result/2804/"
   },
   {
    "id": "2025-11-02-seikei-vs-toukyou",
@@ -300,7 +324,8 @@
    "status": "played",
    "home_score": 61,
    "away_score": 21,
-   "note": ""
+   "note": "",
+   "source_url": "https://www.rugby.or.jp/univ/result/2804/"
   },
   {
    "id": "2025-11-16-hitotsubashi-vs-jouchi",
@@ -315,7 +340,8 @@
    "status": "played",
    "home_score": 19,
    "away_score": 12,
-   "note": ""
+   "note": "",
+   "source_url": "https://www.rugby.or.jp/univ/result/2804/"
   },
   {
    "id": "2025-11-16-meijigakuin-vs-toukyou",
@@ -330,7 +356,8 @@
    "status": "played",
    "home_score": 54,
    "away_score": 26,
-   "note": ""
+   "note": "",
+   "source_url": "https://www.rugby.or.jp/univ/result/2804/"
   },
   {
    "id": "2025-11-16-seikei-vs-musashi",
@@ -345,7 +372,8 @@
    "status": "played",
    "home_score": 12,
    "away_score": 31,
-   "note": ""
+   "note": "",
+   "source_url": "https://www.rugby.or.jp/univ/result/2804/"
   },
   {
    "id": "2025-11-16-seijo-vs-gakushuin",
@@ -360,7 +388,8 @@
    "status": "played",
    "home_score": 36,
    "away_score": 21,
-   "note": ""
+   "note": "",
+   "source_url": "https://www.rugby.or.jp/univ/result/2804/"
   },
   {
    "id": "2025-11-30-gakushuin-vs-hitotsubashi",
@@ -375,7 +404,8 @@
    "status": "played",
    "home_score": 3,
    "away_score": 30,
-   "note": ""
+   "note": "",
+   "source_url": "https://www.rugby.or.jp/univ/result/2804/"
   },
   {
    "id": "2025-11-30-musashi-vs-toukyou",
@@ -390,7 +420,8 @@
    "status": "played",
    "home_score": 48,
    "away_score": 28,
-   "note": ""
+   "note": "",
+   "source_url": "https://www.rugby.or.jp/univ/result/2804/"
   },
   {
    "id": "2025-11-30-jouchi-vs-seijo",
@@ -405,7 +436,8 @@
    "status": "played",
    "home_score": 15,
    "away_score": 24,
-   "note": ""
+   "note": "",
+   "source_url": "https://www.rugby.or.jp/univ/result/2804/"
   },
   {
    "id": "2025-11-30-meijigakuin-vs-seikei",
@@ -420,7 +452,8 @@
    "status": "played",
    "home_score": 36,
    "away_score": 31,
-   "note": ""
+   "note": "",
+   "source_url": "https://www.rugby.or.jp/univ/result/2804/"
   }
  ],
  "standings": {

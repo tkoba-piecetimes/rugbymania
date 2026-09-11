@@ -109,4 +109,4 @@ def slug_for(team: str) -> str:
         TEAM_SLUGS[team] = r
         return r
     print(f"[warn] スラッグ生成不可のチーム名: {team}", file=sys.stderr)
-    return f"team-{abs(hash(team)) % 10**8}"
+    raise RuntimeError("pykakasi is required to generate stable team URLs")

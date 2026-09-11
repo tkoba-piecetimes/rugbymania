@@ -1,4 +1,9 @@
 {
+ "source_url": "https://www.rugby-kyushu.jp/kyushuleague/2024-2025/kyushugakusei.html",
+ "fetched_at": "2026-09-11T17:22:22+00:00",
+ "import_version": 2,
+ "coverage_note": "公式掲載の対戦チーム確定済み試合。未確定枠・別見出しの順位決定戦は除外。不戦・中止はスコア集計対象外。",
+ "standings_kind": "reference",
  "year": 2024,
  "league": "九州学生リーグA",
  "matches": [
@@ -11,11 +16,12 @@
    "away": "鹿児島大学",
    "home_slug": "fukuoka-it",
    "away_slug": "kagoshima-u",
-   "venue": "福岡大学グラウンド",
-   "status": "played",
    "home_score": 89,
    "away_score": 14,
-   "note": ""
+   "status": "played",
+   "venue": "福岡大学グラウンド",
+   "note": "",
+   "source_url": "https://www.rugby-kyushu.jp/var/rev0/0014/5617/g2024092101a.pdf"
   },
   {
    "id": "2024-09-21-nihon-bunri-vs-seinan-gakuin",
@@ -26,11 +32,12 @@
    "away": "西南学院大学",
    "home_slug": "nihon-bunri",
    "away_slug": "seinan-gakuin",
-   "venue": "日本文理大学グラウンド",
-   "status": "played",
    "home_score": 48,
    "away_score": 33,
-   "note": ""
+   "status": "played",
+   "venue": "日本文理大学グラウンド",
+   "note": "",
+   "source_url": "https://www.rugby-kyushu.jp/var/rev0/0014/5618/g2024092102a.pdf"
   },
   {
    "id": "2024-09-22-kyushu-kyoritsu-vs-fukuoka-u",
@@ -41,11 +48,12 @@
    "away": "福岡大学",
    "home_slug": "kyushu-kyoritsu",
    "away_slug": "fukuoka-u",
-   "venue": "福岡県営春日公園球技場",
-   "status": "played",
    "home_score": 39,
    "away_score": 19,
-   "note": ""
+   "status": "played",
+   "venue": "福岡県営春日公園球技場",
+   "note": "",
+   "source_url": "https://www.rugby-kyushu.jp/var/rev0/0014/5619/g2024092203a.pdf"
   },
   {
    "id": "2024-09-28-kyushu-kyoritsu-vs-nihon-bunri",
@@ -56,11 +64,12 @@
    "away": "日本文理大学",
    "home_slug": "kyushu-kyoritsu",
    "away_slug": "nihon-bunri",
-   "venue": "大分スポーツ公園レゾナックサッカーラグビー場B",
-   "status": "played",
    "home_score": 41,
    "away_score": 5,
-   "note": ""
+   "status": "played",
+   "venue": "大分スポーツ公園レゾナックサッカーラグビー場B",
+   "note": "",
+   "source_url": "https://www.rugby-kyushu.jp/var/rev0/0014/5620/g2024092801a.pdf"
   },
   {
    "id": "2024-09-28-fukuoka-it-vs-seinan-gakuin",
@@ -71,11 +80,12 @@
    "away": "西南学院大学",
    "home_slug": "fukuoka-it",
    "away_slug": "seinan-gakuin",
-   "venue": "西南学院大グリーンフィールド",
-   "status": "played",
    "home_score": 60,
    "away_score": 7,
-   "note": ""
+   "status": "played",
+   "venue": "西南学院大グリーンフィールド",
+   "note": "",
+   "source_url": "https://www.rugby-kyushu.jp/var/rev0/0014/5621/g2024092802a.pdf"
   },
   {
    "id": "2024-09-29-fukuoka-u-vs-kagoshima-u",
@@ -86,11 +96,12 @@
    "away": "鹿児島大学",
    "home_slug": "fukuoka-u",
    "away_slug": "kagoshima-u",
-   "venue": "鹿児島県立サッカー・ラグビー場 Cコート",
-   "status": "played",
    "home_score": 35,
    "away_score": 12,
-   "note": ""
+   "status": "played",
+   "venue": "鹿児島県立サッカー・ラグビー場 Cコート",
+   "note": "",
+   "source_url": "https://www.rugby-kyushu.jp/var/rev0/0014/5622/g2024092903a.pdf"
   },
   {
    "id": "2024-10-12-fukuoka-it-vs-nihon-bunri",
@@ -101,11 +112,12 @@
    "away": "日本文理大学",
    "home_slug": "fukuoka-it",
    "away_slug": "nihon-bunri",
-   "venue": "大分スポーツ公園レゾナックサッカーラグビー場B",
-   "status": "played",
    "home_score": 50,
    "away_score": 25,
-   "note": ""
+   "status": "played",
+   "venue": "大分スポーツ公園レゾナックサッカーラグビー場B",
+   "note": "",
+   "source_url": "https://www.rugby-kyushu.jp/var/rev0/0014/5623/g2024101201a.pdf"
   },
   {
    "id": "2024-10-12-kyushu-kyoritsu-vs-kagoshima-u",
@@ -116,11 +128,12 @@
    "away": "鹿児島大学",
    "home_slug": "kyushu-kyoritsu",
    "away_slug": "kagoshima-u",
-   "venue": "福岡大学グラウンド",
-   "status": "played",
    "home_score": 101,
    "away_score": 7,
-   "note": ""
+   "status": "played",
+   "venue": "福岡大学グラウンド",
+   "note": "",
+   "source_url": "https://www.rugby-kyushu.jp/var/rev0/0014/5624/g2024101202a.pdf"
   },
   {
    "id": "2024-10-12-fukuoka-u-vs-seinan-gakuin",
@@ -131,11 +144,12 @@
    "away": "西南学院大学",
    "home_slug": "fukuoka-u",
    "away_slug": "seinan-gakuin",
-   "venue": "福岡大学グラウンド",
-   "status": "played",
    "home_score": 33,
    "away_score": 33,
-   "note": ""
+   "status": "played",
+   "venue": "福岡大学グラウンド",
+   "note": "",
+   "source_url": "https://www.rugby-kyushu.jp/var/rev0/0014/5625/g2024101203.pdf"
   },
   {
    "id": "2024-10-19-nihon-bunri-vs-kagoshima-u",
@@ -146,11 +160,12 @@
    "away": "鹿児島大学",
    "home_slug": "nihon-bunri",
    "away_slug": "kagoshima-u",
-   "venue": "鹿児島県立サッカー・ラグビー場 Bコート",
-   "status": "played",
    "home_score": 24,
    "away_score": 27,
-   "note": ""
+   "status": "played",
+   "venue": "鹿児島県立サッカー・ラグビー場 Bコート",
+   "note": "",
+   "source_url": "https://www.rugby-kyushu.jp/var/rev0/0014/5626/g2024101901a.pdf"
   },
   {
    "id": "2024-10-19-fukuoka-it-vs-fukuoka-u",
@@ -161,11 +176,12 @@
    "away": "福岡大学",
    "home_slug": "fukuoka-it",
    "away_slug": "fukuoka-u",
-   "venue": "九州共立大学グラウンド",
-   "status": "played",
    "home_score": 62,
    "away_score": 7,
-   "note": ""
+   "status": "played",
+   "venue": "九州共立大学グラウンド",
+   "note": "",
+   "source_url": "https://www.rugby-kyushu.jp/var/rev0/0014/5627/g2024101902a.pdf"
   },
   {
    "id": "2024-10-19-kyushu-kyoritsu-vs-seinan-gakuin",
@@ -176,11 +192,12 @@
    "away": "西南学院大学",
    "home_slug": "kyushu-kyoritsu",
    "away_slug": "seinan-gakuin",
-   "venue": "九州共立大学グラウンド",
-   "status": "played",
    "home_score": 45,
    "away_score": 21,
-   "note": ""
+   "status": "played",
+   "venue": "九州共立大学グラウンド",
+   "note": "",
+   "source_url": "https://www.rugby-kyushu.jp/var/rev0/0014/5628/g2024101903a.pdf"
   },
   {
    "id": "2024-10-26-seinan-gakuin-vs-kagoshima-u",
@@ -191,11 +208,12 @@
    "away": "鹿児島大学",
    "home_slug": "seinan-gakuin",
    "away_slug": "kagoshima-u",
-   "venue": "西南学院大学グリーンフィールド",
-   "status": "played",
    "home_score": 21,
    "away_score": 21,
-   "note": ""
+   "status": "played",
+   "venue": "西南学院大学グリーンフィールド",
+   "note": "",
+   "source_url": "https://www.rugby-kyushu.jp/var/rev0/0014/5629/g2024103101a.pdf"
   },
   {
    "id": "2024-10-26-fukuoka-u-vs-nihon-bunri",
@@ -206,11 +224,12 @@
    "away": "日本文理大学",
    "home_slug": "fukuoka-u",
    "away_slug": "nihon-bunri",
-   "venue": "西南学院大学グリーンフィールド",
-   "status": "played",
    "home_score": 43,
    "away_score": 33,
-   "note": ""
+   "status": "played",
+   "venue": "西南学院大学グリーンフィールド",
+   "note": "",
+   "source_url": "https://www.rugby-kyushu.jp/var/rev0/0014/5630/g2024103102.pdf"
   },
   {
    "id": "2024-10-26-fukuoka-it-vs-kyushu-kyoritsu",
@@ -221,11 +240,12 @@
    "away": "九州共立大学",
    "home_slug": "fukuoka-it",
    "away_slug": "kyushu-kyoritsu",
-   "venue": "西南学院大学グリーンフィールド",
-   "status": "played",
    "home_score": 14,
    "away_score": 28,
-   "note": ""
+   "status": "played",
+   "venue": "西南学院大学グリーンフィールド",
+   "note": "",
+   "source_url": "https://www.rugby-kyushu.jp/var/rev0/0014/5631/g2024103103a.pdf"
   }
  ],
  "standings": {

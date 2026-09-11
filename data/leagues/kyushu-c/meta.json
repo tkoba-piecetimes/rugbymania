@@ -1,12 +1,15 @@
 {
+ "source_url": "https://www.rugby-kyushu.jp/kyushuleague/2026-2027/kyushugakusei.html",
+ "fetched_at": "2026-09-11T17:22:22+00:00",
+ "import_version": 2,
+ "coverage_note": "公式掲載の対戦チーム確定済み試合。未確定枠・別見出しの順位決定戦は除外。不戦・中止はスコア集計対象外。",
+ "standings_kind": "reference",
  "code": "kyushu-c",
  "region": "九州",
  "gender": "男子",
- "group": "九州学生リーグ",
+ "group": "リーグ戦",
  "league": "九州学生リーグC",
  "season_year": 2026,
  "source": "九州ラグビーフットボール協会",
- "source_url": "https://www.rugby-kyushu.jp/kyushuleague.html",
- "source_updated_at": "2026-09-10",
- "fetched_at": "2026-09-10T21:15:33"
+ "source_updated_at": "2026-09-11"
 }

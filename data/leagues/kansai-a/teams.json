@@ -9,16 +9,6 @@
   "slug": "kyoto-sangyo",
   "block": "総合"
  },
- "摂南大学": {
-  "team": "摂南大学",
-  "slug": "setsunan",
-  "block": "総合"
- },
- "天理大学": {
-  "team": "天理大学",
-  "slug": "tenri",
-  "block": "総合"
- },
  "関西大学": {
   "team": "関西大学",
   "slug": "kansai-u",
@@ -27,6 +17,16 @@
  "同志社大学": {
   "team": "同志社大学",
   "slug": "doshisha",
+  "block": "総合"
+ },
+ "摂南大学": {
+  "team": "摂南大学",
+  "slug": "setsunan",
+  "block": "総合"
+ },
+ "天理大学": {
+  "team": "天理大学",
+  "slug": "tenri",
   "block": "総合"
  },
  "近畿大学": {

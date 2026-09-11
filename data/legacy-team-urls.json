@@ -1,0 +1,387 @@
+[
+ {
+  "code": "kansai-a",
+  "slug": "ritsumeikan",
+  "team": "立命館大学"
+ },
+ {
+  "code": "kansai-a",
+  "slug": "kyoto-sangyo",
+  "team": "京都産業大学"
+ },
+ {
+  "code": "kansai-a",
+  "slug": "setsunan",
+  "team": "摂南大学"
+ },
+ {
+  "code": "kansai-a",
+  "slug": "tenri",
+  "team": "天理大学"
+ },
+ {
+  "code": "kansai-a",
+  "slug": "kansai-u",
+  "team": "関西大学"
+ },
+ {
+  "code": "kansai-a",
+  "slug": "doshisha",
+  "team": "同志社大学"
+ },
+ {
+  "code": "kansai-a",
+  "slug": "kindai",
+  "team": "近畿大学"
+ },
+ {
+  "code": "kansai-a",
+  "slug": "kwansei-gakuin",
+  "team": "関西学院大学"
+ },
+ {
+  "code": "kansai-b",
+  "slug": "osaka-taiiku",
+  "team": "大阪体育大学"
+ },
+ {
+  "code": "kansai-b",
+  "slug": "kyoto-u",
+  "team": "京都大学"
+ },
+ {
+  "code": "kansai-b",
+  "slug": "konan",
+  "team": "甲南大学"
+ },
+ {
+  "code": "kansai-b",
+  "slug": "osaka-keizai",
+  "team": "大阪経済大学"
+ },
+ {
+  "code": "kansai-b",
+  "slug": "ryukoku",
+  "team": "龍谷大学"
+ },
+ {
+  "code": "kansai-b",
+  "slug": "osaka-kokusai",
+  "team": "大阪国際大学"
+ },
+ {
+  "code": "kansai-b",
+  "slug": "otemon-gakuin",
+  "team": "追手門学院大学"
+ },
+ {
+  "code": "kansai-b",
+  "slug": "osaka-sangyo",
+  "team": "大阪産業大学"
+ },
+ {
+  "code": "kanto-league-1",
+  "slug": "ryutsu-keizai",
+  "team": "流通経済大"
+ },
+ {
+  "code": "kanto-league-1",
+  "slug": "rissho",
+  "team": "立正大"
+ },
+ {
+  "code": "kanto-league-1",
+  "slug": "nihon",
+  "team": "日本大"
+ },
+ {
+  "code": "kanto-league-1",
+  "slug": "toyo",
+  "team": "東洋大"
+ },
+ {
+  "code": "kanto-league-1",
+  "slug": "senshu",
+  "team": "専修大"
+ },
+ {
+  "code": "kanto-league-1",
+  "slug": "tokai",
+  "team": "東海大"
+ },
+ {
+  "code": "kanto-league-1",
+  "slug": "hosei",
+  "team": "法政大"
+ },
+ {
+  "code": "kanto-league-1",
+  "slug": "kantogakuin",
+  "team": "関東学院大"
+ },
+ {
+  "code": "kanto-league-2",
+  "slug": "kokushikan",
+  "team": "国士館大"
+ },
+ {
+  "code": "kanto-league-2",
+  "slug": "daitobunka",
+  "team": "大東文化大"
+ },
+ {
+  "code": "kanto-league-2",
+  "slug": "chousen",
+  "team": "朝鮮大"
+ },
+ {
+  "code": "kanto-league-2",
+  "slug": "chuo",
+  "team": "中央大"
+ },
+ {
+  "code": "kanto-league-2",
+  "slug": "yamanashi-gakuin",
+  "team": "山梨学院大"
+ },
+ {
+  "code": "kanto-league-2",
+  "slug": "takushoku",
+  "team": "拓殖大"
+ },
+ {
+  "code": "kanto-league-2",
+  "slug": "hakuou",
+  "team": "白鷗大"
+ },
+ {
+  "code": "kanto-league-2",
+  "slug": "kokugakuin",
+  "team": "國學院大"
+ },
+ {
+  "code": "kanto-taiko-a",
+  "slug": "rikkyo",
+  "team": "立教大"
+ },
+ {
+  "code": "kanto-taiko-a",
+  "slug": "tsukuba",
+  "team": "筑波大"
+ },
+ {
+  "code": "kanto-taiko-a",
+  "slug": "aoyamagakuin",
+  "team": "青山学院大"
+ },
+ {
+  "code": "kanto-taiko-a",
+  "slug": "keio",
+  "team": "慶應義塾大"
+ },
+ {
+  "code": "kanto-taiko-a",
+  "slug": "nittaidai",
+  "team": "日本体育大"
+ },
+ {
+  "code": "kanto-taiko-a",
+  "slug": "meiji",
+  "team": "明治大"
+ },
+ {
+  "code": "kanto-taiko-a",
+  "slug": "waseda",
+  "team": "早稲田大"
+ },
+ {
+  "code": "kanto-taiko-a",
+  "slug": "teikyo",
+  "team": "帝京大"
+ },
+ {
+  "code": "kanto-taiko-b",
+  "slug": "toukyou",
+  "team": "東京大"
+ },
+ {
+  "code": "kanto-taiko-b",
+  "slug": "hitotsubashi",
+  "team": "一橋大"
+ },
+ {
+  "code": "kanto-taiko-b",
+  "slug": "meijigakuin",
+  "team": "明治学院大"
+ },
+ {
+  "code": "kanto-taiko-b",
+  "slug": "jouchi",
+  "team": "上智大"
+ },
+ {
+  "code": "kanto-taiko-b",
+  "slug": "seikei",
+  "team": "成蹊大"
+ },
+ {
+  "code": "kanto-taiko-b",
+  "slug": "seijo",
+  "team": "成城大"
+ },
+ {
+  "code": "kanto-taiko-b",
+  "slug": "musashi",
+  "team": "武蔵大"
+ },
+ {
+  "code": "kanto-taiko-b",
+  "slug": "gakushuin",
+  "team": "学習院大"
+ },
+ {
+  "code": "kyushu-a",
+  "slug": "fukuoka-u",
+  "team": "福岡大学"
+ },
+ {
+  "code": "kyushu-a",
+  "slug": "seinan-gakuin",
+  "team": "西南学院大学"
+ },
+ {
+  "code": "kyushu-a",
+  "slug": "kyushu-kyoritsu",
+  "team": "九州共立大学"
+ },
+ {
+  "code": "kyushu-a",
+  "slug": "nihon-bunri",
+  "team": "日本文理大学"
+ },
+ {
+  "code": "kyushu-a",
+  "slug": "kagoshima-u",
+  "team": "鹿児島大学"
+ },
+ {
+  "code": "kyushu-a",
+  "slug": "fukuoka-it",
+  "team": "福岡工業大学"
+ },
+ {
+  "code": "kyushu-b",
+  "slug": "kyuushuu",
+  "team": "九州大学"
+ },
+ {
+  "code": "kyushu-b",
+  "slug": "ritsumeikanajiataiheiyou",
+  "team": "立命館アジア太平洋大学"
+ },
+ {
+  "code": "kyushu-b",
+  "slug": "miyazaki",
+  "team": "宮崎大学"
+ },
+ {
+  "code": "kyushu-b",
+  "slug": "okinawakokusai",
+  "team": "沖縄国際大学"
+ },
+ {
+  "code": "kyushu-b",
+  "slug": "kumamoto",
+  "team": "熊本大学"
+ },
+ {
+  "code": "kyushu-b",
+  "slug": "ooita",
+  "team": "大分大学"
+ },
+ {
+  "code": "kyushu-c",
+  "slug": "shigakukan",
+  "team": "志學館大学"
+ },
+ {
+  "code": "kyushu-c",
+  "slug": "nagasaki",
+  "team": "長崎大学"
+ },
+ {
+  "code": "kyushu-c",
+  "slug": "kyuushuusangyou",
+  "team": "九州産業大学"
+ },
+ {
+  "code": "kyushu-c",
+  "slug": "kyuushuukougyou",
+  "team": "九州工業大学"
+ },
+ {
+  "code": "kyushu-c",
+  "slug": "saga",
+  "team": "佐賀大学"
+ },
+ {
+  "code": "kyushu-c",
+  "slug": "meiou",
+  "team": "名桜大学"
+ },
+ {
+  "code": "kyushu-d",
+  "slug": "kyuushuushika",
+  "team": "九州歯科大学"
+ },
+ {
+  "code": "kyushu-d",
+  "slug": "fukuokadaigakuigakubu",
+  "team": "福岡大学医学部"
+ },
+ {
+  "code": "kyushu-d",
+  "slug": "kyuushuudaigakushigakubu",
+  "team": "九州大学歯学部"
+ },
+ {
+  "code": "kyushu-d",
+  "slug": "kitakyuushuushiritsu",
+  "team": "北九州市立大学"
+ },
+ {
+  "code": "kyushu-d",
+  "slug": "kurumedaigakuigakubu",
+  "team": "久留米大学医学部"
+ },
+ {
+  "code": "kyushu-d",
+  "slug": "kurume",
+  "team": "久留米大学"
+ },
+ {
+  "code": "kyushu-d",
+  "slug": "saga",
+  "team": "佐賀大学"
+ },
+ {
+  "code": "kyushu-d",
+  "slug": "kyuushuushikadaigaku-nohaisha",
+  "team": "九州歯科大学"
+ },
+ {
+  "code": "kyushu-d",
+  "slug": "kitakyuushuushiritsudaigaku-nohaisha",
+  "team": "北九州市立大学"
+ },
+ {
+  "code": "kyushu-d",
+  "slug": "sagadaigaku-noshousha",
+  "team": "佐賀大学"
+ },
+ {
+  "code": "kyushu-d",
+  "slug": "kurumedaigaku-noshousha",
+  "team": "久留米大学"
+ }
+]

@@ -1,4 +1,9 @@
 {
+ "source_url": "https://www.rugby.or.jp/univ/result/2910/",
+ "fetched_at": "2026-09-11T17:22:21+00:00",
+ "import_version": 2,
+ "coverage_note": "公式日程ページの掲載試合。入替戦は対象外。",
+ "standings_kind": "reference",
  "code": "kanto-league-2",
  "region": "関東",
  "gender": "男子",
@@ -6,7 +11,5 @@
  "league": "関東大学リーグ戦2部",
  "season_year": 2026,
  "source": "関東ラグビーフットボール協会",
- "source_url": "https://www.rugby.or.jp/univ/",
- "source_updated_at": "2026-09-10",
- "fetched_at": "2026-09-10T21:15:19"
+ "source_updated_at": "2026-09-11"
 }

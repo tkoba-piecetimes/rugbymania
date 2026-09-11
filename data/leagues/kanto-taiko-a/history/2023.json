@@ -1,4 +1,9 @@
 {
+ "source_url": "https://www.rugby.or.jp/univ/result/2450/",
+ "fetched_at": "2026-09-11T17:22:21+00:00",
+ "import_version": 2,
+ "coverage_note": "公式日程ページの掲載試合。入替戦は対象外。",
+ "standings_kind": "reference",
  "year": 2023,
  "league": "関東大学対抗戦Aグループ",
  "matches": [
@@ -15,7 +20,8 @@
    "status": "played",
    "home_score": 21,
    "away_score": 18,
-   "note": ""
+   "note": "",
+   "source_url": "https://www.rugby.or.jp/univ/result/2450/"
   },
   {
    "id": "2023-09-09-teikyo-vs-seikei",
@@ -30,7 +36,8 @@
    "status": "played",
    "home_score": 117,
    "away_score": 5,
-   "note": ""
+   "note": "",
+   "source_url": "https://www.rugby.or.jp/univ/result/2450/"
   },
   {
    "id": "2023-09-09-aoyamagakuin-vs-meiji",
@@ -45,7 +52,8 @@
    "status": "played",
    "home_score": 7,
    "away_score": 87,
-   "note": ""
+   "note": "",
+   "source_url": "https://www.rugby.or.jp/univ/result/2450/"
   },
   {
    "id": "2023-09-10-waseda-vs-rikkyo",
@@ -60,7 +68,8 @@
    "status": "played",
    "home_score": 64,
    "away_score": 7,
-   "note": ""
+   "note": "",
+   "source_url": "https://www.rugby.or.jp/univ/result/2450/"
   },
   {
    "id": "2023-09-17-rikkyo-vs-keio",
@@ -75,7 +84,8 @@
    "status": "played",
    "home_score": 21,
    "away_score": 28,
-   "note": ""
+   "note": "",
+   "source_url": "https://www.rugby.or.jp/univ/result/2450/"
   },
   {
    "id": "2023-09-17-aoyamagakuin-vs-teikyo",
@@ -90,7 +100,8 @@
    "status": "played",
    "home_score": 0,
    "away_score": 80,
-   "note": ""
+   "note": "",
+   "source_url": "https://www.rugby.or.jp/univ/result/2450/"
   },
   {
    "id": "2023-09-24-tsukuba-vs-waseda",
@@ -105,7 +116,8 @@
    "status": "played",
    "home_score": 35,
    "away_score": 38,
-   "note": ""
+   "note": "",
+   "source_url": "https://www.rugby.or.jp/univ/result/2450/"
   },
   {
    "id": "2023-09-24-meiji-vs-seikei",
@@ -120,7 +132,8 @@
    "status": "played",
    "home_score": 93,
    "away_score": 12,
-   "note": ""
+   "note": "",
+   "source_url": "https://www.rugby.or.jp/univ/result/2450/"
   },
   {
    "id": "2023-09-30-keio-vs-aoyamagakuin",
@@ -135,7 +148,8 @@
    "status": "played",
    "home_score": 31,
    "away_score": 20,
-   "note": ""
+   "note": "",
+   "source_url": "https://www.rugby.or.jp/univ/result/2450/"
   },
   {
    "id": "2023-10-01-meiji-vs-tsukuba",
@@ -150,7 +164,8 @@
    "status": "played",
    "home_score": 40,
    "away_score": 21,
-   "note": ""
+   "note": "",
+   "source_url": "https://www.rugby.or.jp/univ/result/2450/"
   },
   {
    "id": "2023-10-01-waseda-vs-seikei",
@@ -165,7 +180,8 @@
    "status": "played",
    "home_score": 70,
    "away_score": 7,
-   "note": ""
+   "note": "",
+   "source_url": "https://www.rugby.or.jp/univ/result/2450/"
   },
   {
    "id": "2023-10-01-rikkyo-vs-teikyo",
@@ -180,7 +196,8 @@
    "status": "played",
    "home_score": 0,
    "away_score": 83,
-   "note": ""
+   "note": "",
+   "source_url": "https://www.rugby.or.jp/univ/result/2450/"
   },
   {
    "id": "2023-10-14-aoyamagakuin-vs-waseda",
@@ -195,7 +212,8 @@
    "status": "played",
    "home_score": 17,
    "away_score": 54,
-   "note": ""
+   "note": "",
+   "source_url": "https://www.rugby.or.jp/univ/result/2450/"
   },
   {
    "id": "2023-10-15-teikyo-vs-tsukuba",
@@ -210,7 +228,8 @@
    "status": "played",
    "home_score": 73,
    "away_score": 0,
-   "note": ""
+   "note": "",
+   "source_url": "https://www.rugby.or.jp/univ/result/2450/"
   },
   {
    "id": "2023-10-15-rikkyo-vs-meiji",
@@ -225,7 +244,8 @@
    "status": "played",
    "home_score": 7,
    "away_score": 97,
-   "note": ""
+   "note": "",
+   "source_url": "https://www.rugby.or.jp/univ/result/2450/"
   },
   {
    "id": "2023-10-22-keio-vs-seikei",
@@ -240,7 +260,8 @@
    "status": "played",
    "home_score": 46,
    "away_score": 16,
-   "note": ""
+   "note": "",
+   "source_url": "https://www.rugby.or.jp/univ/result/2450/"
   },
   {
    "id": "2023-11-05-rikkyo-vs-aoyamagakuin",
@@ -255,7 +276,8 @@
    "status": "played",
    "home_score": 28,
    "away_score": 10,
-   "note": ""
+   "note": "",
+   "source_url": "https://www.rugby.or.jp/univ/result/2450/"
   },
   {
    "id": "2023-11-05-seikei-vs-tsukuba",
@@ -270,7 +292,8 @@
    "status": "played",
    "home_score": 7,
    "away_score": 73,
-   "note": ""
+   "note": "",
+   "source_url": "https://www.rugby.or.jp/univ/result/2450/"
   },
   {
    "id": "2023-11-05-waseda-vs-teikyo",
@@ -285,7 +308,8 @@
    "status": "played",
    "home_score": 21,
    "away_score": 36,
-   "note": ""
+   "note": "",
+   "source_url": "https://www.rugby.or.jp/univ/result/2450/"
   },
   {
    "id": "2023-11-05-keio-vs-meiji",
@@ -300,7 +324,8 @@
    "status": "played",
    "home_score": 40,
    "away_score": 66,
-   "note": ""
+   "note": "",
+   "source_url": "https://www.rugby.or.jp/univ/result/2450/"
   },
   {
    "id": "2023-11-19-seikei-vs-rikkyo",
@@ -315,7 +340,8 @@
    "status": "played",
    "home_score": 21,
    "away_score": 28,
-   "note": ""
+   "note": "",
+   "source_url": "https://www.rugby.or.jp/univ/result/2450/"
   },
   {
    "id": "2023-11-19-tsukuba-vs-aoyamagakuin",
@@ -330,7 +356,8 @@
    "status": "played",
    "home_score": 68,
    "away_score": 0,
-   "note": ""
+   "note": "",
+   "source_url": "https://www.rugby.or.jp/univ/result/2450/"
   },
   {
    "id": "2023-11-19-meiji-vs-teikyo",
@@ -345,7 +372,8 @@
    "status": "played",
    "home_score": 11,
    "away_score": 43,
-   "note": ""
+   "note": "",
+   "source_url": "https://www.rugby.or.jp/univ/result/2450/"
   },
   {
    "id": "2023-11-23-waseda-vs-keio",
@@ -360,7 +388,8 @@
    "status": "played",
    "home_score": 43,
    "away_score": 19,
-   "note": ""
+   "note": "",
+   "source_url": "https://www.rugby.or.jp/univ/result/2450/"
   },
   {
    "id": "2023-12-02-seikei-vs-aoyamagakuin",
@@ -375,7 +404,8 @@
    "status": "played",
    "home_score": 7,
    "away_score": 43,
-   "note": ""
+   "note": "",
+   "source_url": "https://www.rugby.or.jp/univ/result/2450/"
   },
   {
    "id": "2023-12-02-teikyo-vs-keio",
@@ -390,7 +420,8 @@
    "status": "played",
    "home_score": 54,
    "away_score": 10,
-   "note": ""
+   "note": "",
+   "source_url": "https://www.rugby.or.jp/univ/result/2450/"
   },
   {
    "id": "2023-12-02-tsukuba-vs-rikkyo",
@@ -405,7 +436,8 @@
    "status": "played",
    "home_score": 68,
    "away_score": 10,
-   "note": ""
+   "note": "",
+   "source_url": "https://www.rugby.or.jp/univ/result/2450/"
   },
   {
    "id": "2023-12-03-meiji-vs-waseda",
@@ -420,7 +452,8 @@
    "status": "played",
    "home_score": 58,
    "away_score": 38,
-   "note": ""
+   "note": "",
+   "source_url": "https://www.rugby.or.jp/univ/result/2450/"
   }
  ],
  "standings": {

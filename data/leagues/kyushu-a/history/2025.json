@@ -1,4 +1,9 @@
 {
+ "source_url": "https://www.rugby-kyushu.jp/kyushuleague/2025-2026/kyushugakusei.html",
+ "fetched_at": "2026-09-11T17:22:22+00:00",
+ "import_version": 2,
+ "coverage_note": "公式掲載の対戦チーム確定済み試合。未確定枠・別見出しの順位決定戦は除外。不戦・中止はスコア集計対象外。",
+ "standings_kind": "reference",
  "year": 2025,
  "league": "九州学生リーグA",
  "matches": [
@@ -11,11 +16,12 @@
    "away": "西南学院大学",
    "home_slug": "fukuoka-u",
    "away_slug": "seinan-gakuin",
-   "venue": "オクゼン不動産 フットボールスタジアム（春日球技場）",
-   "status": "played",
    "home_score": 12,
    "away_score": 14,
-   "note": ""
+   "status": "played",
+   "venue": "オクゼン不動産 フットボールスタジアム（春日球技場）",
+   "note": "",
+   "source_url": "https://www.rugby-kyushu.jp/var/rev0/0015/0611/20250920a1.pdf"
   },
   {
    "id": "2025-09-20-kyushu-kyoritsu-vs-nihon-bunri",
@@ -26,11 +32,12 @@
    "away": "日本文理大学",
    "home_slug": "kyushu-kyoritsu",
    "away_slug": "nihon-bunri",
-   "venue": "オクゼン不動産 フットボールスタジアム（春日球技場）",
-   "status": "played",
    "home_score": 20,
    "away_score": 17,
-   "note": ""
+   "status": "played",
+   "venue": "オクゼン不動産 フットボールスタジアム（春日球技場）",
+   "note": "",
+   "source_url": "https://www.rugby-kyushu.jp/var/rev0/0015/0612/20250920a2.pdf"
   },
   {
    "id": "2025-09-21-kagoshima-u-vs-fukuoka-it",
@@ -41,11 +48,12 @@
    "away": "福岡工業大学",
    "home_slug": "kagoshima-u",
    "away_slug": "fukuoka-it",
-   "venue": "鹿児島県サッカーラグビー場B",
-   "status": "played",
    "home_score": 0,
    "away_score": 110,
-   "note": ""
+   "status": "played",
+   "venue": "鹿児島県サッカーラグビー場B",
+   "note": "",
+   "source_url": "https://www.rugby-kyushu.jp/var/rev0/0015/0613/20250920a3.pdf"
   },
   {
    "id": "2025-09-27-seinan-gakuin-vs-fukuoka-it",
@@ -56,26 +64,12 @@
    "away": "福岡工業大学",
    "home_slug": "seinan-gakuin",
    "away_slug": "fukuoka-it",
-   "venue": "西南学院大学田尻GF",
-   "status": "played",
    "home_score": 5,
    "away_score": 62,
-   "note": ""
-  },
-  {
-   "id": "2025-09-27-fukuoka-u-vs-kyushu-kyoritsu",
-   "date": "2025-09-27",
-   "time": "14:30",
-   "category": "九州学生リーグA",
-   "home": "福岡大学",
-   "away": "九州共立大学",
-   "home_slug": "fukuoka-u",
-   "away_slug": "kyushu-kyoritsu",
-   "venue": "西南学院大学田尻GF",
    "status": "played",
-   "home_score": 29,
-   "away_score": 31,
-   "note": ""
+   "venue": "西南学院大学田尻GF",
+   "note": "",
+   "source_url": "https://www.rugby-kyushu.jp/var/rev0/0015/0614/20250927g1.pdf"
   },
   {
    "id": "2025-09-27-nihon-bunri-vs-kagoshima-u",
@@ -86,11 +80,28 @@
    "away": "鹿児島大学",
    "home_slug": "nihon-bunri",
    "away_slug": "kagoshima-u",
-   "venue": "大分スポーツ公園・クラサスサッカー・ラグビー場（Bコート）",
-   "status": "played",
    "home_score": 59,
    "away_score": 14,
-   "note": ""
+   "status": "played",
+   "venue": "大分スポーツ公園・クラサスサッカー・ラグビー場（Bコート）",
+   "note": "",
+   "source_url": "https://www.rugby-kyushu.jp/var/rev0/0015/0616/20250927g03.pdf"
+  },
+  {
+   "id": "2025-09-27-fukuoka-u-vs-kyushu-kyoritsu",
+   "date": "2025-09-27",
+   "time": "14:30",
+   "category": "九州学生リーグA",
+   "home": "福岡大学",
+   "away": "九州共立大学",
+   "home_slug": "fukuoka-u",
+   "away_slug": "kyushu-kyoritsu",
+   "home_score": 29,
+   "away_score": 31,
+   "status": "played",
+   "venue": "西南学院大学田尻GF",
+   "note": "",
+   "source_url": "https://www.rugby-kyushu.jp/var/rev0/0015/0615/20250927g02.pdf"
   },
   {
    "id": "2025-10-04-seinan-gakuin-vs-nihon-bunri",
@@ -101,11 +112,12 @@
    "away": "日本文理大学",
    "home_slug": "seinan-gakuin",
    "away_slug": "nihon-bunri",
-   "venue": "西南学院大学田尻GF",
-   "status": "played",
    "home_score": 12,
    "away_score": 5,
-   "note": ""
+   "status": "played",
+   "venue": "西南学院大学田尻GF",
+   "note": "",
+   "source_url": "https://www.rugby-kyushu.jp/var/rev0/0015/0617/20251004a01.pdf"
   },
   {
    "id": "2025-10-04-fukuoka-it-vs-fukuoka-u",
@@ -116,11 +128,12 @@
    "away": "福岡大学",
    "home_slug": "fukuoka-it",
    "away_slug": "fukuoka-u",
-   "venue": "西南学院大学田尻GF",
-   "status": "played",
    "home_score": 78,
    "away_score": 5,
-   "note": ""
+   "status": "played",
+   "venue": "西南学院大学田尻GF",
+   "note": "",
+   "source_url": "https://www.rugby-kyushu.jp/var/rev0/0015/0618/20251004a02.pdf"
   },
   {
    "id": "2025-10-05-kagoshima-u-vs-kyushu-kyoritsu",
@@ -131,26 +144,12 @@
    "away": "九州共立大学",
    "home_slug": "kagoshima-u",
    "away_slug": "kyushu-kyoritsu",
-   "venue": "鹿児島ふれあいスポーツランド芝生広場",
-   "status": "played",
    "home_score": 26,
    "away_score": 55,
-   "note": ""
-  },
-  {
-   "id": "2025-10-18-kyushu-kyoritsu-vs-seinan-gakuin",
-   "date": "2025-10-18",
-   "time": "12:00",
-   "category": "九州学生リーグA",
-   "home": "九州共立大学",
-   "away": "西南学院大学",
-   "home_slug": "kyushu-kyoritsu",
-   "away_slug": "seinan-gakuin",
-   "venue": "九州共立大学グラウンド",
    "status": "played",
-   "home_score": 27,
-   "away_score": 19,
-   "note": ""
+   "venue": "鹿児島ふれあいスポーツランド芝生広場",
+   "note": "",
+   "source_url": "https://www.rugby-kyushu.jp/var/rev0/0015/0619/20251004a03.pdf"
   },
   {
    "id": "2025-10-18-fukuoka-it-vs-nihon-bunri",
@@ -161,11 +160,28 @@
    "away": "日本文理大学",
    "home_slug": "fukuoka-it",
    "away_slug": "nihon-bunri",
-   "venue": "福岡大学グラウンド",
-   "status": "played",
    "home_score": 83,
    "away_score": 14,
-   "note": ""
+   "status": "played",
+   "venue": "福岡大学グラウンド",
+   "note": "",
+   "source_url": "https://www.rugby-kyushu.jp/var/rev0/0015/0621/20251018a02.pdf"
+  },
+  {
+   "id": "2025-10-18-kyushu-kyoritsu-vs-seinan-gakuin",
+   "date": "2025-10-18",
+   "time": "12:00",
+   "category": "九州学生リーグA",
+   "home": "九州共立大学",
+   "away": "西南学院大学",
+   "home_slug": "kyushu-kyoritsu",
+   "away_slug": "seinan-gakuin",
+   "home_score": 27,
+   "away_score": 19,
+   "status": "played",
+   "venue": "九州共立大学グラウンド",
+   "note": "",
+   "source_url": "https://www.rugby-kyushu.jp/var/rev0/0015/0620/20251018a01.pdf"
   },
   {
    "id": "2025-10-18-fukuoka-u-vs-kagoshima-u",
@@ -176,41 +192,12 @@
    "away": "鹿児島大学",
    "home_slug": "fukuoka-u",
    "away_slug": "kagoshima-u",
-   "venue": "福岡大学グラウンド",
-   "status": "played",
    "home_score": 45,
    "away_score": 43,
-   "note": ""
-  },
-  {
-   "id": "2025-10-25-fukuoka-u-vs-nihon-bunri",
-   "date": "2025-10-25",
-   "time": "14:30",
-   "category": "九州学生リーグA",
-   "home": "福岡大学",
-   "away": "日本文理大学",
-   "home_slug": "fukuoka-u",
-   "away_slug": "nihon-bunri",
-   "venue": "福岡大学グラウンド",
    "status": "played",
-   "home_score": 35,
-   "away_score": 12,
-   "note": ""
-  },
-  {
-   "id": "2025-10-25-fukuoka-it-vs-kyushu-kyoritsu",
-   "date": "2025-10-25",
-   "time": "16:30",
-   "category": "九州学生リーグA",
-   "home": "福岡工業大学",
-   "away": "九州共立大学",
-   "home_slug": "fukuoka-it",
-   "away_slug": "kyushu-kyoritsu",
    "venue": "福岡大学グラウンド",
-   "status": "played",
-   "home_score": 43,
-   "away_score": 14,
-   "note": ""
+   "note": "",
+   "source_url": "https://www.rugby-kyushu.jp/var/rev0/0015/0622/20251018a03.pdf"
   },
   {
    "id": "2025-10-25-kagoshima-u-vs-seinan-gakuin",
@@ -221,11 +208,44 @@
    "away": "西南学院大学",
    "home_slug": "kagoshima-u",
    "away_slug": "seinan-gakuin",
-   "venue": "鹿児島県立鴨池緑地公園",
-   "status": "played",
    "home_score": 24,
    "away_score": 31,
-   "note": ""
+   "status": "played",
+   "venue": "鹿児島県立鴨池緑地公園",
+   "note": "",
+   "source_url": "https://www.rugby-kyushu.jp/var/rev0/0015/0625/20251025a03.pdf"
+  },
+  {
+   "id": "2025-10-25-fukuoka-u-vs-nihon-bunri",
+   "date": "2025-10-25",
+   "time": "14:30",
+   "category": "九州学生リーグA",
+   "home": "福岡大学",
+   "away": "日本文理大学",
+   "home_slug": "fukuoka-u",
+   "away_slug": "nihon-bunri",
+   "home_score": 35,
+   "away_score": 12,
+   "status": "played",
+   "venue": "福岡大学グラウンド",
+   "note": "",
+   "source_url": "https://www.rugby-kyushu.jp/var/rev0/0015/0623/20251025a01.pdf"
+  },
+  {
+   "id": "2025-10-25-fukuoka-it-vs-kyushu-kyoritsu",
+   "date": "2025-10-25",
+   "time": "16:30",
+   "category": "九州学生リーグA",
+   "home": "福岡工業大学",
+   "away": "九州共立大学",
+   "home_slug": "fukuoka-it",
+   "away_slug": "kyushu-kyoritsu",
+   "home_score": 43,
+   "away_score": 14,
+   "status": "played",
+   "venue": "福岡大学グラウンド",
+   "note": "",
+   "source_url": "https://www.rugby-kyushu.jp/var/rev0/0015/0624/20251025a02.pdf"
   }
  ],
  "standings": {

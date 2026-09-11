@@ -29,12 +29,16 @@ jobs:
           python-version: "3.12"
       - name: Install dependencies
         run: pip install pykakasi
+      - name: Test official data parsers
+        run: python -m unittest discover -s tests -v
       - name: Fetch rugby data (関東・関西・九州)
         run: python pipeline/fetch_all.py
       - name: Generate articles (結果まとめ・シーズン記録、1回の実行で最大2件)
         run: python pipeline/generate_articles.py
       - name: Generate site
         run: python pipeline/generate_site.py
+      - name: Validate generated links and archive
+        run: python pipeline/validate_site.py
       - name: Commit updated data & site
         if: github.event_name != 'push'
         run: |
