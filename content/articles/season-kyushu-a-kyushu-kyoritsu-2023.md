@@ -1,6 +1,6 @@
 ---
 title: 【2023年 九州学生リーグA】九州共立大学のシーズン記録
-description: 2023年の九州学生リーグAにおける九州共立大学のシーズン全試合結果と最終成績（2位）をまとめました。
+description: 2023年の九州学生リーグAで九州共立大学は4勝1敗・勝点12で2位。全5試合のスコア、得失点差、最終成績をまとめました。
 category: シーズン記録
 date: 2023-10-21
 cta: sponsor
@@ -25,6 +25,28 @@ cta: sponsor
 - 戦績: 4勝0分1敗
 - 得失点差: +176
 
+## スコアから見える傾向
+
+九州共立大学の唯一の敗戦は福岡工業大学戦の29-34（5点差）でした。それ以外の4試合はいずれも11点差以上の勝利で、最大の点差は鹿児島大学戦の69点差（74-5）でした。
+
+## よくある質問
+
+- **Q. 2023年の九州学生リーグAで九州共立大学は何位でしたか？**
+- A. 2位でした（4勝1敗、勝点12、得失点差+176）。
+- **Q. 九州共立大学の2023年シーズンは何試合戦いましたか？**
+- A. 5試合でした（4勝0分1敗）。
+
+## 合わせて読みたい
+
+- [【2023年 九州学生リーグA】日本文理大学のシーズン記録](https://rugbymania.jp/articles/season-kyushu-a-nihon-bunri-2023/)（九州共立大学の対戦相手）
+- [【2023年 九州学生リーグA】福岡工業大学のシーズン記録](https://rugbymania.jp/articles/season-kyushu-a-fukuoka-it-2023/)（九州共立大学の対戦相手）
+- [【2023年 九州学生リーグA】福岡大学のシーズン記録](https://rugbymania.jp/articles/season-kyushu-a-fukuoka-u-2023/)（九州共立大学の対戦相手）
+- [【2023年 九州学生リーグA】鹿児島大学のシーズン記録](https://rugbymania.jp/articles/season-kyushu-a-kagoshima-u-2023/)（九州共立大学の対戦相手）
+- [九州学生リーグAの順位表（最新）](https://rugbymania.jp/kyushu-a/standings/)
+- [九州共立大学のチームページ（最新の試合結果・戦績）](https://rugbymania.jp/kyushu-a/clubs/kyushu-kyoritsu/)
+- [大学ラグビーの「対抗戦」と「リーグ戦」の違いとは？](https://rugbymania.jp/articles/university-rugby-league-format-guide/)
+
 ## 出典
 
 - [九州ラグビーフットボール協会](https://www.rugby-kyushu.jp/kyushuleague.html)
+- ※上記の試合結果・順位・得失点差は、九州ラグビーフットボール協会が公式発表したデータを編集部で集計したものです。

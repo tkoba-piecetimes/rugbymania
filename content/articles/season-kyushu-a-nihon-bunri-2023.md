@@ -1,6 +1,6 @@
 ---
 title: 【2023年 九州学生リーグA】日本文理大学のシーズン記録
-description: 2023年の九州学生リーグAにおける日本文理大学のシーズン全試合結果と最終成績（4位）をまとめました。
+description: 2023年の九州学生リーグAで日本文理大学は1勝3敗・勝点3で4位。全4試合のスコア、得失点差、最終成績をまとめました。
 category: シーズン記録
 date: 2023-10-14
 cta: sponsor
@@ -24,6 +24,28 @@ cta: sponsor
 - 戦績: 1勝0分3敗
 - 得失点差: -78
 
+## スコアから見える傾向
+
+日本文理大学の唯一の勝利は鹿児島大学戦（34-5、29点差）で、それ以外の3試合はいずれも敗戦でした。最少失点差は福岡工業大学戦の9点差（24-33）、最多失点は九州共立大学戦の65失点（7-65）で、対戦相手によって試合展開に大きな差が出たシーズンでした。
+
+## よくある質問
+
+- **Q. 2023年の九州学生リーグAで日本文理大学は何位でしたか？**
+- A. 4位でした（1勝3敗、勝点3、得失点差-78）。
+- **Q. 日本文理大学の2023年シーズンの試合数は何試合でしたか？**
+- A. 4試合でした（1勝0分3敗）。
+
+## 合わせて読みたい
+
+- [【2023年 九州学生リーグA】福岡大学のシーズン記録](https://rugbymania.jp/articles/season-kyushu-a-fukuoka-u-2023/)（日本文理大学の対戦相手）
+- [【2023年 九州学生リーグA】福岡工業大学のシーズン記録](https://rugbymania.jp/articles/season-kyushu-a-fukuoka-it-2023/)（日本文理大学の対戦相手）
+- [【2023年 九州学生リーグA】鹿児島大学のシーズン記録](https://rugbymania.jp/articles/season-kyushu-a-kagoshima-u-2023/)（日本文理大学の対戦相手）
+- [【2023年 九州学生リーグA】九州共立大学のシーズン記録](https://rugbymania.jp/articles/season-kyushu-a-kyushu-kyoritsu-2023/)（日本文理大学の対戦相手）
+- [九州学生リーグAの順位表（最新）](https://rugbymania.jp/kyushu-a/standings/)
+- [日本文理大学のチームページ（最新の試合結果・戦績）](https://rugbymania.jp/kyushu-a/clubs/nihon-bunri/)
+- [大学ラグビーの「対抗戦」と「リーグ戦」の違いとは？](https://rugbymania.jp/articles/university-rugby-league-format-guide/)
+
 ## 出典
 
 - [九州ラグビーフットボール協会](https://www.rugby-kyushu.jp/kyushuleague.html)
+- ※上記の試合結果・順位・得失点差は、九州ラグビーフットボール協会が公式発表したデータを編集部で集計したものです。
