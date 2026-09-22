@@ -25,6 +25,14 @@ cta: sponsor
 - 戦績: 4勝0分1敗
 - 得失点差: +170
 
+## 関連記録
+
+- [【2023年 九州学生リーグB】九州大学のシーズン記録](../season-kyushu-b-kyuushuu-2023/index.html)
+- [【2023年 九州学生リーグB】沖縄国際大学のシーズン記録](../season-kyushu-b-okinawakokusai-2023/index.html)
+- [【2023年 九州学生リーグB】大分大学のシーズン記録](../season-kyushu-b-ooita-2023/index.html)
+- [【2023年 九州学生リーグB】志學館大学のシーズン記録](../season-kyushu-b-shigakukan-2023/index.html)
+- [【2024年 九州学生リーグB】熊本大学のシーズン記録](../season-kyushu-b-kumamoto-2024/index.html)
+
 ## 出典
 
 - [九州ラグビーフットボール協会](https://www.rugby-kyushu.jp/kyushuleague.html)
