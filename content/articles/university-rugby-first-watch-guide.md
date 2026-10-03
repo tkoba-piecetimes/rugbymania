@@ -44,7 +44,7 @@ cta: sponsor
 
 ### 気になる大学の日程・チーム情報をチェックする
 
-自宅から通いやすい地区や、応援したい大学が決まったら、その大学が所属するカテゴリの日程を確認するのが次のステップです。たとえば[関東大学対抗戦Aグループの試合日程](https://rugbymania.jp/kanto-taiko-a/schedule/)や[関東大学対抗戦Aグループの所属チーム一覧](https://rugbymania.jp/kanto-taiko-a/teams/)、[関西大学ラグビーAリーグの順位表](https://rugbymania.jp/kansai-a/standings/)、[九州学生リーグAの試合日程](https://rugbymania.jp/kyushu-a/schedule/)のように、ラグビーマニアの各リーグページから直近の日程・順位表・チーム情報を確認できます。初めての1試合を選ぶときは、家から近い会場で行われる試合や、応援したい大学の試合から探してみるのがおすすめです。
+自宅から通いやすい地区や、応援したい大学が決まったら、その大学が所属するカテゴリの日程を確認するのが次のステップです。たとえば[関東大学対抗戦Aグループの試合日程](https://rugbymania.jp/kanto-taiko-a/schedule/)や[関東大学対抗戦Aグループの所属チーム一覧](https://rugbymania.jp/kanto-taiko-a/teams/)、[関西大学ラグビーAリーグの順位表](https://rugbymania.jp/kansai-a/standings/)、[九州学生リーグAの試合日程](https://rugbymania.jp/kyushu-a/schedule/)のように、ラグビーマニアの各リーグページから直近の日程・順位表・チーム情報を確認できます。初めての1試合を選ぶときは、家から近い会場で行われる試合や、応援したい大学の試合から探してみるのがおすすめです。九州の大学の戦いぶりを知りたい方は、過去シーズンの例として[2023年九州学生リーグBの志學館大学のシーズン記録](https://rugbymania.jp/articles/season-kyushu-b-shigakukan-2023/)もあわせてご覧ください。
 
 ## チケット・入場については各協会の最新情報を確認する
 

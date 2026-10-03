@@ -25,6 +25,8 @@ cta: sponsor
 - 戦績: 2勝0分3敗
 - 得失点差: -83
 
+大分大学が9月24日に12-59で敗れた九州大学の同年の戦いぶりは、[2023年九州学生リーグBの九州大学のシーズン記録](https://rugbymania.jp/articles/season-kyushu-b-kyuushuu-2023/)で全試合の結果と最終成績を確認できます。
+
 ## 出典
 
 - [九州ラグビーフットボール協会](https://www.rugby-kyushu.jp/kyushuleague.html)

@@ -27,6 +27,8 @@ cta: sponsor
 - 戦績: 2勝0分5敗
 - 得失点差: -83
 
+立正大が11月12日に32-36で惜敗した大東文化大の全試合結果と最終成績は、[大東文化大の2023年リーグ戦1部シーズン記録](https://rugbymania.jp/articles/season-kanto-league-1-daitobunka-2023/)で振り返れます。
+
 ## 出典
 
 - [関東ラグビーフットボール協会](https://www.rugby.or.jp/univ/)
