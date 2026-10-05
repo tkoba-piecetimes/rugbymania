@@ -29,6 +29,8 @@ cta: sponsor
 
 東海大が9月23日に45-21で下した大東文化大の同年の成績は、[2023年関東大学リーグ戦1部の大東文化大のシーズン記録](https://rugbymania.jp/articles/season-kanto-league-1-daitobunka-2023/)にまとめています。
 
+10月1日に40-22で勝った法政大の同年の全試合結果と最終順位は、[2023年関東大学リーグ戦1部 法政大のシーズン記録](https://rugbymania.jp/articles/season-kanto-league-1-hosei-2023/)で確認できます。<!-- index-lane-link -->
+
 ## 出典
 
 - [関東ラグビーフットボール協会](https://www.rugby.or.jp/univ/)

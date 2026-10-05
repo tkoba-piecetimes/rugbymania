@@ -22,6 +22,12 @@ DATA = ROOT / "data"
 SITE = ROOT / "site"
 ASSETS = ROOT / "assets"
 CONTENT = ROOT / "content" / "articles"
+INDEX_LANE_SEASON_SLUGS = {
+    "season-kyushu-b-okinawakokusai-2023",
+    "season-kanto-league-1-hosei-2023",
+    "season-kanto-league-1-takushoku-2023",
+    "season-kanto-league-1-nihon-2023",
+}
 
 SITE_BASE = "https://rugbymania.jp/"
 GA_MEASUREMENT_ID = "G-CT0EPG6E4Q"
@@ -220,6 +226,7 @@ def jsonld_sports_event(m, league_name):
 
 def md_inline(s):
     s = escape(s, quote=False)
+    s = s.replace("&lt;!-- index-lane-link --&gt;", "<!-- index-lane-link -->")
     s = re.sub(r"\[([^\]]+)\]\(([^)]+)\)", r'<a href="\2">\1</a>', s)
     s = re.sub(r"\*\*(.+?)\*\*", r"<strong>\1</strong>", s)
     return s
@@ -820,6 +827,16 @@ def build_league(lg, articles):
                      '<th>勝-分-敗</th><th>総得点-総失点</th></tr></thead>'
                      f'<tbody>{season_rows}</tbody></table></div>'
                      '<p class="note">※順位は試合結果から編集部が算出した参考値です。</p></section>')
+        # index-lane: 未クロール記事へ該当クラブページから1リンク（2026-10-05）
+        lane = [a for a in articles
+                if a["slug"] in INDEX_LANE_SEASON_SLUGS
+                and a["slug"].rsplit("-", 1)[0].endswith(f"-{slug}")]
+        if lane:
+            lane_links = "".join(
+                f'<li><a href="{R}articles/{a["slug"]}/index.html">{escape(a["title"])}</a></li>'
+                for a in lane)
+            body += ('<!-- index-lane-link -->'
+                     f'<section><h2>過去のシーズン記録</h2><ul>{lane_links}</ul></section>')
         if articles:
             art_links = "".join(
                 f'<li><a href="{R}articles/{a["slug"]}/index.html">{escape(a["title"])}</a></li>'
