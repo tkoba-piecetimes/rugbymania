@@ -27,6 +27,8 @@ cta: sponsor
 - 戦績: 0勝0分7敗
 - 得失点差: -376
 
+拓殖大が9月30日に12-68で敗れた東洋大の同年の全試合結果と最終順位は、[2023年関東大学リーグ戦1部 東洋大のシーズン記録](https://rugbymania.jp/articles/season-kanto-league-1-toyo-2023/)で確認できます。<!-- index-lane-link -->
+
 ## 出典
 
 - [関東ラグビーフットボール協会](https://www.rugby.or.jp/univ/)

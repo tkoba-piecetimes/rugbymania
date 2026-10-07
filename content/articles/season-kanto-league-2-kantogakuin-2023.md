@@ -27,6 +27,8 @@ cta: sponsor
 - 戦績: 6勝0分1敗
 - 得失点差: +138
 
+関東学院大が9月24日に21-0で勝った朝鮮大の同年のシーズン成績は、[【2023年 関東大学リーグ戦2部】朝鮮大のシーズン記録](https://rugbymania.jp/articles/season-kanto-league-2-chousen-2023/)で確認できます。<!-- index-lane-link -->
+
 ## 出典
 
 - [関東ラグビーフットボール協会](https://www.rugby.or.jp/univ/)

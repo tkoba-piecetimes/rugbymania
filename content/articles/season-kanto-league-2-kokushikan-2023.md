@@ -27,6 +27,8 @@ cta: sponsor
 - 戦績: 0勝0分7敗
 - 得失点差: -253
 
+国士舘大が11月26日に14-36で敗れた朝鮮大の同年の全試合結果は、[2023年関東大学リーグ戦2部 朝鮮大のシーズン記録](https://rugbymania.jp/articles/season-kanto-league-2-chousen-2023/)にまとめています。<!-- index-lane-link -->
+
 ## 出典
 
 - [関東ラグビーフットボール協会](https://www.rugby.or.jp/univ/)

@@ -27,6 +27,8 @@ cta: sponsor
 - 戦績: 5勝0分2敗
 - 得失点差: +125
 
+中央大が10月15日に21-0で勝った朝鮮大の同年の全試合結果は、[2023年関東大学リーグ戦2部 朝鮮大の全試合結果とシーズン記録](https://rugbymania.jp/articles/season-kanto-league-2-chousen-2023/)にまとめています。<!-- index-lane-link -->
+
 ## 出典
 
 - [関東ラグビーフットボール協会](https://www.rugby.or.jp/univ/)

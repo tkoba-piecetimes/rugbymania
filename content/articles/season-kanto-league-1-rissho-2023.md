@@ -31,6 +31,8 @@ cta: sponsor
 
 立正大が9月9日に35-34で勝った日本大の同年の成績は、[2023年関東大学リーグ戦1部 日本大のシーズン記録](https://rugbymania.jp/articles/season-kanto-league-1-nihon-2023/)にまとめています。<!-- index-lane-link -->
 
+立正大が9月16日に21-40で敗れた東洋大の同年のシーズン全体の成績は、[【2023年 関東大学リーグ戦1部】東洋大のシーズン記録](https://rugbymania.jp/articles/season-kanto-league-1-toyo-2023/)で振り返れます。<!-- index-lane-link -->
+
 ## 出典
 
 - [関東ラグビーフットボール協会](https://www.rugby.or.jp/univ/)
