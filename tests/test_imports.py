@@ -7,6 +7,7 @@ sys.path.insert(0,str(ROOT/'pipeline'))
 from fetch_kyushu import parse_matches
 from legacy_kansai import parse as parse_legacy
 from grid_kansai import parse as parse_grid
+from table_kansai import parse_all as parse_renewal
 from fetch_rugby import parse_matches as parse_kanto
 
 def fixture(name):return (ROOT/'tests'/'fixtures'/name).read_text(encoding='utf8')
@@ -43,6 +44,26 @@ class Imports(unittest.TestCase):
         forfeits=[m for m in ms if m['status']=='unscored']
         self.assertEqual(len(forfeits),4)
         self.assertTrue(all(m['home_score'] is None and m['away_score'] is None for m in forfeits))
+
+    def test_kansai_renewal_table_rows(self):
+        g=parse_renewal(fixture('kansai-2026-renewal.html'),'https://rugby-kansai.or.jp/gameuniversity')
+        self.assertEqual(sorted(g),['a','c','junior','promotion'])  # 呼び出し側(fetch_kansai)がa/bのみ採用
+        a=g['a']
+        self.assertEqual(len(a),2)
+        played=[m for m in a if m['status']=='played']
+        self.assertEqual(len(played),1)
+        self.assertEqual((played[0]['home'],played[0]['away'],played[0]['home_score'],played[0]['away_score']),('立命館大学','京都産業大学',24,45))
+        self.assertEqual((played[0]['date'],played[0]['time'],played[0]['venue']),('2026-09-13','16:00','花園Ⅰ'))
+        self.assertEqual(len({m['id'] for m in a}),2)
+        self.assertEqual([m for m in a if m['status']=='scheduled'][0]['home_score'],None)
+        forfeit=g['c'][0]
+        self.assertEqual(forfeit['status'],'unscored')
+        self.assertIsNone(forfeit['home_score'])
+
+    def test_kansai_renewal_season_requires_a_and_b(self):
+        import fetch_kansai
+        with self.assertRaises(ValueError):
+            fetch_kansai.parse_season(fixture('kansai-2026-renewal.html'),2026)
 
     def test_kansai_merged_date_columns(self):
         ms=parse_legacy(fixture('kansai-2022-A.html'),'関西大学Aリーグ',2022,'https://rugby-kansai.or.jp/gameuniversity2022')

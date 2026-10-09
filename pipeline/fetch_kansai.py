@@ -113,8 +113,27 @@ def parse_matches(section_html: str, category_label: str, season_start_year: int
 
 def fetch_season(season_year: int) -> dict[str, dict]:
     html = fetch(season_url(season_year))
-    sections = split_sections(html)
+    return parse_season(html, season_year)
+
+
+def parse_season(html: str, season_year: int) -> dict[str, dict]:
+    import table_kansai
     result = {}
+    if table_kansai.has_rows(html):
+        # 2026-09リニューアル後の構造（全年度ページ共通）
+        url = season_url(season_year)
+        grouped = table_kansai.parse_all(html, url)
+        for code, (_, label) in zip(("kansai-a", "kansai-b"), LEAGUE_SUFFIXES.values()):
+            matches = grouped.get(table_kansai.LEAGUE_KEYS[code], [])
+            for m in matches:
+                m["category"] = label
+            if matches:
+                result[code] = {"matches": matches, "standings": compute_standings(matches, slug_for),
+                                "teams": build_teams(matches, slug_for), "label": label, "source_url": url}
+        if set(result) != {"kansai-a", "kansai-b"}:
+            raise ValueError(f"{season_year}: incomplete league import")
+        return result
+    sections = split_sections(html)
     for heading, body in sections.items():
         code = label = None
         for suffix, (c, lbl) in LEAGUE_SUFFIXES.items():
