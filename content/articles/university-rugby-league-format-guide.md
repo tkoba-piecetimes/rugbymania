@@ -60,6 +60,8 @@ cta: sponsor
 
 所属は入替戦の結果で変わります。たとえば2026年度に2部の拓殖大学は、2023年にはリーグ戦1部で戦っており、その成績は[2023年関東大学リーグ戦1部 拓殖大のシーズン記録](https://rugbymania.jp/articles/season-kanto-league-1-takushoku-2023/)で確認できます。<!-- index-lane-link -->
 
+同じく2026年度に2部の白鷗大学は、2023年も2部で4勝3敗の5位でした。2部の戦い方を知る参考に、[2023年関東大学リーグ戦2部 白鷗大のシーズン記録](https://rugbymania.jp/articles/season-kanto-league-2-hakuou-2023/)も読めます。<!-- index-lane-link -->
+
 ## 関西・九州の大学ラグビーの仕組み
 
 関東以外の地区にも、それぞれの協会が主催する大学リーグがあります。

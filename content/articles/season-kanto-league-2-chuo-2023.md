@@ -29,6 +29,8 @@ cta: sponsor
 
 中央大が10月15日に21-0で勝った朝鮮大の同年の全試合結果は、[2023年関東大学リーグ戦2部 朝鮮大の全試合結果とシーズン記録](https://rugbymania.jp/articles/season-kanto-league-2-chousen-2023/)にまとめています。<!-- index-lane-link -->
 
+中央大が10月29日に28-53で敗れた専修大は、同じ2部で6勝1敗の2位に入りました。シーズンの全試合は[2023年関東大学リーグ戦2部 専修大のシーズン記録](https://rugbymania.jp/articles/season-kanto-league-2-senshu-2023/)で確認できます。<!-- index-lane-link -->
+
 ## 出典
 
 - [関東ラグビーフットボール協会](https://www.rugby.or.jp/univ/)

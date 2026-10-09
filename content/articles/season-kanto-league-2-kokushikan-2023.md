@@ -29,6 +29,8 @@ cta: sponsor
 
 国士舘大が11月26日に14-36で敗れた朝鮮大の同年の全試合結果は、[2023年関東大学リーグ戦2部 朝鮮大のシーズン記録](https://rugbymania.jp/articles/season-kanto-league-2-chousen-2023/)にまとめています。<!-- index-lane-link -->
 
+国士舘大が10月29日に19-26と最も肉薄した國學院大のシーズンは、[2023年関東大学リーグ戦2部 國學院大のシーズン記録](https://rugbymania.jp/articles/season-kanto-league-2-kokugakuin-2023/)で振り返れます。<!-- index-lane-link -->
+
 ## 出典
 
 - [関東ラグビーフットボール協会](https://www.rugby.or.jp/univ/)

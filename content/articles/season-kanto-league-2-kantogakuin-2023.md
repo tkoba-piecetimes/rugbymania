@@ -29,6 +29,8 @@ cta: sponsor
 
 関東学院大が9月24日に21-0で勝った朝鮮大の同年のシーズン成績は、[【2023年 関東大学リーグ戦2部】朝鮮大のシーズン記録](https://rugbymania.jp/articles/season-kanto-league-2-chousen-2023/)で確認できます。<!-- index-lane-link -->
 
+関東学院大が唯一の黒星を喫した10月29日の山梨学院大戦（21-33）を含む、山梨学院大の同年の全試合は[2023年関東大学リーグ戦2部 山梨学院大のシーズン記録](https://rugbymania.jp/articles/season-kanto-league-2-yamanashi-gakuin-2023/)にまとめています。<!-- index-lane-link -->
+
 ## 出典
 
 - [関東ラグビーフットボール協会](https://www.rugby.or.jp/univ/)
