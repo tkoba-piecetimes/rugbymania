@@ -8,12 +8,12 @@
   "away": "鹿児島大学",
   "home_slug": "seinan-gakuin",
   "away_slug": "kagoshima-u",
-  "home_score": null,
-  "away_score": null,
-  "status": "scheduled",
+  "home_score": 26,
+  "away_score": 5,
+  "status": "played",
   "venue": "オクゼン不動産 フットボールスタジアム （春日公園球技場）",
   "note": "",
-  "source_url": "https://www.rugby-kyushu.jp/kyushuleague/2026-2027/kyushugakusei.html"
+  "source_url": "https://drive.google.com/file/d/1YO0fGejGaw-7a-7dZ5eofSb6ucBIvIG-/view?usp=sharing"
  },
  {
   "id": "2026-09-19-nihon-bunri-vs-fukuoka-it",
@@ -24,12 +24,12 @@
   "away": "福岡工業大学",
   "home_slug": "nihon-bunri",
   "away_slug": "fukuoka-it",
-  "home_score": null,
-  "away_score": null,
-  "status": "scheduled",
+  "home_score": 7,
+  "away_score": 57,
+  "status": "played",
   "venue": "由布院スポーツセンター人工芝競技場Bコート",
   "note": "",
-  "source_url": "https://www.rugby-kyushu.jp/kyushuleague/2026-2027/kyushugakusei.html"
+  "source_url": "https://drive.google.com/file/d/1xX0_9-sRaF-BNTtMW4sL1vYebvE7bNMU/view?usp=sharing"
  },
  {
   "id": "2026-09-19-fukuoka-u-vs-kyushu-kyoritsu",
@@ -40,12 +40,12 @@
   "away": "九州共立大学",
   "home_slug": "fukuoka-u",
   "away_slug": "kyushu-kyoritsu",
-  "home_score": null,
-  "away_score": null,
-  "status": "scheduled",
+  "home_score": 45,
+  "away_score": 17,
+  "status": "played",
   "venue": "オクゼン不動産 フットボールスタジアム （春日公園球技場）",
   "note": "",
-  "source_url": "https://www.rugby-kyushu.jp/kyushuleague/2026-2027/kyushugakusei.html"
+  "source_url": "https://drive.google.com/file/d/16v_jMQYm359v26k5nEqeaGkCA1WmCfif/view?usp=sharing"
  },
  {
   "id": "2026-09-26-fukuoka-u-vs-nihon-bunri",
@@ -56,12 +56,12 @@
   "away": "日本文理大学",
   "home_slug": "fukuoka-u",
   "away_slug": "nihon-bunri",
-  "home_score": null,
-  "away_score": null,
-  "status": "scheduled",
+  "home_score": 41,
+  "away_score": 17,
+  "status": "played",
   "venue": "九州共立大学ラグビー場",
   "note": "",
-  "source_url": "https://www.rugby-kyushu.jp/kyushuleague/2026-2027/kyushugakusei.html"
+  "source_url": "https://drive.google.com/file/d/13B9i4k63iaOBcdUzknO_U3dAHzQMpAQ7/view?usp=drive_link"
  },
  {
   "id": "2026-09-26-fukuoka-it-vs-kagoshima-u",
@@ -72,12 +72,12 @@
   "away": "鹿児島大学",
   "home_slug": "fukuoka-it",
   "away_slug": "kagoshima-u",
-  "home_score": null,
-  "away_score": null,
-  "status": "scheduled",
+  "home_score": 78,
+  "away_score": 0,
+  "status": "played",
   "venue": "福岡大学ラグビー場",
   "note": "",
-  "source_url": "https://www.rugby-kyushu.jp/kyushuleague/2026-2027/kyushugakusei.html"
+  "source_url": "https://drive.google.com/file/d/1lPKuikyB5kNOv_FS7TiaIsleSVNpd7wK/view?usp=drive_link"
  },
  {
   "id": "2026-09-26-kyushu-kyoritsu-vs-seinan-gakuin",
@@ -88,12 +88,12 @@
   "away": "西南学院大学",
   "home_slug": "kyushu-kyoritsu",
   "away_slug": "seinan-gakuin",
-  "home_score": null,
-  "away_score": null,
-  "status": "scheduled",
+  "home_score": 45,
+  "away_score": 31,
+  "status": "played",
   "venue": "九州共立大学ラグビー場",
   "note": "",
-  "source_url": "https://www.rugby-kyushu.jp/kyushuleague/2026-2027/kyushugakusei.html"
+  "source_url": "https://drive.google.com/file/d/1CdbbNlQ0NWQvaSwq2IBHPO6qW-QHKMEJ/view?usp=drive_link"
  },
  {
   "id": "2026-10-03-seinan-gakuin-vs-fukuoka-it",
@@ -104,12 +104,12 @@
   "away": "福岡工業大学",
   "home_slug": "seinan-gakuin",
   "away_slug": "fukuoka-it",
-  "home_score": null,
-  "away_score": null,
-  "status": "scheduled",
+  "home_score": 5,
+  "away_score": 59,
+  "status": "played",
   "venue": "西南学院大学田尻グリーンフィールド",
   "note": "",
-  "source_url": "https://www.rugby-kyushu.jp/kyushuleague/2026-2027/kyushugakusei.html"
+  "source_url": "https://drive.google.com/file/d/14gh9fPqq1k1T8QlO_4f8VWtJt6CKMkAs/view?usp=drive_link"
  },
  {
   "id": "2026-10-03-kyushu-kyoritsu-vs-nihon-bunri",
@@ -120,12 +120,12 @@
   "away": "日本文理大学",
   "home_slug": "kyushu-kyoritsu",
   "away_slug": "nihon-bunri",
-  "home_score": null,
-  "away_score": null,
-  "status": "scheduled",
+  "home_score": 42,
+  "away_score": 26,
+  "status": "played",
   "venue": "九州共立大学ラグビー場",
   "note": "",
-  "source_url": "https://www.rugby-kyushu.jp/kyushuleague/2026-2027/kyushugakusei.html"
+  "source_url": "https://drive.google.com/file/d/1OzUb2dbjxAPcjs0RzriqgnAlSEtXzfmc/view?usp=drive_link"
  },
  {
   "id": "2026-10-04-kagoshima-u-vs-fukuoka-u",
@@ -136,12 +136,12 @@
   "away": "福岡大学",
   "home_slug": "kagoshima-u",
   "away_slug": "fukuoka-u",
-  "home_score": null,
-  "away_score": null,
-  "status": "scheduled",
+  "home_score": 10,
+  "away_score": 94,
+  "status": "played",
   "venue": "鹿児島県サッカーラグビー場Ｂ",
   "note": "",
-  "source_url": "https://www.rugby-kyushu.jp/kyushuleague/2026-2027/kyushugakusei.html"
+  "source_url": "https://drive.google.com/file/d/1onAzejevvJjhjUf5vyRZt8nYRyrdeeYw/view?usp=drive_link"
  },
  {
   "id": "2026-10-17-kyushu-kyoritsu-vs-kagoshima-u",

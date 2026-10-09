@@ -1,3 +1,88 @@
 {
- "総合": []
+ "総合": [
+  {
+   "team": "福岡工業大学",
+   "slug": "fukuoka-it",
+   "points": 9,
+   "games": 3,
+   "wins": 3,
+   "draws": 0,
+   "losses": 0,
+   "gf": 194,
+   "ga": 12,
+   "rank": 1,
+   "goal_diff": "+182",
+   "goals_for": 194
+  },
+  {
+   "team": "福岡大学",
+   "slug": "fukuoka-u",
+   "points": 9,
+   "games": 3,
+   "wins": 3,
+   "draws": 0,
+   "losses": 0,
+   "gf": 180,
+   "ga": 44,
+   "rank": 2,
+   "goal_diff": "+136",
+   "goals_for": 180
+  },
+  {
+   "team": "九州共立大学",
+   "slug": "kyushu-kyoritsu",
+   "points": 6,
+   "games": 3,
+   "wins": 2,
+   "draws": 0,
+   "losses": 1,
+   "gf": 104,
+   "ga": 102,
+   "rank": 3,
+   "goal_diff": "+2",
+   "goals_for": 104
+  },
+  {
+   "team": "西南学院大学",
+   "slug": "seinan-gakuin",
+   "points": 3,
+   "games": 3,
+   "wins": 1,
+   "draws": 0,
+   "losses": 2,
+   "gf": 62,
+   "ga": 109,
+   "rank": 4,
+   "goal_diff": "-47",
+   "goals_for": 62
+  },
+  {
+   "team": "日本文理大学",
+   "slug": "nihon-bunri",
+   "points": 0,
+   "games": 3,
+   "wins": 0,
+   "draws": 0,
+   "losses": 3,
+   "gf": 50,
+   "ga": 140,
+   "rank": 5,
+   "goal_diff": "-90",
+   "goals_for": 50
+  },
+  {
+   "team": "鹿児島大学",
+   "slug": "kagoshima-u",
+   "points": 0,
+   "games": 3,
+   "wins": 0,
+   "draws": 0,
+   "losses": 3,
+   "gf": 15,
+   "ga": 198,
+   "rank": 6,
+   "goal_diff": "-183",
+   "goals_for": 15
+  }
+ ]
 }

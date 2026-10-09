@@ -1,3 +1,60 @@
 {
- "総合": []
+ "総合": [
+  {
+   "team": "名桜大学",
+   "slug": "meiou",
+   "points": 3,
+   "games": 1,
+   "wins": 1,
+   "draws": 0,
+   "losses": 0,
+   "gf": 37,
+   "ga": 5,
+   "rank": 1,
+   "goal_diff": "+32",
+   "goals_for": 37
+  },
+  {
+   "team": "九州歯科大学",
+   "slug": "kyuushuushika",
+   "points": 3,
+   "games": 1,
+   "wins": 1,
+   "draws": 0,
+   "losses": 0,
+   "gf": 48,
+   "ga": 26,
+   "rank": 2,
+   "goal_diff": "+22",
+   "goals_for": 48
+  },
+  {
+   "team": "福岡大学医学部",
+   "slug": "fukuokadaigakuigakubu",
+   "points": 0,
+   "games": 1,
+   "wins": 0,
+   "draws": 0,
+   "losses": 1,
+   "gf": 26,
+   "ga": 48,
+   "rank": 3,
+   "goal_diff": "-22",
+   "goals_for": 26
+  },
+  {
+   "team": "久留米大学医学部",
+   "slug": "kurumedaigakuigakubu",
+   "points": 0,
+   "games": 1,
+   "wins": 0,
+   "draws": 0,
+   "losses": 1,
+   "gf": 5,
+   "ga": 37,
+   "rank": 4,
+   "goal_diff": "-32",
+   "goals_for": 5
+  }
+ ]
 }

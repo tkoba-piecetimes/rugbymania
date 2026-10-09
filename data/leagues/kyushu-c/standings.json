@@ -1,3 +1,74 @@
 {
- "総合": []
+ "総合": [
+  {
+   "team": "九州大学医学部",
+   "slug": "kyuushuudaigakuigakubu",
+   "points": 3,
+   "games": 2,
+   "wins": 1,
+   "draws": 0,
+   "losses": 1,
+   "gf": 108,
+   "ga": 65,
+   "rank": 1,
+   "goal_diff": "+43",
+   "goals_for": 108
+  },
+  {
+   "team": "九州産業大学",
+   "slug": "kyuushuusangyou",
+   "points": 3,
+   "games": 2,
+   "wins": 1,
+   "draws": 0,
+   "losses": 1,
+   "gf": 72,
+   "ga": 50,
+   "rank": 2,
+   "goal_diff": "+22",
+   "goals_for": 72
+  },
+  {
+   "team": "九州工業大学",
+   "slug": "kyuushuukougyou",
+   "points": 3,
+   "games": 1,
+   "wins": 1,
+   "draws": 0,
+   "losses": 0,
+   "gf": 19,
+   "ga": 12,
+   "rank": 3,
+   "goal_diff": "+7",
+   "goals_for": 19
+  },
+  {
+   "team": "宮崎大学",
+   "slug": "miyazaki",
+   "points": 3,
+   "games": 2,
+   "wins": 1,
+   "draws": 0,
+   "losses": 1,
+   "gf": 41,
+   "ga": 84,
+   "rank": 4,
+   "goal_diff": "-43",
+   "goals_for": 41
+  },
+  {
+   "team": "佐賀大学",
+   "slug": "saga",
+   "points": 0,
+   "games": 1,
+   "wins": 0,
+   "draws": 0,
+   "losses": 1,
+   "gf": 7,
+   "ga": 36,
+   "rank": 5,
+   "goal_diff": "-29",
+   "goals_for": 7
+  }
+ ]
 }

@@ -24,12 +24,12 @@
   "away": "九州工業大学",
   "home_slug": "kyuushuusangyou",
   "away_slug": "kyuushuukougyou",
-  "home_score": null,
-  "away_score": null,
-  "status": "scheduled",
+  "home_score": 12,
+  "away_score": 19,
+  "status": "played",
   "venue": "福岡大学ラグビー場",
   "note": "",
-  "source_url": "https://www.rugby-kyushu.jp/kyushuleague/2026-2027/kyushugakusei.html"
+  "source_url": "https://drive.google.com/file/d/1KCbJfsiCGZvPl707_s8BYrkOGzVgf6ez/view?usp=sharing"
  },
  {
   "id": "2026-09-20-miyazaki-vs-kyuushuudaigakuigakubu",
@@ -40,12 +40,12 @@
   "away": "九州大学医学部",
   "home_slug": "miyazaki",
   "away_slug": "kyuushuudaigakuigakubu",
-  "home_score": null,
-  "away_score": null,
-  "status": "scheduled",
+  "home_score": 5,
+  "away_score": 77,
+  "status": "played",
   "venue": "日向市お倉ヶ浜運動公園",
   "note": "",
-  "source_url": "https://www.rugby-kyushu.jp/kyushuleague/2026-2027/kyushugakusei.html"
+  "source_url": "https://drive.google.com/file/d/1ZGU6ggBfhuKAWn26lpRLm2wKm8E7u5KV/view?usp=sharing"
  },
  {
   "id": "2026-10-03-saga-vs-miyazaki",
@@ -56,12 +56,28 @@
   "away": "宮崎大学",
   "home_slug": "saga",
   "away_slug": "miyazaki",
-  "home_score": null,
-  "away_score": null,
-  "status": "scheduled",
+  "home_score": 7,
+  "away_score": 36,
+  "status": "played",
   "venue": "SAGAサンライズパークボールフィールド南",
   "note": "",
-  "source_url": "https://www.rugby-kyushu.jp/kyushuleague/2026-2027/kyushugakusei.html"
+  "source_url": "https://drive.google.com/file/d/1pw6CDKRV13dxmtmQ8SnOKMYVoGq8CWxg/view?usp=drive_link"
+ },
+ {
+  "id": "2026-10-03-kyuushuudaigakuigakubu-vs-kyuushuusangyou",
+  "date": "2026-10-03",
+  "time": "14:00",
+  "category": "九州学生リーグC",
+  "home": "九州大学医学部",
+  "away": "九州産業大学",
+  "home_slug": "kyuushuudaigakuigakubu",
+  "away_slug": "kyuushuusangyou",
+  "home_score": 31,
+  "away_score": 60,
+  "status": "played",
+  "venue": "西南学院大学田尻グリーンフィールド",
+  "note": "",
+  "source_url": "https://drive.google.com/file/d/1ujQK39mcYNXLxrBiDXk-6w4tzRlR_wGO/view?usp=drive_link"
  },
  {
   "id": "2026-10-03-kyuushuukougyou-vs-shigakukan",
@@ -77,22 +93,6 @@
   "status": "unscored",
   "venue": "SAGAサンライズパークボールフィールド南",
   "note": "不戦勝-棄権",
-  "source_url": "https://www.rugby-kyushu.jp/kyushuleague/2026-2027/kyushugakusei.html"
- },
- {
-  "id": "2026-10-03-kyuushuusangyou-vs-kyuushuudaigakuigakubu",
-  "date": "2026-10-03",
-  "time": "14:00",
-  "category": "九州学生リーグC",
-  "home": "九州産業大学",
-  "away": "九州大学医学部",
-  "home_slug": "kyuushuusangyou",
-  "away_slug": "kyuushuudaigakuigakubu",
-  "home_score": null,
-  "away_score": null,
-  "status": "scheduled",
-  "venue": "西南学院大学田尻グリーンフィールド",
-  "note": "",
   "source_url": "https://www.rugby-kyushu.jp/kyushuleague/2026-2027/kyushugakusei.html"
  },
  {

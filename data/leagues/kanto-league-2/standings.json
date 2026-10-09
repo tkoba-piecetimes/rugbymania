@@ -1,3 +1,116 @@
 {
- "総合": []
+ "総合": [
+  {
+   "team": "中央大",
+   "slug": "chuo",
+   "points": 9,
+   "games": 3,
+   "wins": 3,
+   "draws": 0,
+   "losses": 0,
+   "gf": 175,
+   "ga": 14,
+   "rank": 1,
+   "goal_diff": "+161",
+   "goals_for": 175
+  },
+  {
+   "team": "山梨学院大",
+   "slug": "yamanashi-gakuin",
+   "points": 9,
+   "games": 3,
+   "wins": 3,
+   "draws": 0,
+   "losses": 0,
+   "gf": 114,
+   "ga": 57,
+   "rank": 2,
+   "goal_diff": "+57",
+   "goals_for": 114
+  },
+  {
+   "team": "大東文化大",
+   "slug": "daitobunka",
+   "points": 6,
+   "games": 3,
+   "wins": 2,
+   "draws": 0,
+   "losses": 1,
+   "gf": 130,
+   "ga": 30,
+   "rank": 3,
+   "goal_diff": "+100",
+   "goals_for": 130
+  },
+  {
+   "team": "拓殖大",
+   "slug": "takushoku",
+   "points": 6,
+   "games": 3,
+   "wins": 2,
+   "draws": 0,
+   "losses": 1,
+   "gf": 103,
+   "ga": 103,
+   "rank": 4,
+   "goal_diff": "0",
+   "goals_for": 103
+  },
+  {
+   "team": "國學院大",
+   "slug": "kokugakuin",
+   "points": 3,
+   "games": 3,
+   "wins": 1,
+   "draws": 0,
+   "losses": 2,
+   "gf": 64,
+   "ga": 117,
+   "rank": 5,
+   "goal_diff": "-53",
+   "goals_for": 64
+  },
+  {
+   "team": "白鷗大",
+   "slug": "hakuou",
+   "points": 1,
+   "games": 3,
+   "wins": 0,
+   "draws": 1,
+   "losses": 2,
+   "gf": 81,
+   "ga": 93,
+   "rank": 6,
+   "goal_diff": "-12",
+   "goals_for": 81
+  },
+  {
+   "team": "朝鮮大",
+   "slug": "chousen",
+   "points": 1,
+   "games": 3,
+   "wins": 0,
+   "draws": 1,
+   "losses": 2,
+   "gf": 17,
+   "ga": 96,
+   "rank": 7,
+   "goal_diff": "-79",
+   "goals_for": 17
+  },
+  {
+   "team": "国士館大",
+   "slug": "kokushikan",
+   "points": 0,
+   "games": 3,
+   "wins": 0,
+   "draws": 0,
+   "losses": 3,
+   "gf": 10,
+   "ga": 184,
+   "rank": 8,
+   "goal_diff": "-174",
+   "goals_for": 10
+  }
+ ]
 }

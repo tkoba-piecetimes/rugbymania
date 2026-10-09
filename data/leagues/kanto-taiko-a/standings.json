@@ -1,3 +1,116 @@
 {
- "総合": []
+ "総合": [
+  {
+   "team": "明治大",
+   "slug": "meiji",
+   "points": 6,
+   "games": 2,
+   "wins": 2,
+   "draws": 0,
+   "losses": 0,
+   "gf": 169,
+   "ga": 17,
+   "rank": 1,
+   "goal_diff": "+152",
+   "goals_for": 169
+  },
+  {
+   "team": "早稲田大",
+   "slug": "waseda",
+   "points": 6,
+   "games": 2,
+   "wins": 2,
+   "draws": 0,
+   "losses": 0,
+   "gf": 136,
+   "ga": 3,
+   "rank": 2,
+   "goal_diff": "+133",
+   "goals_for": 136
+  },
+  {
+   "team": "帝京大",
+   "slug": "teikyo",
+   "points": 6,
+   "games": 2,
+   "wins": 2,
+   "draws": 0,
+   "losses": 0,
+   "gf": 98,
+   "ga": 25,
+   "rank": 3,
+   "goal_diff": "+73",
+   "goals_for": 98
+  },
+  {
+   "team": "筑波大",
+   "slug": "tsukuba",
+   "points": 3,
+   "games": 2,
+   "wins": 1,
+   "draws": 0,
+   "losses": 1,
+   "gf": 71,
+   "ga": 63,
+   "rank": 4,
+   "goal_diff": "+8",
+   "goals_for": 71
+  },
+  {
+   "team": "慶應義塾大",
+   "slug": "keio",
+   "points": 3,
+   "games": 2,
+   "wins": 1,
+   "draws": 0,
+   "losses": 1,
+   "gf": 66,
+   "ga": 60,
+   "rank": 5,
+   "goal_diff": "+6",
+   "goals_for": 66
+  },
+  {
+   "team": "立教大",
+   "slug": "rikkyo",
+   "points": 0,
+   "games": 2,
+   "wins": 0,
+   "draws": 0,
+   "losses": 2,
+   "gf": 18,
+   "ga": 118,
+   "rank": 6,
+   "goal_diff": "-100",
+   "goals_for": 18
+  },
+  {
+   "team": "青山学院大",
+   "slug": "aoyamagakuin",
+   "points": 0,
+   "games": 2,
+   "wins": 0,
+   "draws": 0,
+   "losses": 2,
+   "gf": 15,
+   "ga": 131,
+   "rank": 7,
+   "goal_diff": "-116",
+   "goals_for": 15
+  },
+  {
+   "team": "日本体育大",
+   "slug": "nittaidai",
+   "points": 0,
+   "games": 2,
+   "wins": 0,
+   "draws": 0,
+   "losses": 2,
+   "gf": 12,
+   "ga": 168,
+   "rank": 8,
+   "goal_diff": "-156",
+   "goals_for": 12
+  }
+ ]
 }
