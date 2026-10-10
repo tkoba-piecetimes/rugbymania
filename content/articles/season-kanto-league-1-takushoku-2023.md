@@ -29,6 +29,8 @@ cta: sponsor
 
 拓殖大が9月30日に12-68で敗れた東洋大の同年の全試合結果と最終順位は、[2023年関東大学リーグ戦1部 東洋大のシーズン記録](https://rugbymania.jp/articles/season-kanto-league-1-toyo-2023/)で確認できます。<!-- index-lane-link -->
 
+9月16日に10-63で敗れた流通経済大は、この年のリーグ戦1部で2位に入っています。[2023年関東大学リーグ戦1部 流通経済大の全試合結果と最終成績](https://rugbymania.jp/articles/season-kanto-league-1-ryutsu-keizai-2023/)で、上位校のシーズンの流れを確認できます。<!-- index-lane-link -->
+
 ## 出典
 
 - [関東ラグビーフットボール協会](https://www.rugby.or.jp/univ/)

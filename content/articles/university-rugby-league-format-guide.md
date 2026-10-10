@@ -62,6 +62,8 @@ cta: sponsor
 
 同じく2026年度に2部の白鷗大学は、2023年も2部で4勝3敗の5位でした。2部の戦い方を知る参考に、[2023年関東大学リーグ戦2部 白鷗大のシーズン記録](https://rugbymania.jp/articles/season-kanto-league-2-hakuou-2023/)も読めます。<!-- index-lane-link -->
 
+対抗戦Bグループの戦いぶりの例として、2023年に3勝4敗の5位だった一橋大学の全試合は[2023年関東大学対抗戦Bグループ 一橋大のシーズン記録](https://rugbymania.jp/articles/season-kanto-taiko-b-hitotsubashi-2023/)で確認できます。<!-- index-lane-link -->
+
 ## 関西・九州の大学ラグビーの仕組み
 
 関東以外の地区にも、それぞれの協会が主催する大学リーグがあります。

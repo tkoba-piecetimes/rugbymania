@@ -31,6 +31,8 @@ cta: sponsor
 
 10月1日に40-22で勝った法政大の同年の全試合結果と最終順位は、[2023年関東大学リーグ戦1部 法政大のシーズン記録](https://rugbymania.jp/articles/season-kanto-league-1-hosei-2023/)で確認できます。<!-- index-lane-link -->
 
+全勝優勝を懸けた11月26日の最終戦で34-31と3点差まで迫られた相手が、6勝1敗で2位に入った流通経済大です。唯一の黒星がこの試合だった[2023年関東大学リーグ戦1部 流通経済大のシーズン記録](https://rugbymania.jp/articles/season-kanto-league-1-ryutsu-keizai-2023/)も読むと、優勝争いの構図がわかります。<!-- index-lane-link -->
+
 ## 出典
 
 - [関東ラグビーフットボール協会](https://www.rugby.or.jp/univ/)
