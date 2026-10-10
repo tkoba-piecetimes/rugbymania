@@ -1,6 +1,6 @@
 {
  "source_url": "https://rugby-kansai.or.jp/gameuniversity2025",
- "fetched_at": "2026-09-11T17:27:16+00:00",
+ "fetched_at": "2026-10-10T00:41:39+00:00",
  "import_version": 2,
  "coverage_note": "公式日程ページの掲載試合。入替戦は対象外。",
  "standings_kind": "reference",
@@ -16,13 +16,13 @@
    "away": "立命館大学",
    "home_slug": "kwansei-gakuin",
    "away_slug": "ritsumeikan",
+   "venue": "東大阪市花園ラグビー場第2G",
+   "status": "played",
    "home_score": 41,
    "away_score": 17,
-   "status": "played",
    "note": "",
-   "stage": "リーグ戦",
-   "venue": "東大阪市花園ラグビー場第2G",
-   "source_url": "https://rugby-kansai.or.jp/20250914KWN_RTM"
+   "stage": "第1節",
+   "source_url": "https://rugby-kansai.or.jp/gameuniversity2025"
   },
   {
    "id": "2025-09-14-setsunan-vs-kyoto-sangyo",
@@ -33,13 +33,13 @@
    "away": "京都産業大学",
    "home_slug": "setsunan",
    "away_slug": "kyoto-sangyo",
+   "venue": "東大阪市花園ラグビー場第1G",
+   "status": "played",
    "home_score": 0,
    "away_score": 60,
-   "status": "played",
    "note": "",
-   "stage": "リーグ戦",
-   "venue": "東大阪市花園ラグビー場第1G",
-   "source_url": "https://rugby-kansai.or.jp/20250914STN_KSG"
+   "stage": "第1節",
+   "source_url": "https://rugby-kansai.or.jp/gameuniversity2025"
   },
   {
    "id": "2025-09-14-kindai-vs-doshisha",
@@ -50,13 +50,13 @@
    "away": "同志社大学",
    "home_slug": "kindai",
    "away_slug": "doshisha",
+   "venue": "東大阪市花園ラグビー場第2G",
+   "status": "played",
    "home_score": 12,
    "away_score": 29,
-   "status": "played",
    "note": "",
-   "stage": "リーグ戦",
-   "venue": "東大阪市花園ラグビー場第2G",
-   "source_url": "https://rugby-kansai.or.jp/20250914KIN_DSS"
+   "stage": "第1節",
+   "source_url": "https://rugby-kansai.or.jp/gameuniversity2025"
   },
   {
    "id": "2025-09-14-kansai-u-vs-tenri",
@@ -67,13 +67,13 @@
    "away": "天理大学",
    "home_slug": "kansai-u",
    "away_slug": "tenri",
+   "venue": "東大阪市花園ラグビー場第1G",
+   "status": "played",
    "home_score": 0,
    "away_score": 62,
-   "status": "played",
    "note": "",
-   "stage": "リーグ戦",
-   "venue": "東大阪市花園ラグビー場第1G",
-   "source_url": "https://rugby-kansai.or.jp/20250914KAN_TNR"
+   "stage": "第1節",
+   "source_url": "https://rugby-kansai.or.jp/gameuniversity2025"
   },
   {
    "id": "2025-09-28-kindai-vs-ritsumeikan",
@@ -84,13 +84,13 @@
    "away": "立命館大学",
    "home_slug": "kindai",
    "away_slug": "ritsumeikan",
+   "venue": "遠州灘海浜公園球技場",
+   "status": "played",
    "home_score": 35,
    "away_score": 24,
-   "status": "played",
    "note": "",
-   "stage": "リーグ戦",
-   "venue": "遠州灘海浜公園球技場",
-   "source_url": "https://rugby-kansai.or.jp/20250928KIN_RTM"
+   "stage": "第2節",
+   "source_url": "https://rugby-kansai.or.jp/gameuniversity2025"
   },
   {
    "id": "2025-09-28-doshisha-vs-kwansei-gakuin",
@@ -101,13 +101,13 @@
    "away": "関西学院大学",
    "home_slug": "doshisha",
    "away_slug": "kwansei-gakuin",
+   "venue": "紀三井寺公園陸上競技場",
+   "status": "played",
    "home_score": 21,
    "away_score": 34,
-   "status": "played",
    "note": "",
-   "stage": "リーグ戦",
-   "venue": "紀三井寺公園陸上競技場",
-   "source_url": "https://rugby-kansai.or.jp/20250928DSS_KWN"
+   "stage": "第2節",
+   "source_url": "https://rugby-kansai.or.jp/gameuniversity2025"
   },
   {
    "id": "2025-09-28-tenri-vs-setsunan",
@@ -118,13 +118,13 @@
    "away": "摂南大学",
    "home_slug": "tenri",
    "away_slug": "setsunan",
+   "venue": "遠州灘海浜公園球技場",
+   "status": "played",
    "home_score": 57,
    "away_score": 5,
-   "status": "played",
    "note": "",
-   "stage": "リーグ戦",
-   "venue": "遠州灘海浜公園球技場",
-   "source_url": "https://rugby-kansai.or.jp/20250928TNR_STN"
+   "stage": "第2節",
+   "source_url": "https://rugby-kansai.or.jp/gameuniversity2025"
   },
   {
    "id": "2025-09-28-kyoto-sangyo-vs-kansai-u",
@@ -135,13 +135,13 @@
    "away": "関西大学",
    "home_slug": "kyoto-sangyo",
    "away_slug": "kansai-u",
+   "venue": "紀三井寺公園陸上競技場",
+   "status": "played",
    "home_score": 48,
    "away_score": 10,
-   "status": "played",
    "note": "",
-   "stage": "リーグ戦",
-   "venue": "紀三井寺公園陸上競技場",
-   "source_url": "https://rugby-kansai.or.jp/20250928KSG_KAN"
+   "stage": "第2節",
+   "source_url": "https://rugby-kansai.or.jp/gameuniversity2025"
   },
   {
    "id": "2025-10-05-kindai-vs-kansai-u",
@@ -152,13 +152,13 @@
    "away": "関西大学",
    "home_slug": "kindai",
    "away_slug": "kansai-u",
+   "venue": "天理親里競技場",
+   "status": "played",
    "home_score": 27,
    "away_score": 30,
-   "status": "played",
    "note": "",
-   "stage": "リーグ戦",
-   "venue": "天理親里競技場",
-   "source_url": "https://rugby-kansai.or.jp/20251005KIN_KAN"
+   "stage": "第3節",
+   "source_url": "https://rugby-kansai.or.jp/gameuniversity2025"
   },
   {
    "id": "2025-10-05-tenri-vs-doshisha",
@@ -169,13 +169,13 @@
    "away": "同志社大学",
    "home_slug": "tenri",
    "away_slug": "doshisha",
+   "venue": "天理親里競技場",
+   "status": "played",
    "home_score": 58,
    "away_score": 18,
-   "status": "played",
    "note": "",
-   "stage": "リーグ戦",
-   "venue": "天理親里競技場",
-   "source_url": "https://rugby-kansai.or.jp/20251005TNR_DSS"
+   "stage": "第3節",
+   "source_url": "https://rugby-kansai.or.jp/gameuniversity2025"
   },
   {
    "id": "2025-10-12-setsunan-vs-kwansei-gakuin",
@@ -186,13 +186,13 @@
    "away": "関西学院大学",
    "home_slug": "setsunan",
    "away_slug": "kwansei-gakuin",
+   "venue": "宝が池球技場",
+   "status": "played",
    "home_score": 20,
    "away_score": 26,
-   "status": "played",
    "note": "",
-   "stage": "リーグ戦",
-   "venue": "宝が池球技場",
-   "source_url": "https://rugby-kansai.or.jp/20251012STN_KWN"
+   "stage": "第3節",
+   "source_url": "https://rugby-kansai.or.jp/gameuniversity2025"
   },
   {
    "id": "2025-10-12-ritsumeikan-vs-kyoto-sangyo",
@@ -203,13 +203,13 @@
    "away": "京都産業大学",
    "home_slug": "ritsumeikan",
    "away_slug": "kyoto-sangyo",
+   "venue": "宝が池球技場",
+   "status": "played",
    "home_score": 24,
    "away_score": 47,
-   "status": "played",
    "note": "",
-   "stage": "リーグ戦",
-   "venue": "宝が池球技場",
-   "source_url": "https://rugby-kansai.or.jp/20251012RTM_KSG"
+   "stage": "第3節",
+   "source_url": "https://rugby-kansai.or.jp/gameuniversity2025"
   },
   {
    "id": "2025-10-19-setsunan-vs-kindai",
@@ -220,13 +220,13 @@
    "away": "近畿大学",
    "home_slug": "setsunan",
    "away_slug": "kindai",
+   "venue": "天理親里競技場",
+   "status": "played",
    "home_score": 14,
    "away_score": 42,
-   "status": "played",
    "note": "",
-   "stage": "リーグ戦",
-   "venue": "天理親里競技場",
-   "source_url": "https://rugby-kansai.or.jp/20251019STN_KIN"
+   "stage": "第4節",
+   "source_url": "https://rugby-kansai.or.jp/gameuniversity2025"
   },
   {
    "id": "2025-10-19-tenri-vs-ritsumeikan",
@@ -237,13 +237,13 @@
    "away": "立命館大学",
    "home_slug": "tenri",
    "away_slug": "ritsumeikan",
+   "venue": "天理親里競技場",
+   "status": "played",
    "home_score": 43,
    "away_score": 27,
-   "status": "played",
    "note": "",
-   "stage": "リーグ戦",
-   "venue": "天理親里競技場",
-   "source_url": "https://rugby-kansai.or.jp/20251019TNR_RTM"
+   "stage": "第4節",
+   "source_url": "https://rugby-kansai.or.jp/gameuniversity2025"
   },
   {
    "id": "2025-10-26-kansai-u-vs-kwansei-gakuin",
@@ -254,13 +254,13 @@
    "away": "関西学院大学",
    "home_slug": "kansai-u",
    "away_slug": "kwansei-gakuin",
+   "venue": "鶴見緑地球技場",
+   "status": "played",
    "home_score": 8,
    "away_score": 36,
-   "status": "played",
    "note": "",
-   "stage": "リーグ戦",
-   "venue": "鶴見緑地球技場",
-   "source_url": "https://rugby-kansai.or.jp/20251026KAN_KWN"
+   "stage": "第4節",
+   "source_url": "https://rugby-kansai.or.jp/gameuniversity2025"
   },
   {
    "id": "2025-10-26-doshisha-vs-kyoto-sangyo",
@@ -271,13 +271,13 @@
    "away": "京都産業大学",
    "home_slug": "doshisha",
    "away_slug": "kyoto-sangyo",
+   "venue": "鶴見緑地球技場",
+   "status": "played",
    "home_score": 26,
    "away_score": 49,
-   "status": "played",
    "note": "",
-   "stage": "リーグ戦",
-   "venue": "鶴見緑地球技場",
-   "source_url": "https://rugby-kansai.or.jp/20251026DSS_KSG"
+   "stage": "第4節",
+   "source_url": "https://rugby-kansai.or.jp/gameuniversity2025"
   },
   {
    "id": "2025-11-02-kyoto-sangyo-vs-kindai",
@@ -288,13 +288,13 @@
    "away": "近畿大学",
    "home_slug": "kyoto-sangyo",
    "away_slug": "kindai",
+   "venue": "宝が池球技場",
+   "status": "played",
    "home_score": 47,
    "away_score": 26,
-   "status": "played",
    "note": "",
-   "stage": "リーグ戦",
-   "venue": "宝が池球技場",
-   "source_url": "https://rugby-kansai.or.jp/20251102KSG_KIN"
+   "stage": "第5節",
+   "source_url": "https://rugby-kansai.or.jp/gameuniversity2025"
   },
   {
    "id": "2025-11-02-kwansei-gakuin-vs-tenri",
@@ -305,13 +305,13 @@
    "away": "天理大学",
    "home_slug": "kwansei-gakuin",
    "away_slug": "tenri",
+   "venue": "宝が池球技場",
+   "status": "played",
    "home_score": 0,
    "away_score": 41,
-   "status": "played",
    "note": "",
-   "stage": "リーグ戦",
-   "venue": "宝が池球技場",
-   "source_url": "https://rugby-kansai.or.jp/20251102KWN_TNR"
+   "stage": "第5節",
+   "source_url": "https://rugby-kansai.or.jp/gameuniversity2025"
   },
   {
    "id": "2025-11-09-setsunan-vs-doshisha",
@@ -322,13 +322,13 @@
    "away": "同志社大学",
    "home_slug": "setsunan",
    "away_slug": "doshisha",
+   "venue": "鶴見緑地球技場",
+   "status": "played",
    "home_score": 7,
    "away_score": 54,
-   "status": "played",
    "note": "",
-   "stage": "リーグ戦",
-   "venue": "鶴見緑地球技場",
-   "source_url": "https://rugby-kansai.or.jp/20251109STN_DSS"
+   "stage": "第5節",
+   "source_url": "https://rugby-kansai.or.jp/gameuniversity2025"
   },
   {
    "id": "2025-11-09-kansai-u-vs-ritsumeikan",
@@ -339,13 +339,13 @@
    "away": "立命館大学",
    "home_slug": "kansai-u",
    "away_slug": "ritsumeikan",
+   "venue": "鶴見緑地球技場",
+   "status": "played",
    "home_score": 10,
    "away_score": 34,
-   "status": "played",
    "note": "",
-   "stage": "リーグ戦",
-   "venue": "鶴見緑地球技場",
-   "source_url": "https://rugby-kansai.or.jp/20251109KAN_RTM"
+   "stage": "第5節",
+   "source_url": "https://rugby-kansai.or.jp/gameuniversity2025"
   },
   {
    "id": "2025-11-16-kwansei-gakuin-vs-kyoto-sangyo",
@@ -356,13 +356,13 @@
    "away": "京都産業大学",
    "home_slug": "kwansei-gakuin",
    "away_slug": "kyoto-sangyo",
+   "venue": "神戸ユニバー記念競技場",
+   "status": "played",
    "home_score": 22,
    "away_score": 28,
-   "status": "played",
    "note": "",
-   "stage": "リーグ戦",
-   "venue": "神戸ユニバー記念競技場",
-   "source_url": "https://rugby-kansai.or.jp/20251116KWN_KSG"
+   "stage": "第6節",
+   "source_url": "https://rugby-kansai.or.jp/gameuniversity2025"
   },
   {
    "id": "2025-11-16-tenri-vs-kindai",
@@ -373,13 +373,13 @@
    "away": "近畿大学",
    "home_slug": "tenri",
    "away_slug": "kindai",
+   "venue": "神戸ユニバー記念競技場",
+   "status": "played",
    "home_score": 54,
    "away_score": 5,
-   "status": "played",
    "note": "",
-   "stage": "リーグ戦",
-   "venue": "神戸ユニバー記念競技場",
-   "source_url": "https://rugby-kansai.or.jp/20251116TNR_KIN"
+   "stage": "第6節",
+   "source_url": "https://rugby-kansai.or.jp/gameuniversity2025"
   },
   {
    "id": "2025-11-23-doshisha-vs-kansai-u",
@@ -390,13 +390,13 @@
    "away": "関西大学",
    "home_slug": "doshisha",
    "away_slug": "kansai-u",
+   "venue": "たけびしスタジアム京都",
+   "status": "played",
    "home_score": 20,
    "away_score": 22,
-   "status": "played",
    "note": "",
-   "stage": "リーグ戦",
-   "venue": "たけびしスタジアム京都",
-   "source_url": "https://rugby-kansai.or.jp/20251123DSS_KAN"
+   "stage": "第6節",
+   "source_url": "https://rugby-kansai.or.jp/gameuniversity2025"
   },
   {
    "id": "2025-11-23-ritsumeikan-vs-setsunan",
@@ -407,13 +407,13 @@
    "away": "摂南大学",
    "home_slug": "ritsumeikan",
    "away_slug": "setsunan",
+   "venue": "たけびしスタジアム京都",
+   "status": "played",
    "home_score": 49,
    "away_score": 31,
-   "status": "played",
    "note": "",
-   "stage": "リーグ戦",
-   "venue": "たけびしスタジアム京都",
-   "source_url": "https://rugby-kansai.or.jp/20251123RTM_STN"
+   "stage": "第6節",
+   "source_url": "https://rugby-kansai.or.jp/gameuniversity2025"
   },
   {
    "id": "2025-11-30-kansai-u-vs-setsunan",
@@ -424,13 +424,13 @@
    "away": "摂南大学",
    "home_slug": "kansai-u",
    "away_slug": "setsunan",
+   "venue": "東大阪市花園ラグビー場第2G",
+   "status": "played",
    "home_score": 48,
    "away_score": 22,
-   "status": "played",
    "note": "",
-   "stage": "リーグ戦",
-   "venue": "東大阪市花園ラグビー場第2G",
-   "source_url": "https://rugby-kansai.or.jp/20251130KAN_STN"
+   "stage": "第7節",
+   "source_url": "https://rugby-kansai.or.jp/gameuniversity2025"
   },
   {
    "id": "2025-11-30-kindai-vs-kwansei-gakuin",
@@ -441,13 +441,13 @@
    "away": "関西学院大学",
    "home_slug": "kindai",
    "away_slug": "kwansei-gakuin",
+   "venue": "東大阪市花園ラグビー場第1G",
+   "status": "played",
    "home_score": 31,
    "away_score": 40,
-   "status": "played",
    "note": "",
-   "stage": "リーグ戦",
-   "venue": "東大阪市花園ラグビー場第1G",
-   "source_url": "https://rugby-kansai.or.jp/20251130KIN_KWN"
+   "stage": "第7節",
+   "source_url": "https://rugby-kansai.or.jp/gameuniversity2025"
   },
   {
    "id": "2025-11-30-ritsumeikan-vs-doshisha",
@@ -458,13 +458,13 @@
    "away": "同志社大学",
    "home_slug": "ritsumeikan",
    "away_slug": "doshisha",
+   "venue": "東大阪市花園ラグビー場第2G",
+   "status": "played",
    "home_score": 19,
    "away_score": 29,
-   "status": "played",
    "note": "",
-   "stage": "リーグ戦",
-   "venue": "東大阪市花園ラグビー場第2G",
-   "source_url": "https://rugby-kansai.or.jp/20251130RTM_DSS"
+   "stage": "第7節",
+   "source_url": "https://rugby-kansai.or.jp/gameuniversity2025"
   },
   {
    "id": "2025-11-30-kyoto-sangyo-vs-tenri",
@@ -475,13 +475,13 @@
    "away": "天理大学",
    "home_slug": "kyoto-sangyo",
    "away_slug": "tenri",
+   "venue": "東大阪市花園ラグビー場第1G",
+   "status": "played",
    "home_score": 15,
    "away_score": 47,
-   "status": "played",
    "note": "",
-   "stage": "リーグ戦",
-   "venue": "東大阪市花園ラグビー場第1G",
-   "source_url": "https://rugby-kansai.or.jp/20251130KSG_TNR"
+   "stage": "第7節",
+   "source_url": "https://rugby-kansai.or.jp/gameuniversity2025"
   }
  ],
  "standings": {

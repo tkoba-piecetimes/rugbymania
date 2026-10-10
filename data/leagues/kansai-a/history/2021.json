@@ -1,6 +1,6 @@
 {
  "source_url": "https://rugby-kansai.or.jp/gameuniversity2021",
- "fetched_at": "2026-09-11T17:27:16+00:00",
+ "fetched_at": "2026-10-10T00:41:44+00:00",
  "import_version": 2,
  "coverage_note": "公式日程ページの掲載試合。入替戦は対象外。",
  "standings_kind": "reference",
@@ -16,14 +16,13 @@
    "away": "関西大学",
    "home_slug": "doshisha",
    "away_slug": "kansai-u",
+   "venue": "宝が池",
+   "status": "played",
    "home_score": 75,
    "away_score": 8,
-   "status": "played",
-   "venue": "宝が池",
    "note": "",
-   "stage": "1",
-   "group": "",
-   "source_url": "https://rugby-kansai.or.jp/result/20210918dss_kan"
+   "stage": "第1節",
+   "source_url": "https://rugby-kansai.or.jp/gameuniversity2021"
   },
   {
    "id": "2021-09-19-ritsumeikan-vs-kwansei-gakuin",
@@ -34,14 +33,13 @@
    "away": "関西学院大学",
    "home_slug": "ritsumeikan",
    "away_slug": "kwansei-gakuin",
+   "venue": "ヤンマースタジアム長居",
+   "status": "played",
    "home_score": 43,
    "away_score": 24,
-   "status": "played",
-   "venue": "ヤンマースタジアム長居",
    "note": "",
-   "stage": "1",
-   "group": "",
-   "source_url": "https://rugby-kansai.or.jp/result/20210919rtm_kwn"
+   "stage": "第1節",
+   "source_url": "https://rugby-kansai.or.jp/gameuniversity2021"
   },
   {
    "id": "2021-09-19-kindai-vs-tenri",
@@ -52,14 +50,13 @@
    "away": "天理大学",
    "home_slug": "kindai",
    "away_slug": "tenri",
+   "venue": "ヤンマースタジアム長居",
+   "status": "played",
    "home_score": 23,
    "away_score": 7,
-   "status": "played",
-   "venue": "ヤンマースタジアム長居",
    "note": "",
-   "stage": "1",
-   "group": "",
-   "source_url": "https://rugby-kansai.or.jp/result/20210919kin_tnr"
+   "stage": "第1節",
+   "source_url": "https://rugby-kansai.or.jp/gameuniversity2021"
   },
   {
    "id": "2021-10-03-kwansei-gakuin-vs-setsunan",
@@ -70,14 +67,13 @@
    "away": "摂南大学",
    "home_slug": "kwansei-gakuin",
    "away_slug": "setsunan",
+   "venue": "親里",
+   "status": "played",
    "home_score": 27,
    "away_score": 38,
-   "status": "played",
-   "venue": "親里",
    "note": "",
-   "stage": "2",
-   "group": "",
-   "source_url": "https://rugby-kansai.or.jp/result/20211003kwn_stn"
+   "stage": "第2節",
+   "source_url": "https://rugby-kansai.or.jp/gameuniversity2021"
   },
   {
    "id": "2021-10-03-tenri-vs-kansai-u",
@@ -88,14 +84,13 @@
    "away": "関西大学",
    "home_slug": "tenri",
    "away_slug": "kansai-u",
+   "venue": "親里",
+   "status": "played",
    "home_score": 69,
    "away_score": 21,
-   "status": "played",
-   "venue": "親里",
    "note": "",
-   "stage": "2",
-   "group": "",
-   "source_url": "https://rugby-kansai.or.jp/result/20211003tnr_kan"
+   "stage": "第2節",
+   "source_url": "https://rugby-kansai.or.jp/gameuniversity2021"
   },
   {
    "id": "2021-10-09-ritsumeikan-vs-kyoto-sangyo",
@@ -106,14 +101,13 @@
    "away": "京都産業大学",
    "home_slug": "ritsumeikan",
    "away_slug": "kyoto-sangyo",
+   "venue": "布引",
+   "status": "played",
    "home_score": 20,
    "away_score": 41,
-   "status": "played",
-   "venue": "布引",
    "note": "",
-   "stage": "2",
-   "group": "",
-   "source_url": "https://rugby-kansai.or.jp/result/20211009rtm_ksg"
+   "stage": "第2節",
+   "source_url": "https://rugby-kansai.or.jp/gameuniversity2021"
   },
   {
    "id": "2021-10-09-doshisha-vs-kindai",
@@ -124,14 +118,13 @@
    "away": "近畿大学",
    "home_slug": "doshisha",
    "away_slug": "kindai",
+   "venue": "布引",
+   "status": "played",
    "home_score": 10,
    "away_score": 24,
-   "status": "played",
-   "venue": "布引",
    "note": "",
-   "stage": "2",
-   "group": "",
-   "source_url": "https://rugby-kansai.or.jp/result/20211009dss_kin"
+   "stage": "第2節",
+   "source_url": "https://rugby-kansai.or.jp/gameuniversity2021"
   },
   {
    "id": "2021-10-16-kwansei-gakuin-vs-kansai-u",
@@ -142,14 +135,13 @@
    "away": "関西大学",
    "home_slug": "kwansei-gakuin",
    "away_slug": "kansai-u",
+   "venue": "親里",
+   "status": "played",
    "home_score": 22,
    "away_score": 27,
-   "status": "played",
-   "venue": "親里",
    "note": "",
-   "stage": "3",
-   "group": "",
-   "source_url": "https://rugby-kansai.or.jp/result/20211016kwn_kan"
+   "stage": "第3節",
+   "source_url": "https://rugby-kansai.or.jp/gameuniversity2021"
   },
   {
    "id": "2021-10-16-tenri-vs-setsunan",
@@ -160,14 +152,13 @@
    "away": "摂南大学",
    "home_slug": "tenri",
    "away_slug": "setsunan",
+   "venue": "親里",
+   "status": "played",
    "home_score": 40,
    "away_score": 0,
-   "status": "played",
-   "venue": "親里",
    "note": "",
-   "stage": "3",
-   "group": "",
-   "source_url": "https://rugby-kansai.or.jp/result/20211016tnr_stn"
+   "stage": "第3節",
+   "source_url": "https://rugby-kansai.or.jp/gameuniversity2021"
   },
   {
    "id": "2021-10-17-kyoto-sangyo-vs-kindai",
@@ -178,14 +169,13 @@
    "away": "近畿大学",
    "home_slug": "kyoto-sangyo",
    "away_slug": "kindai",
+   "venue": "皇子山",
+   "status": "played",
    "home_score": 16,
    "away_score": 12,
-   "status": "played",
-   "venue": "皇子山",
    "note": "",
-   "stage": "3",
-   "group": "",
-   "source_url": "https://rugby-kansai.or.jp/result/20211017ksg_kin"
+   "stage": "第3節",
+   "source_url": "https://rugby-kansai.or.jp/gameuniversity2021"
   },
   {
    "id": "2021-10-17-ritsumeikan-vs-doshisha",
@@ -196,14 +186,13 @@
    "away": "同志社大学",
    "home_slug": "ritsumeikan",
    "away_slug": "doshisha",
+   "venue": "皇子山",
+   "status": "played",
    "home_score": 14,
    "away_score": 42,
-   "status": "played",
-   "venue": "皇子山",
    "note": "",
-   "stage": "3",
-   "group": "",
-   "source_url": "https://rugby-kansai.or.jp/result/20211017rtm_dss"
+   "stage": "第3節",
+   "source_url": "https://rugby-kansai.or.jp/gameuniversity2021"
   },
   {
    "id": "2021-10-24-kyoto-sangyo-vs-setsunan",
@@ -214,14 +203,13 @@
    "away": "摂南大学",
    "home_slug": "kyoto-sangyo",
    "away_slug": "setsunan",
+   "venue": "布引",
+   "status": "played",
    "home_score": 44,
    "away_score": 14,
-   "status": "played",
-   "venue": "布引",
    "note": "",
-   "stage": "1",
-   "group": "",
-   "source_url": "https://rugby-kansai.or.jp/result/20211024ksg_stn"
+   "stage": "第1節",
+   "source_url": "https://rugby-kansai.or.jp/gameuniversity2021"
   },
   {
    "id": "2021-10-30-kindai-vs-kwansei-gakuin",
@@ -232,14 +220,13 @@
    "away": "関西学院大学",
    "home_slug": "kindai",
    "away_slug": "kwansei-gakuin",
+   "venue": "鶴見",
+   "status": "played",
    "home_score": 62,
    "away_score": 35,
-   "status": "played",
-   "venue": "鶴見",
    "note": "",
-   "stage": "4",
-   "group": "",
-   "source_url": "https://rugby-kansai.or.jp/result/20211030kin_kwn"
+   "stage": "第4節",
+   "source_url": "https://rugby-kansai.or.jp/gameuniversity2021"
   },
   {
    "id": "2021-10-30-setsunan-vs-doshisha",
@@ -250,14 +237,13 @@
    "away": "同志社大学",
    "home_slug": "setsunan",
    "away_slug": "doshisha",
+   "venue": "鶴見",
+   "status": "played",
    "home_score": 5,
    "away_score": 45,
-   "status": "played",
-   "venue": "鶴見",
    "note": "",
-   "stage": "4",
-   "group": "",
-   "source_url": "https://rugby-kansai.or.jp/result/20211030stn_dss"
+   "stage": "第4節",
+   "source_url": "https://rugby-kansai.or.jp/gameuniversity2021"
   },
   {
    "id": "2021-10-31-kansai-u-vs-kyoto-sangyo",
@@ -268,14 +254,13 @@
    "away": "京都産業大学",
    "home_slug": "kansai-u",
    "away_slug": "kyoto-sangyo",
+   "venue": "親里",
+   "status": "played",
    "home_score": 24,
    "away_score": 59,
-   "status": "played",
-   "venue": "親里",
    "note": "",
-   "stage": "4",
-   "group": "",
-   "source_url": "https://rugby-kansai.or.jp/result/20211031kan_ksg"
+   "stage": "第4節",
+   "source_url": "https://rugby-kansai.or.jp/gameuniversity2021"
   },
   {
    "id": "2021-10-31-tenri-vs-ritsumeikan",
@@ -286,14 +271,13 @@
    "away": "立命館大学",
    "home_slug": "tenri",
    "away_slug": "ritsumeikan",
+   "venue": "親里",
+   "status": "played",
    "home_score": 42,
    "away_score": 14,
-   "status": "played",
-   "venue": "親里",
    "note": "",
-   "stage": "4",
-   "group": "",
-   "source_url": "https://rugby-kansai.or.jp/result/20211031tnr_rtm"
+   "stage": "第4節",
+   "source_url": "https://rugby-kansai.or.jp/gameuniversity2021"
   },
   {
    "id": "2021-11-06-doshisha-vs-kyoto-sangyo",
@@ -304,14 +288,13 @@
    "away": "京都産業大学",
    "home_slug": "doshisha",
    "away_slug": "kyoto-sangyo",
+   "venue": "親里",
+   "status": "played",
    "home_score": 19,
    "away_score": 22,
-   "status": "played",
-   "venue": "親里",
    "note": "",
-   "stage": "5",
-   "group": "",
-   "source_url": "https://rugby-kansai.or.jp/result/20211106dss_ksg"
+   "stage": "第5節",
+   "source_url": "https://rugby-kansai.or.jp/gameuniversity2021"
   },
   {
    "id": "2021-11-06-tenri-vs-kwansei-gakuin",
@@ -322,14 +305,13 @@
    "away": "関西学院大学",
    "home_slug": "tenri",
    "away_slug": "kwansei-gakuin",
+   "venue": "親里",
+   "status": "played",
    "home_score": 38,
    "away_score": 17,
-   "status": "played",
-   "venue": "親里",
    "note": "",
-   "stage": "5",
-   "group": "",
-   "source_url": "https://rugby-kansai.or.jp/result/20211106tnr_kwn"
+   "stage": "第5節",
+   "source_url": "https://rugby-kansai.or.jp/gameuniversity2021"
   },
   {
    "id": "2021-11-07-setsunan-vs-kansai-u",
@@ -340,14 +322,13 @@
    "away": "関西大学",
    "home_slug": "setsunan",
    "away_slug": "kansai-u",
+   "venue": "鶴見",
+   "status": "played",
    "home_score": 17,
    "away_score": 19,
-   "status": "played",
-   "venue": "鶴見",
    "note": "",
-   "stage": "5",
-   "group": "",
-   "source_url": "https://rugby-kansai.or.jp/result/20211107stn_kan"
+   "stage": "第5節",
+   "source_url": "https://rugby-kansai.or.jp/gameuniversity2021"
   },
   {
    "id": "2021-11-07-kindai-vs-ritsumeikan",
@@ -358,14 +339,13 @@
    "away": "立命館大学",
    "home_slug": "kindai",
    "away_slug": "ritsumeikan",
+   "venue": "鶴見",
+   "status": "played",
    "home_score": 35,
    "away_score": 17,
-   "status": "played",
-   "venue": "鶴見",
    "note": "",
-   "stage": "5",
-   "group": "",
-   "source_url": "https://rugby-kansai.or.jp/result/20211107kin_rtm"
+   "stage": "第5節",
+   "source_url": "https://rugby-kansai.or.jp/gameuniversity2021"
   },
   {
    "id": "2021-11-20-kwansei-gakuin-vs-doshisha",
@@ -376,14 +356,13 @@
    "away": "同志社大学",
    "home_slug": "kwansei-gakuin",
    "away_slug": "doshisha",
+   "venue": "神戸ユニバー",
+   "status": "played",
    "home_score": 0,
    "away_score": 68,
-   "status": "played",
-   "venue": "神戸ユニバー",
    "note": "",
-   "stage": "6",
-   "group": "",
-   "source_url": "https://rugby-kansai.or.jp/result/20211120kwn_dss"
+   "stage": "第6節",
+   "source_url": "https://rugby-kansai.or.jp/gameuniversity2021"
   },
   {
    "id": "2021-11-20-kyoto-sangyo-vs-tenri",
@@ -394,14 +373,13 @@
    "away": "天理大学",
    "home_slug": "kyoto-sangyo",
    "away_slug": "tenri",
+   "venue": "神戸ユニバー",
+   "status": "played",
    "home_score": 19,
    "away_score": 10,
-   "status": "played",
-   "venue": "神戸ユニバー",
    "note": "",
-   "stage": "6",
-   "group": "",
-   "source_url": "https://rugby-kansai.or.jp/result/20211120ksg_tnr"
+   "stage": "第6節",
+   "source_url": "https://rugby-kansai.or.jp/gameuniversity2021"
   },
   {
    "id": "2021-11-21-kindai-vs-setsunan",
@@ -412,14 +390,13 @@
    "away": "摂南大学",
    "home_slug": "kindai",
    "away_slug": "setsunan",
+   "venue": "ヤンマーフィールド長居",
+   "status": "played",
    "home_score": 43,
    "away_score": 14,
-   "status": "played",
-   "venue": "ヤンマーフィールド長居",
    "note": "",
-   "stage": "6",
-   "group": "",
-   "source_url": "https://rugby-kansai.or.jp/result/20211121kin_stn"
+   "stage": "第6節",
+   "source_url": "https://rugby-kansai.or.jp/gameuniversity2021"
   },
   {
    "id": "2021-11-21-kansai-u-vs-ritsumeikan",
@@ -430,14 +407,13 @@
    "away": "立命館大学",
    "home_slug": "kansai-u",
    "away_slug": "ritsumeikan",
+   "venue": "ヤンマーフィールド長居",
+   "status": "played",
    "home_score": 17,
    "away_score": 19,
-   "status": "played",
-   "venue": "ヤンマーフィールド長居",
    "note": "",
-   "stage": "6",
-   "group": "",
-   "source_url": "https://rugby-kansai.or.jp/result/20211121kan_rtm"
+   "stage": "第6節",
+   "source_url": "https://rugby-kansai.or.jp/gameuniversity2021"
   },
   {
    "id": "2021-11-28-kansai-u-vs-kindai",
@@ -448,14 +424,13 @@
    "away": "近畿大学",
    "home_slug": "kansai-u",
    "away_slug": "kindai",
+   "venue": "ヤンマーフィールド長居",
+   "status": "played",
    "home_score": 14,
    "away_score": 57,
-   "status": "played",
-   "venue": "ヤンマーフィールド長居",
    "note": "",
-   "stage": "7",
-   "group": "",
-   "source_url": "https://rugby-kansai.or.jp/result/20211128kan_kin"
+   "stage": "第7節",
+   "source_url": "https://rugby-kansai.or.jp/gameuniversity2021"
   },
   {
    "id": "2021-11-28-setsunan-vs-ritsumeikan",
@@ -466,14 +441,13 @@
    "away": "立命館大学",
    "home_slug": "setsunan",
    "away_slug": "ritsumeikan",
+   "venue": "ヤンマーフィールド長居",
+   "status": "played",
    "home_score": 21,
    "away_score": 41,
-   "status": "played",
-   "venue": "ヤンマーフィールド長居",
    "note": "",
-   "stage": "7",
-   "group": "",
-   "source_url": "https://rugby-kansai.or.jp/result/20211128stn_rtm"
+   "stage": "第7節",
+   "source_url": "https://rugby-kansai.or.jp/gameuniversity2021"
   },
   {
    "id": "2021-12-04-kyoto-sangyo-vs-kwansei-gakuin",
@@ -484,14 +458,13 @@
    "away": "関西学院大学",
    "home_slug": "kyoto-sangyo",
    "away_slug": "kwansei-gakuin",
+   "venue": "たけびしスタジアム京都",
+   "status": "played",
    "home_score": 33,
    "away_score": 5,
-   "status": "played",
-   "venue": "たけびしスタジアム京都",
    "note": "",
-   "stage": "7",
-   "group": "",
-   "source_url": "https://rugby-kansai.or.jp/result/20211204ksg_kwn"
+   "stage": "第7節",
+   "source_url": "https://rugby-kansai.or.jp/gameuniversity2021"
   },
   {
    "id": "2021-12-04-doshisha-vs-tenri",
@@ -502,50 +475,13 @@
    "away": "天理大学",
    "home_slug": "doshisha",
    "away_slug": "tenri",
+   "venue": "たけびしスタジアム京都",
+   "status": "played",
    "home_score": 25,
    "away_score": 27,
-   "status": "played",
-   "venue": "たけびしスタジアム京都",
    "note": "",
-   "stage": "7",
-   "group": "",
-   "source_url": "https://rugby-kansai.or.jp/result/20211204dss_tnr"
-  },
-  {
-   "id": "2021-12-11-kwansei-gakuin-vs-osaka-taiiku",
-   "date": "2021-12-11",
-   "time": "11:45",
-   "category": "関西大学ラグビーAリーグ",
-   "home": "関西学院大学",
-   "away": "大阪体育大学",
-   "home_slug": "kwansei-gakuin",
-   "away_slug": "osaka-taiiku",
-   "home_score": 48,
-   "away_score": 17,
-   "status": "played",
-   "venue": "宝が池",
-   "note": "",
-   "stage": "入替戦",
-   "group": "",
-   "source_url": "https://rugby-kansai.or.jp/result/20211211kwn_ouh"
-  },
-  {
-   "id": "2021-12-11-setsunan-vs-ryukoku",
-   "date": "2021-12-11",
-   "time": "14:00",
-   "category": "関西大学ラグビーAリーグ",
-   "home": "摂南大学",
-   "away": "龍谷大学",
-   "home_slug": "setsunan",
-   "away_slug": "ryukoku",
-   "home_score": 69,
-   "away_score": 29,
-   "status": "played",
-   "venue": "宝が池",
-   "note": "",
-   "stage": "入替戦",
-   "group": "",
-   "source_url": "https://rugby-kansai.or.jp/result/20211211stn_rkk"
+   "stage": "第7節",
+   "source_url": "https://rugby-kansai.or.jp/gameuniversity2021"
   }
  ],
  "standings": {
@@ -621,20 +557,6 @@
     "goals_for": 168
    },
    {
-    "team": "摂南大学",
-    "slug": "setsunan",
-    "points": 6,
-    "games": 8,
-    "wins": 2,
-    "draws": 0,
-    "losses": 6,
-    "gf": 178,
-    "ga": 288,
-    "rank": 6,
-    "goal_diff": "-110",
-    "goals_for": 178
-   },
-   {
     "team": "関西大学",
     "slug": "kansai-u",
     "points": 6,
@@ -644,51 +566,37 @@
     "losses": 5,
     "gf": 130,
     "ga": 318,
-    "rank": 7,
+    "rank": 6,
     "goal_diff": "-188",
     "goals_for": 130
    },
    {
-    "team": "関西学院大学",
-    "slug": "kwansei-gakuin",
+    "team": "摂南大学",
+    "slug": "setsunan",
     "points": 3,
-    "games": 8,
+    "games": 7,
     "wins": 1,
     "draws": 0,
+    "losses": 6,
+    "gf": 109,
+    "ga": 259,
+    "rank": 7,
+    "goal_diff": "-150",
+    "goals_for": 109
+   },
+   {
+    "team": "関西学院大学",
+    "slug": "kwansei-gakuin",
+    "points": 0,
+    "games": 7,
+    "wins": 0,
+    "draws": 0,
     "losses": 7,
-    "gf": 178,
-    "ga": 326,
+    "gf": 130,
+    "ga": 309,
     "rank": 8,
-    "goal_diff": "-148",
-    "goals_for": 178
-   },
-   {
-    "team": "大阪体育大学",
-    "slug": "osaka-taiiku",
-    "points": 0,
-    "games": 1,
-    "wins": 0,
-    "draws": 0,
-    "losses": 1,
-    "gf": 17,
-    "ga": 48,
-    "rank": 9,
-    "goal_diff": "-31",
-    "goals_for": 17
-   },
-   {
-    "team": "龍谷大学",
-    "slug": "ryukoku",
-    "points": 0,
-    "games": 1,
-    "wins": 0,
-    "draws": 0,
-    "losses": 1,
-    "gf": 29,
-    "ga": 69,
-    "rank": 10,
-    "goal_diff": "-40",
-    "goals_for": 29
+    "goal_diff": "-179",
+    "goals_for": 130
    }
   ]
  }
