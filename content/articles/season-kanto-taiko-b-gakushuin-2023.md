@@ -27,6 +27,8 @@ cta: sponsor
 - 戦績: 2勝0分5敗
 - 得失点差: -84
 
+学習院大が10月29日に7-38で敗れた上智大のシーズン全体の成績は、[【2023年 関東大学対抗戦Bグループ】上智大のシーズン記録](https://rugbymania.jp/articles/season-kanto-taiko-b-jouchi-2023/)で振り返れます。<!-- index-lane-link -->
+
 ## 出典
 
 - [関東ラグビーフットボール協会](https://www.rugby.or.jp/univ/)
