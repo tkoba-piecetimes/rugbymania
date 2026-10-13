@@ -307,6 +307,14 @@ def md_to_html(md):
 
 # ---------------------------------------------------------------- page shell
 
+def contact_cta(rel, location):
+    """データページ末尾の問い合わせ案内（自サイト内リンクのためPR表記なし）。
+    location: standings|schedule|match|team|result。クリックはGA4 contact_clickで計測。"""
+    return ('<p class="contact-cta">掲載内容の誤りや、試合・チームに関する情報提供は編集部までお知らせください。'
+            f'<a href="{rel}contact/index.html" data-cta="contact_click" data-cta-location="{location}" '
+            f'onclick="window.gtag&&gtag(\'event\',\'contact_click\',{{location:\'{location}\'}})">編集部に連絡する →</a></p>')
+
+
 NAV_ITEMS = [
     ("index.html#match-center", "試合・結果"),
     ("index.html#leagues", "リーグ"),
@@ -349,7 +357,7 @@ CTA_VIEW_SCRIPT = """<script>
           var el = entry.target;
           window.gtag && gtag('event', 'cta_view', {
             cta: el.dataset.cta,
-            position: el.dataset.position
+            position: el.dataset.position || el.dataset.ctaLocation
           });
         }
       });
@@ -756,6 +764,7 @@ def build_league(lg, articles):
         body += '<section><h2>日程未確定</h2>' + match_table("".join(match_row(m,L) for m in undated)) + '</section>'
     if announcements:
         body += '<section><h2>不戦・中止等の公式発表</h2>' + match_table("".join(match_row(m,L) for m in announcements)) + '</section>'
+    body += contact_cta(R, "schedule")
     write_page(f"{code}/schedule",
                page(R, f'試合日程・結果 | {league_name} | ラグビーマニア', body, meta,
                     path=f"{code}/schedule/", desc=f'{league_name}の全試合日程と結果の一覧。',
@@ -766,6 +775,7 @@ def build_league(lg, articles):
         if entries:
             body += standings_table(block, entries, L)
     body += '<p class="note">※順位・勝ち点は試合結果（勝ち点3・分け1）から編集部が算出した参考値です。公式のボーナスポイント制度とは異なる場合があります。</p>'
+    body += contact_cta(R, "standings")
     write_page(f"{code}/standings",
                page(R, f'順位表 | {league_name} | ラグビーマニア', body, meta,
                     path=f"{code}/standings/", desc=f'{league_name}の順位表。勝点・得失点差を毎日更新。',
@@ -843,6 +853,7 @@ def build_league(lg, articles):
                 for a in articles[:3])
             body += (f'<section><h2>読みもの</h2><ul>{art_links}</ul>'
                      f'<p class="more"><a href="{R}articles/index.html">読みもの一覧へ →</a></p></section>')
+        body += contact_cta(R, "team")
         body += sponsor_block()
         write_page(f"{code}/clubs/{slug}",
                    page(R, f'{name} 試合結果・日程・戦績 | ラグビーマニア', body, meta,
@@ -871,6 +882,7 @@ def build_league(lg, articles):
         body += ('<p class="links">'
                  f'<a href="{L}clubs/{m["home_slug"]}/index.html">{escape(m["home"])}のページ</a> / '
                  f'<a href="{L}clubs/{m["away_slug"]}/index.html">{escape(m["away"])}のページ</a></p>')
+        body += contact_cta(R, "match")
         write_page(f"{code}/matches/{m['id']}",
                    page(R, match_headline(m) + f' | {lg["label"]} | ラグビーマニア', body, meta,
                         path=f"{code}/matches/{m['id']}/", desc=report[:120], og_type="article",
@@ -1092,6 +1104,9 @@ CONTACT_FORM_JS = """<script>
     var elements = form.elements;
     var i;
     for (i = 0; i < elements.length; i++) { elements[i].disabled = true; }
+    var submitBtn = document.getElementById('cf-submit');
+    var submitLabel = submitBtn ? submitBtn.textContent : '';
+    if (submitBtn) { submitBtn.textContent = '送信中…'; }
     msg.textContent = '';
     msg.className = 'form-message';
     fetch('__RELAY_URL__', {
@@ -1102,6 +1117,7 @@ CONTACT_FORM_JS = """<script>
       return res.json().catch(function () { return { ok: false }; });
     }).then(function (data) {
       if (data && data.ok) {
+        if (typeof gtag === 'function') { gtag('event', 'generate_lead', { form: 'contact', inquiry_type: payload.type }); }
         form.style.display = 'none';
         msg.textContent = '送信しました。3営業日以内にご返信します。';
         msg.className = 'form-message form-message-ok';
@@ -1109,9 +1125,11 @@ CONTACT_FORM_JS = """<script>
         throw new Error('failed');
       }
     }).catch(function () {
+      if (typeof gtag === 'function') { gtag('event', 'contact_submit_error'); }
       msg.textContent = '送信に失敗しました。時間をおいてお試しください。';
       msg.className = 'form-message form-message-error';
       for (i = 0; i < elements.length; i++) { elements[i].disabled = false; }
+      if (submitBtn) { submitBtn.textContent = submitLabel; }
     });
   });
 })();
@@ -1327,6 +1345,8 @@ table.detail td { white-space:normal; }
 .breadcrumb a { color:var(--sub); }
 .lead { color:var(--sub); }
 .note { color:var(--sub); font-size:.8rem; }
+.contact-cta { margin:1.4rem 0 .6rem; padding:.55rem .8rem; border:1px solid var(--line); border-radius:6px; font-size:.8rem; color:var(--sub); }
+.contact-cta a { margin-left:.5em; white-space:nowrap; }
 .more { margin:.9rem 0 0; }
 .cta { display:inline-block; background:var(--accent); color:var(--navy); font-weight:700;
   font-size:.85rem; text-decoration:none; padding:.5em 1.1em; border-radius:8px; }
