@@ -40,12 +40,12 @@
   "away": "琉球大学",
   "home_slug": "meiou",
   "away_slug": "ryuukyuu",
-  "home_score": null,
-  "away_score": null,
-  "status": "scheduled",
+  "home_score": 17,
+  "away_score": 49,
+  "status": "played",
   "venue": "沖縄国際大学",
   "note": "",
-  "source_url": "https://www.rugby-kyushu.jp/kyushuleague/2026-2027/kyushugakusei.html"
+  "source_url": "https://drive.google.com/file/d/1oZOPuxiE8pm5U3YOizcWnL83lhdUKOsO/view?usp=drive_link"
  },
  {
   "id": "2026-10-11-kurume-vs-kyuushuushika",
@@ -56,12 +56,12 @@
   "away": "九州歯科大学",
   "home_slug": "kurume",
   "away_slug": "kyuushuushika",
-  "home_score": null,
-  "away_score": null,
-  "status": "scheduled",
+  "home_score": 28,
+  "away_score": 5,
+  "status": "played",
   "venue": "久留米大学医学部グラウンド",
   "note": "",
-  "source_url": "https://www.rugby-kyushu.jp/kyushuleague/2026-2027/kyushugakusei.html"
+  "source_url": "https://drive.google.com/file/d/1hgC_j2ELwJn1h60NP4eAIFrkHcD0i0mp/view?usp=drive_link"
  },
  {
   "id": "2026-10-25-fukuokadaigakuigakubu-vs-kurume",

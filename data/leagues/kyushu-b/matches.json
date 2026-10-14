@@ -136,12 +136,12 @@
   "away": "熊本大学",
   "home_slug": "okinawakokusai",
   "away_slug": "kumamoto",
-  "home_score": null,
-  "away_score": null,
-  "status": "scheduled",
+  "home_score": 50,
+  "away_score": 34,
+  "status": "played",
   "venue": "沖縄国際大学グラウンド",
   "note": "",
-  "source_url": "https://www.rugby-kyushu.jp/kyushuleague/2026-2027/kyushugakusei.html"
+  "source_url": "https://drive.google.com/file/d/1JKmeXKtClUCSDaPE73iVfKyJfdyahH-8/view?usp=drive_link"
  },
  {
   "id": "2026-10-17-kumamoto-vs-nagasaki",

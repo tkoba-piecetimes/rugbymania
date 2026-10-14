@@ -45,16 +45,16 @@
   {
    "team": "沖縄国際大学",
    "slug": "okinawakokusai",
-   "points": 0,
-   "games": 1,
-   "wins": 0,
+   "points": 3,
+   "games": 2,
+   "wins": 1,
    "draws": 0,
    "losses": 1,
-   "gf": 7,
-   "ga": 26,
+   "gf": 57,
+   "ga": 60,
    "rank": 4,
-   "goal_diff": "-19",
-   "goals_for": 7
+   "goal_diff": "-3",
+   "goals_for": 57
   },
   {
    "team": "立命館アジア太平洋大学",
@@ -74,15 +74,15 @@
    "team": "熊本大学",
    "slug": "kumamoto",
    "points": 0,
-   "games": 2,
+   "games": 3,
    "wins": 0,
    "draws": 0,
-   "losses": 2,
-   "gf": 19,
-   "ga": 105,
+   "losses": 3,
+   "gf": 53,
+   "ga": 155,
    "rank": 6,
-   "goal_diff": "-86",
-   "goals_for": 19
+   "goal_diff": "-102",
+   "goals_for": 53
   }
  ]
 }
