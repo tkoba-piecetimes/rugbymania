@@ -29,6 +29,8 @@ cta: sponsor
 
 学習院大が10月29日に7-38で敗れた上智大のシーズン全体の成績は、[【2023年 関東大学対抗戦Bグループ】上智大のシーズン記録](https://rugbymania.jp/articles/season-kanto-taiko-b-jouchi-2023/)で振り返れます。<!-- index-lane-link -->
 
+同じ2023年の対抗戦Aグループで2勝5敗の6位だった立教大の全試合は、[2023年関東大学対抗戦Aグループ 立教大のシーズン記録](https://rugbymania.jp/articles/season-kanto-taiko-a-rikkyo-2023/)で確認できます。<!-- index-lane-link -->
+
 ## 出典
 
 - [関東ラグビーフットボール協会](https://www.rugby.or.jp/univ/)

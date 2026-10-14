@@ -29,6 +29,8 @@ cta: sponsor
 
 明治学院大が10月29日に59-26で勝った東京大の同年の全試合結果は、[2023年関東大学対抗戦Bグループ 東京大のシーズン記録](https://rugbymania.jp/articles/season-kanto-taiko-b-toukyou-2023/)で確認できます。<!-- index-lane-link -->
 
+2023年の対抗戦Aグループで7戦全敗の8位となった成蹊大の戦いは、[2023年関東大学対抗戦Aグループ 成蹊大のシーズン記録](https://rugbymania.jp/articles/season-kanto-taiko-a-seikei-2023/)に残っています。<!-- index-lane-link -->
+
 ## 出典
 
 - [関東ラグビーフットボール協会](https://www.rugby.or.jp/univ/)

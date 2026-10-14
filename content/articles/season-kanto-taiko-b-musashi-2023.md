@@ -29,6 +29,8 @@ cta: sponsor
 
 武蔵大が9月24日に37-26で勝った上智大の同年の全試合結果は、[2023年関東大学対抗戦Bグループ 上智大のシーズン記録](https://rugbymania.jp/articles/season-kanto-taiko-b-jouchi-2023/)で確認できます。<!-- index-lane-link -->
 
+同じ2023年の対抗戦でも、上位グループにあたるAグループの青山学院大は1勝6敗で7位でした。全試合の結果は[2023年関東大学対抗戦Aグループ 青山学院大のシーズン記録](https://rugbymania.jp/articles/season-kanto-taiko-a-aoyamagakuin-2023/)にまとめています。<!-- index-lane-link -->
+
 ## 出典
 
 - [関東ラグビーフットボール協会](https://www.rugby.or.jp/univ/)

@@ -29,6 +29,8 @@ cta: sponsor
 
 日本体育大が9月10日の開幕戦で128-0と大勝した成城大の同年の成績は、[2023年関東大学対抗戦Bグループ 成城大のシーズン記録](https://rugbymania.jp/articles/season-kanto-taiko-b-seijo-2023/)にまとめています。<!-- index-lane-link -->
 
+同じ2023年の対抗戦Aグループでの戦いぶりは、3勝4敗の5位だった[2023年関東大学対抗戦Aグループ 慶應義塾大のシーズン記録](https://rugbymania.jp/articles/season-kanto-taiko-a-keio-2023/)から確認できます。<!-- index-lane-link -->
+
 ## 出典
 
 - [関東ラグビーフットボール協会](https://www.rugby.or.jp/univ/)
