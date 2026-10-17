@@ -27,6 +27,11 @@ INDEX_LANE_SEASON_SLUGS = {
     "season-kanto-league-1-hosei-2023",
     "season-kanto-league-1-takushoku-2023",
     "season-kanto-league-1-nihon-2023",
+    "season-kanto-taiko-a-teikyo-2023",
+    "season-kanto-taiko-a-tsukuba-2023",
+    "season-kanto-taiko-a-meiji-2023",
+    "season-kanto-taiko-a-waseda-2023",
+    "season-kyushu-a-fukuoka-it-2024",
 }
 
 SITE_BASE = "https://rugbymania.jp/"
