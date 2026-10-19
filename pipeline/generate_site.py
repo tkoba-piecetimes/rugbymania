@@ -32,6 +32,11 @@ INDEX_LANE_SEASON_SLUGS = {
     "season-kanto-taiko-a-meiji-2023",
     "season-kanto-taiko-a-waseda-2023",
     "season-kyushu-a-fukuoka-it-2024",
+    "season-kyushu-a-fukuoka-u-2024",
+    "season-kyushu-a-kagoshima-u-2024",
+    "season-kyushu-a-kyushu-kyoritsu-2024",
+    "season-kyushu-a-nihon-bunri-2024",
+    "season-kyushu-a-seinan-gakuin-2024",
 }
 
 SITE_BASE = "https://rugbymania.jp/"
