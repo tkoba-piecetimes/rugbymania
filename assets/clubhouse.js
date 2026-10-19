@@ -49,3 +49,28 @@
   $('reset-filters').onclick=()=>{ids.forEach(id=>$(id).selectedIndex=0);teams();limit=12;render();};render();favorite();
  }).catch(()=>{out.innerHTML='<p>試合データを読み込めませんでした。再読み込みするか、リーグ別の日程・順位表をご覧ください。</p>';});
 })();
+
+/* 用語の自動説明（.term）: タップ/ホバー/キーボードで吹き出し。位置調整・同時に1つだけ開く・外側タップ/Escで閉じる */
+(() => {
+ 'use strict';
+ const terms=[...document.querySelectorAll('.term')]; if(!terms.length)return;
+ const mobile=matchMedia('(max-width:640px)');
+ const place=t=>{
+  const tip=t.querySelector('.term-tip'); if(!tip||mobile.matches)return;
+  t.style.setProperty('--term-shift','0px');
+  const r=tip.getBoundingClientRect(),w=document.documentElement.clientWidth,m=8;
+  let shift=0; if(r.right>w-m)shift=w-m-r.right; if(r.left+shift<m)shift=m-r.left;
+  t.style.setProperty('--term-shift',shift+'px');
+ };
+ const close=t=>{t.classList.remove('is-open');t.setAttribute('aria-expanded','false');};
+ const closeAll=except=>terms.forEach(t=>{if(t!==except)close(t);});
+ const open=t=>{closeAll(t);t.classList.add('is-open');t.setAttribute('aria-expanded','true');place(t);};
+ terms.forEach(t=>{
+  t.addEventListener('click',e=>{if(e.target.closest('.term-tip'))return;t.classList.contains('is-open')?close(t):open(t);});
+  t.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();t.classList.contains('is-open')?close(t):open(t);}});
+  t.addEventListener('mouseenter',()=>place(t));
+  t.addEventListener('focus',()=>place(t));
+ });
+ document.addEventListener('click',e=>{if(!e.target.closest('.term'))closeAll();});
+ document.addEventListener('keydown',e=>{if(e.key==='Escape')closeAll();});
+})();

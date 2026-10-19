@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" width="640" height="400" role="img" font-family="'Hiragino Sans','Noto Sans JP','Yu Gothic','Meiryo',sans-serif">
+<title>ラグビーの得点。トライ5点、コンバージョン2点、ペナルティゴール3点、ドロップゴール3点、ペナルティトライ7点</title>
+<rect width="640" height="400" fill="#ffffff"/>
+<text x="320" y="30" font-size="21" text-anchor="middle" fill="#1f2a44" font-weight="bold">得点の種類</text>
+<rect x="24" y="50" width="592" height="60" rx="10" fill="#ffffff" stroke="#9aa3b2" stroke-width="1.5"/>
+<circle cx="66" cy="80" r="24" fill="#2f6fd6"/>
+<text x="66" y="88.4" font-size="24" text-anchor="middle" fill="#ffffff" font-weight="bold">5</text>
+<text x="104" y="75" font-size="19" text-anchor="start" fill="#1f2a44" font-weight="bold">トライ　5点</text>
+<text x="104" y="99" font-size="16" text-anchor="start" fill="#1f2a44" font-weight="normal">相手のインゴールでボールを地面につける</text>
+<rect x="24" y="118" width="592" height="60" rx="10" fill="#ffffff" stroke="#9aa3b2" stroke-width="1.5"/>
+<circle cx="66" cy="148" r="24" fill="#f2a900"/>
+<text x="66" y="156.4" font-size="24" text-anchor="middle" fill="#1f2a44" font-weight="bold">2</text>
+<text x="104" y="143" font-size="19" text-anchor="start" fill="#1f2a44" font-weight="bold">コンバージョン　2点</text>
+<text x="104" y="167" font-size="16" text-anchor="start" fill="#1f2a44" font-weight="normal">トライのあとに得られるゴールキック</text>
+<rect x="24" y="186" width="592" height="60" rx="10" fill="#ffffff" stroke="#9aa3b2" stroke-width="1.5"/>
+<circle cx="66" cy="216" r="24" fill="#f2a900"/>
+<text x="66" y="224.4" font-size="24" text-anchor="middle" fill="#1f2a44" font-weight="bold">3</text>
+<text x="104" y="211" font-size="19" text-anchor="start" fill="#1f2a44" font-weight="bold">ペナルティゴール　3点</text>
+<text x="104" y="235" font-size="16" text-anchor="start" fill="#1f2a44" font-weight="normal">反則で得た権利を使ったゴールキック</text>
+<rect x="24" y="254" width="592" height="60" rx="10" fill="#ffffff" stroke="#9aa3b2" stroke-width="1.5"/>
+<circle cx="66" cy="284" r="24" fill="#f2a900"/>
+<text x="66" y="292.4" font-size="24" text-anchor="middle" fill="#1f2a44" font-weight="bold">3</text>
+<text x="104" y="279" font-size="19" text-anchor="start" fill="#1f2a44" font-weight="bold">ドロップゴール　3点</text>
+<text x="104" y="303" font-size="16" text-anchor="start" fill="#1f2a44" font-weight="normal">プレー中にバウンドさせて蹴り、ゴールへ</text>
+<rect x="24" y="322" width="592" height="60" rx="10" fill="#ffffff" stroke="#9aa3b2" stroke-width="1.5"/>
+<circle cx="66" cy="352" r="24" fill="#d64545"/>
+<text x="66" y="360.4" font-size="24" text-anchor="middle" fill="#ffffff" font-weight="bold">7</text>
+<text x="104" y="347" font-size="19" text-anchor="start" fill="#1f2a44" font-weight="bold">ペナルティトライ　7点</text>
+<text x="104" y="371" font-size="16" text-anchor="start" fill="#1f2a44" font-weight="normal">反則がなければトライだったと判断。キックなし</text>
+</svg>

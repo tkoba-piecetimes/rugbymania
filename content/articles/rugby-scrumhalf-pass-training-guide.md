@@ -2,6 +2,7 @@
 title: ラグビー スクラムハーフのパス練習｜クリアリングパスの基本
 description: 大学ラグビーで新たにスクラムハーフを任された選手向けに、World Rugby公式のKey Factor Analysisが示すクリアリングパス・スパイラルパスの技術と、段階的な練習メニューの組み立て方を整理して解説します。
 category: ポジション別
+level: 経験者
 date: 2026-09-23
 cta: sponsor
 ---

@@ -1,0 +1,391 @@
+{
+  "terms": [
+    {
+      "id": "scrum",
+      "term": "スクラム",
+      "aliases": [],
+      "short": "試合が止まったあとの再開方法。両チーム8人ずつが体を組み合わせて向かい合い、間に入れたボールを足で奪い合う。",
+      "diagram": "rugby-scrum-formation",
+      "source": "https://passport.world.rugby/laws-of-the-game/laws-by-number/19-scrum/"
+    },
+    {
+      "id": "lineout",
+      "term": "ラインアウト",
+      "aliases": [],
+      "short": "ボールが横のライン（タッチライン）の外に出たあとの再開方法。2列に並び、投げ入れたボールを取り合う。",
+      "diagram": "rugby-lineout",
+      "source": "https://passport.world.rugby/laws-of-the-game/laws-by-number/18-touch-quick-throw-and-lineout/"
+    },
+    {
+      "id": "ruck",
+      "term": "ラック",
+      "aliases": [],
+      "short": "地面にあるボールの上で、両チーム1人以上が立ったまま組み合い、ボールを奪い合う状態。手は使えない。",
+      "diagram": "rugby-ruck-maul",
+      "source": "https://passport.world.rugby/laws-of-the-game/laws-by-number/15-ruck/"
+    },
+    {
+      "id": "maul",
+      "term": "モール",
+      "aliases": [],
+      "short": "ボールを持った選手を中心に、両チーム1人以上が立ったまま組み合い、持ち上げたボールを押し合う状態。",
+      "diagram": "rugby-ruck-maul",
+      "source": "https://passport.world.rugby/laws-of-the-game/laws-by-number/16-maul/"
+    },
+    {
+      "id": "tackle",
+      "term": "タックル",
+      "aliases": [],
+      "short": "ボールを持つ相手をつかんで地面に倒すプレー。倒したあとは、すぐにボールから離れなければならない。",
+      "source": "https://passport.world.rugby/laws-of-the-game/laws-by-number/14-tackle/"
+    },
+    {
+      "id": "knock-on",
+      "term": "ノックオン",
+      "aliases": [
+        "ノックフォワード"
+      ],
+      "short": "ボールを手や腕に当てて前に落とす反則。うっかりの場合は、相手ボールのスクラムで再開する。",
+      "source": "https://passport.world.rugby/laws-of-the-game/laws-by-number/11-knock-on-or-throw-forward/"
+    },
+    {
+      "id": "throw-forward",
+      "term": "スローフォワード",
+      "aliases": [],
+      "short": "ボールを前方へ投げる、またはパスする反則。ラグビーでは、パスは真横か後ろにしかできない。",
+      "source": "https://passport.world.rugby/laws-of-the-game/laws-by-number/11-knock-on-or-throw-forward/"
+    },
+    {
+      "id": "offside",
+      "term": "オフサイド",
+      "aliases": [],
+      "short": "ボールを持つ、または最後に触れた味方より前にいる状態でプレーに加わる反則。",
+      "diagram": "rugby-offside-line",
+      "source": "https://passport.world.rugby/laws-of-the-game/laws-by-number/10-offside-and-onside-in-open-play/"
+    },
+    {
+      "id": "offside-line",
+      "term": "オフサイドライン",
+      "aliases": [],
+      "short": "オフサイドにならずにプレーに加われる境目の線。場面ごとに位置が決まっている。",
+      "diagram": "rugby-offside-line",
+      "source": "https://passport.world.rugby/laws-of-the-game/laws-by-number/10-offside-and-onside-in-open-play/"
+    },
+    {
+      "id": "try",
+      "term": "トライ",
+      "aliases": [],
+      "short": "相手のインゴール（ゴールの奥のエリア）で、ボールを地面につける得点。5点。",
+      "diagram": "rugby-scoring",
+      "source": "https://passport.world.rugby/laws-of-the-game/laws-by-number/8-scoring/"
+    },
+    {
+      "id": "in-goal",
+      "term": "インゴール",
+      "aliases": [],
+      "short": "得点ライン（トライライン）の奥にあるエリア。ここでボールを地面につけるとトライになる。",
+      "diagram": "rugby-pitch-lines",
+      "source": "https://passport.world.rugby/laws-of-the-game/laws-by-number/1-the-ground"
+    },
+    {
+      "id": "conversion",
+      "term": "コンバージョン",
+      "aliases": [],
+      "short": "トライのあとに得られるゴールキック。ゴールポストの間を通すと2点が入る。",
+      "diagram": "rugby-scoring",
+      "source": "https://passport.world.rugby/laws-of-the-game/laws-by-number/8-scoring/"
+    },
+    {
+      "id": "penalty",
+      "term": "ペナルティ",
+      "aliases": [],
+      "short": "反則への罰。反則を受けたチームがその場から再開でき、ゴールを狙って成功すれば3点が入る。",
+      "diagram": "rugby-scoring",
+      "source": "https://passport.world.rugby/laws-of-the-game/laws-by-number/20-penalty-and-free-kick/"
+    },
+    {
+      "id": "drop-goal",
+      "term": "ドロップゴール",
+      "aliases": [],
+      "short": "プレー中にボールを地面に弾ませて蹴り、ゴールポストの間を通す得点。3点。",
+      "diagram": "rugby-scoring",
+      "source": "https://www.rugby-japan.jp/guide/rugby/"
+    },
+    {
+      "id": "advantage",
+      "term": "アドバンテージ",
+      "aliases": [],
+      "short": "反則があっても、反則を受けた側に有利なら、笛を吹かずにプレーを続けさせる審判の判断。",
+      "source": "https://passport.world.rugby/laws-of-the-game/laws-by-number/7-advantage/"
+    },
+    {
+      "id": "red-card",
+      "term": "レッドカード",
+      "aliases": [],
+      "short": "重い反則をした選手に出される退場の合図。その選手は、その試合にもう出られない。",
+      "source": "https://passport.world.rugby/laws-of-the-game/laws-by-number/9-foul-play/"
+    },
+    {
+      "id": "bind",
+      "term": "バインド",
+      "aliases": [
+        "バインディング"
+      ],
+      "short": "腕を使って、味方や相手の体につかまって組むこと。スクラムやラック、モールで必要になる。",
+      "diagram": "rugby-scrum-formation",
+      "source": "https://passport.world.rugby/laws-of-the-game/laws-by-number/15-ruck/"
+    },
+    {
+      "id": "breakdown",
+      "term": "ブレイクダウン",
+      "aliases": [],
+      "short": "タックルのあと、地面のボールをめぐって両チームが争う場面を指す現場の呼び名。",
+      "diagram": "rugby-ruck-maul",
+      "source": "https://passport.world.rugby/laws-of-the-game/laws-by-number/15-ruck/"
+    },
+    {
+      "id": "forward",
+      "term": "フォワード",
+      "aliases": [
+        "FW"
+      ],
+      "short": "背番号1〜8番の8人。スクラムを組み、体をぶつけてボールを確保するのが主な役目。",
+      "diagram": "rugby-positions-15",
+      "source": "https://www.rugby-japan.jp/guide/rugby/"
+    },
+    {
+      "id": "backs",
+      "term": "バックス",
+      "aliases": [
+        "BK"
+      ],
+      "short": "背番号9〜15番の7人。ボールを受けて走り、パスやキックで攻めるのが主な役目。",
+      "diagram": "rugby-positions-15",
+      "source": "https://www.rugby-japan.jp/guide/rugby/"
+    },
+    {
+      "id": "front-row",
+      "term": "フロントロー",
+      "aliases": [],
+      "short": "スクラムの最前列を組む3人（1・2・3番）。相手の押しを最前線で受け止める。",
+      "diagram": "rugby-scrum-formation",
+      "source": "https://passport.world.rugby/laws-of-the-game/laws-by-number/19-scrum/"
+    },
+    {
+      "id": "second-row",
+      "term": "セカンドロー",
+      "aliases": [],
+      "short": "スクラムの2列目を組む4番・5番の2人。前の3人を後ろから押し、ラインアウトでは高く跳ぶ。",
+      "diagram": "rugby-scrum-formation",
+      "source": "https://passport.world.rugby/laws-of-the-game/laws-by-number/19-scrum/"
+    },
+    {
+      "id": "back-row",
+      "term": "バックロー",
+      "aliases": [],
+      "short": "スクラムの後方を組む6・7・8番の3人。タックルやボール争いなど、接点で動き回る。",
+      "diagram": "rugby-scrum-formation",
+      "source": "https://passport.world.rugby/laws-of-the-game/laws-by-number/19-scrum/"
+    },
+    {
+      "id": "prop",
+      "term": "プロップ",
+      "aliases": [],
+      "short": "1番と3番のポジション。スクラムの最前列の左右で組み、チームの押す力を支える。",
+      "diagram": "rugby-positions-15",
+      "source": "https://www.rugby-japan.jp/guide/rugby/"
+    },
+    {
+      "id": "hooker",
+      "term": "フッカー",
+      "aliases": [],
+      "short": "2番のポジション。スクラムの中央でボールを足でかき出し、ラインアウトでは投げ入れ役も務める。",
+      "diagram": "rugby-positions-15",
+      "source": "https://www.rugby-japan.jp/guide/rugby/"
+    },
+    {
+      "id": "lock",
+      "term": "ロック",
+      "aliases": [],
+      "short": "4番・5番のポジション。ラインアウトで跳んでボールを取り、スクラムでは前の3人を後ろから押す。",
+      "diagram": "rugby-positions-15",
+      "source": "https://www.rugby-japan.jp/guide/rugby/"
+    },
+    {
+      "id": "flanker",
+      "term": "フランカー",
+      "aliases": [],
+      "short": "6番・7番のポジション。タックルや、倒れた地面のボールを奪い合う接点の場面で動く。",
+      "diagram": "rugby-positions-15",
+      "source": "https://www.rugby-japan.jp/guide/rugby/"
+    },
+    {
+      "id": "number-eight",
+      "term": "ナンバーエイト",
+      "aliases": [],
+      "short": "8番のポジション。スクラムの最後尾でボールを扱い、バックスへつなぐ役目も担う。",
+      "diagram": "rugby-positions-15",
+      "source": "https://www.rugby-japan.jp/guide/rugby/"
+    },
+    {
+      "id": "scrum-half",
+      "term": "スクラムハーフ",
+      "aliases": [],
+      "short": "9番のポジション。人が固まった場所からボールを取り出し、味方へパスして攻撃を始める。",
+      "diagram": "rugby-positions-15",
+      "source": "https://www.rugby-japan.jp/guide/rugby/"
+    },
+    {
+      "id": "stand-off",
+      "term": "スタンドオフ",
+      "aliases": [
+        "フライハーフ"
+      ],
+      "short": "10番のポジション。9番からボールを受け、パス・キック・走りのどれで攻めるかを選ぶ司令塔。",
+      "diagram": "rugby-positions-15",
+      "source": "https://www.rugby-japan.jp/guide/rugby/"
+    },
+    {
+      "id": "wing",
+      "term": "ウイング",
+      "aliases": [
+        "ウィング"
+      ],
+      "short": "11番・14番のポジション。グラウンドの両端に立ち、走ってトライを狙うことが多い。",
+      "diagram": "rugby-positions-15",
+      "source": "https://www.rugby-japan.jp/guide/rugby/"
+    },
+    {
+      "id": "full-back",
+      "term": "フルバック",
+      "aliases": [],
+      "short": "15番のポジション。最後方で守りの最後の砦となり、相手のキックを処理して攻め返す。",
+      "diagram": "rugby-positions-15",
+      "source": "https://www.rugby-japan.jp/guide/rugby/"
+    },
+    {
+      "id": "half-dan",
+      "term": "ハーフ団",
+      "aliases": [],
+      "short": "9番のスクラムハーフと10番のスタンドオフの2人をまとめた呼び名。攻撃を組み立てる役。",
+      "diagram": "rugby-positions-15",
+      "source": "https://www.rugby-japan.jp/guide/rugby/"
+    },
+    {
+      "id": "three-quarters",
+      "term": "スリークォーターバック",
+      "aliases": [],
+      "short": "11〜14番の4人（ウイング2人とセンター2人）。ボールを受けて走り、攻撃を仕上げる。",
+      "diagram": "rugby-positions-15",
+      "source": "https://www.rugby-japan.jp/guide/rugby/"
+    },
+    {
+      "id": "touchline",
+      "term": "タッチライン",
+      "aliases": [],
+      "short": "グラウンドの長い辺に引かれた線。ボールや選手がこの線の外に出ると、プレーが止まる。",
+      "diagram": "rugby-pitch-lines",
+      "source": "https://passport.world.rugby/laws-of-the-game/laws-by-number/1-the-ground"
+    },
+    {
+      "id": "22m-line",
+      "term": "22メートルライン",
+      "aliases": [
+        "22m線"
+      ],
+      "short": "各トライラインから22m手前に引かれた線。自陣側のこの線の内側を「22」と呼ぶ。",
+      "diagram": "rugby-pitch-lines",
+      "source": "https://passport.world.rugby/laws-of-the-game/laws-by-number/1-the-ground"
+    },
+    {
+      "id": "jumper",
+      "term": "ジャンパー",
+      "aliases": [],
+      "short": "ラインアウトで味方に持ち上げられて跳び、投げ入れられたボールを取る選手。",
+      "diagram": "rugby-lineout",
+      "source": "https://passport.world.rugby/laws-of-the-game/laws-by-number/18-touch-quick-throw-and-lineout/"
+    },
+    {
+      "id": "lifter",
+      "term": "リフター",
+      "aliases": [],
+      "short": "ラインアウトで、跳ぶ選手（ジャンパー）を下から持ち上げて支える選手。",
+      "diagram": "rugby-lineout",
+      "source": "https://passport.world.rugby/laws-of-the-game/laws-by-number/18-touch-quick-throw-and-lineout/"
+    },
+    {
+      "id": "set-piece",
+      "term": "セットプレー",
+      "aliases": [],
+      "short": "スクラムやラインアウトのように、プレーが止まったあと決まった形で再開する場面。",
+      "diagram": "rugby-scrum-formation",
+      "source": "https://passport.world.rugby/laws-of-the-game/laws-by-number/19-scrum/"
+    },
+    {
+      "id": "convert",
+      "term": "コンバート",
+      "aliases": [],
+      "short": "選手が、それまでと別のポジションに移ること。入部後に変わる場合もある。",
+      "diagram": "rugby-positions-15",
+      "source": "https://rugbymania.jp/articles/rugby-position-ichiran-yakuwari-guide/"
+    },
+    {
+      "id": "taikosen",
+      "term": "対抗戦",
+      "aliases": [],
+      "short": "関東の大学ラグビーの大会区分の一つ。Aグループ・Bグループに分かれて戦う。",
+      "source": "https://www.rugby.or.jp/univ/"
+    },
+    {
+      "id": "league-sen",
+      "term": "リーグ戦",
+      "aliases": [],
+      "short": "関東の大学ラグビーのもう一つの大会区分。1部・2部など「部」に分かれて戦う。",
+      "source": "https://www.rugby.or.jp/univ/"
+    },
+    {
+      "id": "irekae-sen",
+      "term": "入替戦",
+      "aliases": [],
+      "short": "上のグループの下位チームと下のグループの上位チームが戦い、翌シーズンの所属を決める試合。",
+      "source": "https://www.rugby.or.jp/univ/"
+    },
+    {
+      "id": "kachiten",
+      "term": "勝ち点",
+      "aliases": [
+        "勝点"
+      ],
+      "short": "試合の結果に応じて与えられるポイント。シーズンの合計が多い順に順位が決まる。",
+      "source": "https://www.rugby.or.jp/univ/"
+    },
+    {
+      "id": "bonus-point",
+      "term": "ボーナスポイント",
+      "aliases": [],
+      "short": "勝敗とは別に、大差の勝利や僅差の敗戦などで加わる勝ち点。条件は大会ごとに決まっている。",
+      "source": "https://www.rugby.or.jp/univ/"
+    },
+    {
+      "id": "selection",
+      "term": "セレクション",
+      "aliases": [],
+      "short": "大学の部が行う、練習参加や実技を通した選考。合否や入部の可否を判断する場になる。",
+      "source": "https://rugbymania.jp/articles/university-rugby-selection-preparation-guide/"
+    },
+    {
+      "id": "sports-suisen",
+      "term": "スポーツ推薦",
+      "aliases": [],
+      "short": "競技の実績を評価する入試の通称。高校の校長の推薦が必要な方式と、不要な方式がある。",
+      "source": "https://www.mext.go.jp/a_menu/koutou/senbatsu/index.htm"
+    },
+    {
+      "id": "sogogata",
+      "term": "総合型選抜",
+      "aliases": [],
+      "short": "志望理由や活動実績などを面接や書類で評価する入試方式。以前はAO入試と呼ばれた。",
+      "source": "https://www.mext.go.jp/a_menu/koutou/senbatsu/index.htm"
+    }
+  ]
+}

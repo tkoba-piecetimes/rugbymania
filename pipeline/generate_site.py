@@ -22,6 +22,9 @@ DATA = ROOT / "data"
 SITE = ROOT / "site"
 ASSETS = ROOT / "assets"
 CONTENT = ROOT / "content" / "articles"
+DIAGRAMS = ASSETS / "diagrams"          # 記事内SVG図（![キャプション](diagram:slug)）
+GLOSSARY_FILE = DATA / "glossary.json"  # 用語辞典（自動説明）。無ければ機能オフ
+GLOSSARY_MAX_PER_ARTICLE = 20
 INDEX_LANE_SEASON_SLUGS = {
     "season-kyushu-b-okinawakokusai-2023",
     "season-kanto-league-1-hosei-2023",
@@ -242,7 +245,121 @@ def md_inline(s):
     return s
 
 
-def md_to_html(md):
+DIAGRAM_RE = re.compile(r"^!\[([^\]]*)\]\(diagram:([a-z0-9][a-z0-9-]*)\)$")
+
+
+def svg_size(slug, article=""):
+    """assets/diagrams/<slug>.svg の viewBox から (幅, 高さ) を返す。無ければビルド失敗。"""
+    f = DIAGRAMS / f"{slug}.svg"
+    if not f.exists():
+        raise ValueError(f"図 diagram:{slug} が見つかりません（{f}）記事: {article or '(不明)'}")
+    head = f.read_text(encoding="utf-8")[:2000]
+    m = re.search(r'viewBox\s*=\s*"\s*[-\d.]+[\s,]+[-\d.]+[\s,]+([\d.]+)[\s,]+([\d.]+)\s*"', head)
+    if not m:
+        return None
+    fmt = lambda v: str(int(float(v))) if float(v) == int(float(v)) else v
+    return fmt(m.group(1)), fmt(m.group(2))
+
+
+def diagram_figure(caption, slug, rel, article=""):
+    size = svg_size(slug, article)
+    wh = f' width="{size[0]}" height="{size[1]}"' if size else ""
+    cap = escape(caption)
+    return (f'<figure class="diagram"><img src="{rel}assets/diagrams/{slug}.svg" alt="{cap}" '
+            f'loading="lazy"{wh}><figcaption>{cap}</figcaption></figure>')
+
+
+def load_glossary_terms():
+    """data/glossary.json の terms。ファイルが無ければ None（機能オフ）。"""
+    if not GLOSSARY_FILE.exists():
+        return None
+    return json.loads(GLOSSARY_FILE.read_text(encoding="utf-8")).get("terms", [])
+
+
+_TAG_RE = re.compile(r"<[^>]*>")
+_VOID = {"img", "br", "hr", "input", "meta", "link", "wbr"}
+_SKIP_ANCESTORS = {"h1", "h2", "h3", "h4", "h5", "h6", "a", "th", "svg", "script", "style", "button"}
+_TEXT_ANCESTORS = {"p", "li", "td", "figcaption"}
+_KATA = re.compile(r"[ァ-ヺーヽヾ]")  # 中黒「・」や「゠」は区切りなので含めない
+_ALNUM = re.compile(r"[A-Za-z0-9]")
+
+
+def _edge_ok(text, start, end):
+    """カタカナ/英数字の語は、前後が同種の文字なら別の語の一部とみなしてマッチさせない。"""
+    first, last = text[start], text[end - 1]
+    prev = text[start - 1] if start > 0 else ""
+    nxt = text[end] if end < len(text) else ""
+    for ch, nb in ((first, prev), (last, nxt)):
+        if not nb:
+            continue
+        if _KATA.match(ch) and _KATA.match(nb):
+            return False
+        if _ALNUM.match(ch) and _ALNUM.match(nb):
+            return False
+    return True
+
+
+def _term_span(t, article="", link=False):
+    tip = escape(t["short"], quote=False)
+    img = ""
+    if t.get("diagram"):
+        size = svg_size(t["diagram"], article or f'glossary:{t["id"]}')
+        wh = f' width="{size[0]}" height="{size[1]}"' if size else ""
+        img = (f'<img src="{{rel}}assets/diagrams/{t["diagram"]}.svg" alt="" loading="lazy"{wh}>')
+    more = (f'<a class="term-more" href="{{rel}}glossary/#term-{escape(t["id"])}">用語辞典で見る</a>'
+            if link else "")
+    return (f'<span class="term" tabindex="0" role="button" aria-expanded="false" data-term="{escape(t["id"])}">'
+            f'{{text}}<span class="term-tip" role="tooltip">{tip}{img}{more}</span></span>')
+
+
+def apply_glossary(html, terms, rel="", max_terms=GLOSSARY_MAX_PER_ARTICLE, article="", glossary_link=False):
+    """本文HTML中、各用語の最初の出現1か所だけを .term で包む。"""
+    if not terms:
+        return html
+    by_form = {}
+    for t in terms:
+        for form in [t["term"], *t.get("aliases", [])]:
+            by_form.setdefault(escape(form, quote=False), t)
+    forms = sorted(by_form, key=len, reverse=True)
+    pat = re.compile("|".join(re.escape(f) for f in forms))
+    used, stack, out, pos = set(), [], [], 0
+
+    def convert(text):
+        res, last = [], 0
+        for m in pat.finditer(text):
+            t = by_form[m.group(0)]
+            if t["id"] in used or len(used) >= max_terms or not _edge_ok(text, m.start(), m.end()):
+                continue
+            used.add(t["id"])
+            span = _term_span(t, article, glossary_link).replace("{rel}", rel)
+            res.append(text[last:m.start()])
+            res.append(span.replace("{text}", m.group(0)))
+            last = m.end()
+        res.append(text[last:])
+        return "".join(res)
+
+    for m in _TAG_RE.finditer(html):
+        text = html[pos:m.start()]
+        if text:
+            ok = any(x in _TEXT_ANCESTORS for x in stack) and not any(x in _SKIP_ANCESTORS for x in stack)
+            out.append(convert(text) if ok else text)
+        tag = m.group(0)
+        out.append(tag)
+        pos = m.end()
+        tm = re.match(r"<(/?)([A-Za-z][A-Za-z0-9]*)", tag)
+        if tm:
+            name = tm.group(2).lower()
+            if tm.group(1):
+                if name in stack:
+                    while stack and stack.pop() != name:
+                        pass
+            elif name not in _VOID and not tag.endswith("/>"):
+                stack.append(name)
+    out.append(html[pos:])
+    return "".join(out)
+
+
+def md_to_html(md, rel="", article=""):
     out, para = [], []
     in_ul = in_ol = in_table = False
 
@@ -266,6 +383,11 @@ def md_to_html(md):
 
     for line in md.splitlines():
         s = line.strip()
+        dm = DIAGRAM_RE.match(s)
+        if dm:
+            flush_para(); close_blocks()
+            out.append(diagram_figure(dm.group(1), dm.group(2), rel, article))
+            continue
         if s.startswith("|") and s.endswith("|") and len(s) > 1:
             flush_para()
             if in_ul or in_ol:
@@ -1023,6 +1145,7 @@ def build_articles(articles, meta):
                     path="articles/",
                     desc="大学ラグビーの戦術・練習メニュー・チーム運営・映像分析の実践的なノウハウ記事。"))
     rel = "../../"
+    glossary_terms = load_glossary_terms()
     for a in articles:
         others = [x for x in articles if x["slug"] != a["slug"]][:3]
         related = "".join(
@@ -1033,7 +1156,12 @@ def build_articles(articles, meta):
         body += (f'<p class="cat-line"><span class="cat">{escape(a["category"])}</span>'
                  f' <span class="note">{escape(a["date"])}</span></p>')
         body += f'<h1>{escape(a["title"])}</h1>'
-        body += f'<div class="article">{md_to_html(a["body"])}</div>'
+        if a.get("level") == "入門":
+            body += '<p class="level-badge">はじめての方向け</p>'
+        art_html = md_to_html(a["body"], rel, a["slug"])
+        if glossary_terms and a.get("glossary", "").lower() != "off":
+            art_html = apply_glossary(art_html, glossary_terms, rel, article=a["slug"], glossary_link=True)
+        body += f'<div class="article">{art_html}</div>'
         body += article_cta_band(a)
         body += intern_cta_band()
         body += f'<section><h2>あわせて読む</h2><ul>{related}</ul></section>'
@@ -1043,21 +1171,40 @@ def build_articles(articles, meta):
                         sticky=sticky_bar()))
 
 
-def build_glossary(meta):
+def _glossary_entries():
+    """用語辞典ページ用の (分類, id, 用語, 説明, 図slug) 一覧。data/glossary.json（新形式）優先、無ければ content/glossary.json（旧形式）。"""
+    terms = load_glossary_terms()
+    if terms:
+        return [(t.get("category") or "用語", t["id"], t["term"], t["short"], t.get("diagram"))
+                for t in terms]
     gfile = ROOT / "content" / "glossary.json"
     if not gfile.exists():
+        return []
+    return [(t["category"], "", t["term"], t["def"], None)
+            for t in json.loads(gfile.read_text(encoding="utf-8"))]
+
+
+def build_glossary(meta):
+    entries = _glossary_entries()
+    if not entries:
         return
     rel = "../"
-    terms = json.loads(gfile.read_text(encoding="utf-8"))
     cats: dict[str, list] = {}
-    for t in terms:
-        cats.setdefault(t["category"], []).append(t)
+    for e in entries:
+        cats.setdefault(e[0], []).append(e)
     body = ('<h1>ラグビー用語辞典</h1>'
-            f'<p class="lead">試合観戦や部活動で使われるラグビー用語{len(terms)}語を分野別にまとめました。</p>')
+            f'<p class="lead">試合観戦や部活動で使われるラグビー用語{len(entries)}語を分野別にまとめました。</p>')
     for cat, items in cats.items():
-        rows = "".join(
-            f'<tr><th>{escape(t["term"])}</th><td>{escape(t["def"])}</td></tr>'
-            for t in items)
+        rows = ""
+        for _, tid, term, desc, diagram in items:
+            img = ""
+            if diagram:
+                size = svg_size(diagram, f"glossary:{tid}")
+                wh = f' width="{size[0]}" height="{size[1]}"' if size else ""
+                img = (f'<img class="gloss-fig" src="{rel}assets/diagrams/{diagram}.svg" alt="{escape(term)}の図" '
+                       f'loading="lazy"{wh}>')
+            anchor = f' id="term-{escape(tid)}"' if tid else ""
+            rows += f'<tr{anchor}><th>{escape(term)}</th><td>{escape(desc)}{img}</td></tr>'
         body += (f'<section><h2>{escape(cat)}</h2>'
                  f'<div class="tbl"><table class="detail"><tbody>{rows}</tbody></table></div></section>')
     write_page("glossary",
@@ -1518,7 +1665,10 @@ def main():
     (SITE / "assets" / "favicon.svg").write_text(FAVICON, encoding="utf-8")
     if ASSETS.exists():
         for f in ASSETS.iterdir():
-            shutil.copy(f, SITE / "assets" / f.name)
+            if f.is_dir():
+                shutil.copytree(f, SITE / "assets" / f.name)
+            else:
+                shutil.copy(f, SITE / "assets" / f.name)
 
     import clubhouse, sys
     clubhouse.build(sys.modules[__name__], leagues, articles, global_meta)
