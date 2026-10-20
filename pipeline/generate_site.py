@@ -27,6 +27,8 @@ GLOSSARY_FILE = DATA / "glossary.json"  # 用語辞典（自動説明）。無�
 GLOSSARY_MAX_PER_ARTICLE = 20
 INDEX_LANE_SEASON_SLUGS = {
     "season-kyushu-b-okinawakokusai-2023",
+    "season-kyushu-b-kumamoto-2024",
+    "season-kyushu-b-kyuushuu-2024",
     "season-kanto-league-1-hosei-2023",
     "season-kanto-league-1-takushoku-2023",
     "season-kanto-league-1-nihon-2023",
