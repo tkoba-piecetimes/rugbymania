@@ -152,12 +152,12 @@
   "away": "長崎大学",
   "home_slug": "kumamoto",
   "away_slug": "nagasaki",
-  "home_score": null,
-  "away_score": null,
-  "status": "scheduled",
+  "home_score": 12,
+  "away_score": 33,
+  "status": "played",
   "venue": "熊本県荒尾市陸上競技場",
   "note": "",
-  "source_url": "https://www.rugby-kyushu.jp/kyushuleague/2026-2027/kyushugakusei.html"
+  "source_url": "https://drive.google.com/file/d/1N5O44DSYB7iLMa6mgnBxFlSSJrZCYdI0/view?usp=drive_link"
  },
  {
   "id": "2026-10-17-ritsumeikanajiataiheiyou-vs-ooita",
@@ -168,12 +168,12 @@
   "away": "大分大学",
   "home_slug": "ritsumeikanajiataiheiyou",
   "away_slug": "ooita",
-  "home_score": null,
-  "away_score": null,
-  "status": "scheduled",
+  "home_score": 27,
+  "away_score": 36,
+  "status": "played",
   "venue": "立命館アジア太平洋大学グラウンド",
   "note": "",
-  "source_url": "https://www.rugby-kyushu.jp/kyushuleague/2026-2027/kyushugakusei.html"
+  "source_url": "https://drive.google.com/file/d/1ejDnIvJB3N_Aw1lQSfEiODOsePSmeo0q/view?usp=drive_link"
  },
  {
   "id": "2026-10-18-okinawakokusai-vs-kyuushuu",
@@ -184,12 +184,12 @@
   "away": "九州大学",
   "home_slug": "okinawakokusai",
   "away_slug": "kyuushuu",
-  "home_score": null,
-  "away_score": null,
-  "status": "scheduled",
+  "home_score": 0,
+  "away_score": 81,
+  "status": "played",
   "venue": "沖縄国際大学グラウンド",
   "note": "",
-  "source_url": "https://www.rugby-kyushu.jp/kyushuleague/2026-2027/kyushugakusei.html"
+  "source_url": "https://drive.google.com/file/d/1TXBZAuQ0nbB1pHsbFwUQeZR23mXC_5_d/view?usp=drive_link"
  },
  {
   "id": "2026-10-24-okinawakokusai-vs-nagasaki",

@@ -3,3 +3,20 @@
 .brand-sub{color:#547347}.brand{white-space:nowrap}.hero-copy h1{word-break:keep-all;overflow-wrap:normal}@media(max-width:760px){.brand{font-size:18px}.brand-sub{display:none}.hero-copy{padding:25px 20px}.hero-copy h1{font-size:clamp(28px,7.2vw,43px);letter-spacing:-1px}.hero-copy p{font-size:12px}.hero-count{font-size:9px}.hero-count b{font-size:24px}.rugby-hero{min-height:400px}}
 
 .report,.article-cta{border-left:1px solid #d5ddd3!important}@media(max-width:760px){.sticky-cta{bottom:50px}.has-sticky-cta{padding-bottom:120px}}
+
+/* ---- 読者レベル配慮: 図・用語の自動説明・入門バッジ ---- */
+.level-badge{display:inline-block;margin:0 0 10px;padding:3px 12px;border-radius:999px;background:#eef6dc;color:#2f4a1d;border:1px solid #c5d9a0;font-size:12px;font-weight:800;letter-spacing:.5px}
+.article figure.diagram{margin:1.4em auto;text-align:center}
+.article figure.diagram img{max-width:100%;height:auto;display:block;margin:0 auto;border:1px solid #d6ddd5;border-radius:6px;background:#fff}
+.article figure.diagram figcaption{margin-top:6px;font-size:12px;color:#5b6b7b;line-height:1.6}
+.term{position:relative;border-bottom:1px dotted #547347;color:inherit;cursor:help;text-decoration:none}
+.term:hover,.term.is-open{background:#eef6dc}
+.term:focus-visible{outline:2px solid #547347;outline-offset:2px}
+.term-tip{display:none;position:absolute;z-index:1000;left:var(--term-shift,0);top:calc(100% + 6px);width:min(300px,calc(100vw - 24px));padding:10px 12px;background:#fff;color:var(--ink);border:1px solid #b9c6b4;border-radius:8px;box-shadow:0 6px 20px rgba(16,40,35,.18);font-size:13px;font-weight:400;line-height:1.7;text-align:left;cursor:auto}
+.term-tip img{display:block;max-width:100%;height:auto;margin-top:8px;border:1px solid #d6ddd5;border-radius:4px}
+.term.is-open>.term-tip{display:block}
+@media(hover:hover){.term:hover>.term-tip,.term:focus-visible>.term-tip{display:block}}
+@media(max-width:640px){.term{position:static}.term-tip{position:fixed;left:12px;right:12px;top:auto;bottom:62px;width:auto;max-height:50vh;overflow:auto;z-index:1000;font-size:14px}}
+.term-more{display:block;margin-top:8px;font-size:12px;font-weight:700;color:#2f4a1d;text-decoration:underline}
+.gloss-fig{display:block;max-width:260px;width:100%;height:auto;margin-top:8px;border:1px solid #d6ddd5;border-radius:4px;background:#fff}
+tr[id^="term-"]{scroll-margin-top:80px}tr[id^="term-"]:target{background:#eef6dc}
