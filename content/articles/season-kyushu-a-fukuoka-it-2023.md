@@ -40,7 +40,7 @@ cta: sponsor
 
 福岡工業大学は5試合すべてで33点以上を挙げて全勝しました。最少得点差は九州共立大学戦の34-29（5点差）、最大得点差は鹿児島大学戦の74-3（71点差）で、試合ごとの得点差にはばらつきがありました。
 
-翌年の九州学生リーグAでの戦いぶりは、[2024年九州学生リーグA 福岡工業大学のシーズン記録](https://rugbymania.jp/articles/season-kyushu-a-fukuoka-it-2024/)と見比べると分かりやすくなります。<!-- index-lane-link -->
+翌年の九州学生リーグAでの戦いぶりは、[2024年九州学生リーグA 福岡工業大学のシーズン記録](https://rugbymania.jp/articles/season-kyushu-a-fukuoka-it-2024/)と見比べると分かりやすくなります。同じ九州学生リーグのリーグCでの戦いは、[2024年 九州学生リーグC 九州産業大学のシーズン記録](https://rugbymania.jp/articles/season-kyushu-c-kyuushuusangyou-2024/)で全試合結果を確認できます。<!-- index-lane-link -->
 
 ## よくある質問
 
