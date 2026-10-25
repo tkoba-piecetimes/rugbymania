@@ -1,6 +1,34 @@
 {
  "総合": [
   {
+   "team": "帝京大",
+   "slug": "teikyo",
+   "points": 12,
+   "games": 4,
+   "wins": 4,
+   "draws": 0,
+   "losses": 0,
+   "gf": 267,
+   "ga": 30,
+   "rank": 1,
+   "goal_diff": "+237",
+   "goals_for": 267
+  },
+  {
+   "team": "早稲田大",
+   "slug": "waseda",
+   "points": 12,
+   "games": 4,
+   "wins": 4,
+   "draws": 0,
+   "losses": 0,
+   "gf": 243,
+   "ga": 8,
+   "rank": 2,
+   "goal_diff": "+235",
+   "goals_for": 243
+  },
+  {
    "team": "明治大",
    "slug": "meiji",
    "points": 12,
@@ -10,37 +38,9 @@
    "losses": 0,
    "gf": 258,
    "ga": 52,
-   "rank": 1,
+   "rank": 3,
    "goal_diff": "+206",
    "goals_for": 258
-  },
-  {
-   "team": "早稲田大",
-   "slug": "waseda",
-   "points": 9,
-   "games": 3,
-   "wins": 3,
-   "draws": 0,
-   "losses": 0,
-   "gf": 214,
-   "ga": 3,
-   "rank": 2,
-   "goal_diff": "+211",
-   "goals_for": 214
-  },
-  {
-   "team": "帝京大",
-   "slug": "teikyo",
-   "points": 9,
-   "games": 3,
-   "wins": 3,
-   "draws": 0,
-   "losses": 0,
-   "gf": 179,
-   "ga": 30,
-   "rank": 3,
-   "goal_diff": "+149",
-   "goals_for": 179
   },
   {
    "team": "慶應義塾大",
@@ -60,15 +60,15 @@
    "team": "筑波大",
    "slug": "tsukuba",
    "points": 3,
-   "games": 3,
+   "games": 4,
    "wins": 1,
    "draws": 0,
-   "losses": 2,
-   "gf": 92,
-   "ga": 102,
+   "losses": 3,
+   "gf": 97,
+   "ga": 131,
    "rank": 5,
-   "goal_diff": "-10",
-   "goals_for": 92
+   "goal_diff": "-34",
+   "goals_for": 97
   },
   {
    "team": "立教大",
@@ -85,20 +85,6 @@
    "goals_for": 53
   },
   {
-   "team": "青山学院大",
-   "slug": "aoyamagakuin",
-   "points": 0,
-   "games": 3,
-   "wins": 0,
-   "draws": 0,
-   "losses": 3,
-   "gf": 15,
-   "ga": 209,
-   "rank": 7,
-   "goal_diff": "-194",
-   "goals_for": 15
-  },
-  {
    "team": "日本体育大",
    "slug": "nittaidai",
    "points": 0,
@@ -108,9 +94,23 @@
    "losses": 4,
    "gf": 41,
    "ga": 278,
-   "rank": 8,
+   "rank": 7,
    "goal_diff": "-237",
    "goals_for": 41
+  },
+  {
+   "team": "青山学院大",
+   "slug": "aoyamagakuin",
+   "points": 0,
+   "games": 4,
+   "wins": 0,
+   "draws": 0,
+   "losses": 4,
+   "gf": 15,
+   "ga": 297,
+   "rank": 8,
+   "goal_diff": "-282",
+   "goals_for": 15
   }
  ]
 }
