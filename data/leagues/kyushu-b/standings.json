@@ -3,30 +3,30 @@
   {
    "team": "九州大学",
    "slug": "kyuushuu",
-   "points": 12,
-   "games": 4,
-   "wins": 4,
+   "points": 15,
+   "games": 5,
+   "wins": 5,
    "draws": 0,
    "losses": 0,
-   "gf": 231,
-   "ga": 26,
+   "gf": 278,
+   "ga": 31,
    "rank": 1,
-   "goal_diff": "+205",
-   "goals_for": 231
+   "goal_diff": "+247",
+   "goals_for": 278
   },
   {
    "team": "大分大学",
    "slug": "ooita",
    "points": 9,
-   "games": 4,
+   "games": 5,
    "wins": 3,
    "draws": 0,
-   "losses": 1,
-   "gf": 151,
-   "ga": 82,
+   "losses": 2,
+   "gf": 156,
+   "ga": 129,
    "rank": 2,
-   "goal_diff": "+69",
-   "goals_for": 151
+   "goal_diff": "+27",
+   "goals_for": 156
   },
   {
    "team": "長崎大学",
@@ -43,6 +43,20 @@
    "goals_for": 109
   },
   {
+   "team": "立命館アジア太平洋大学",
+   "slug": "ritsumeikanajiataiheiyou",
+   "points": 3,
+   "games": 4,
+   "wins": 1,
+   "draws": 0,
+   "losses": 3,
+   "gf": 90,
+   "ga": 163,
+   "rank": 4,
+   "goal_diff": "-73",
+   "goals_for": 90
+  },
+  {
    "team": "沖縄国際大学",
    "slug": "okinawakokusai",
    "points": 3,
@@ -52,37 +66,23 @@
    "losses": 2,
    "gf": 57,
    "ga": 141,
-   "rank": 4,
+   "rank": 5,
    "goal_diff": "-84",
    "goals_for": 57
-  },
-  {
-   "team": "立命館アジア太平洋大学",
-   "slug": "ritsumeikanajiataiheiyou",
-   "points": 0,
-   "games": 3,
-   "wins": 0,
-   "draws": 0,
-   "losses": 3,
-   "gf": 61,
-   "ga": 135,
-   "rank": 5,
-   "goal_diff": "-74",
-   "goals_for": 61
   },
   {
    "team": "熊本大学",
    "slug": "kumamoto",
    "points": 0,
-   "games": 4,
+   "games": 5,
    "wins": 0,
    "draws": 0,
-   "losses": 4,
-   "gf": 65,
-   "ga": 188,
+   "losses": 5,
+   "gf": 93,
+   "ga": 217,
    "rank": 6,
-   "goal_diff": "-123",
-   "goals_for": 65
+   "goal_diff": "-124",
+   "goals_for": 93
   }
  ]
 }

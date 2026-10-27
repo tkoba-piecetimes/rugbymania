@@ -1,6 +1,20 @@
 {
  "総合": [
   {
+   "team": "久留米大学",
+   "slug": "kurume",
+   "points": 6,
+   "games": 2,
+   "wins": 2,
+   "draws": 0,
+   "losses": 0,
+   "gf": 71,
+   "ga": 12,
+   "rank": 1,
+   "goal_diff": "+59",
+   "goals_for": 71
+  },
+  {
    "team": "琉球大学",
    "slug": "ryuukyuu",
    "points": 3,
@@ -10,23 +24,9 @@
    "losses": 0,
    "gf": 49,
    "ga": 17,
-   "rank": 1,
+   "rank": 2,
    "goal_diff": "+32",
    "goals_for": 49
-  },
-  {
-   "team": "久留米大学",
-   "slug": "kurume",
-   "points": 3,
-   "games": 1,
-   "wins": 1,
-   "draws": 0,
-   "losses": 0,
-   "gf": 28,
-   "ga": 5,
-   "rank": 2,
-   "goal_diff": "+23",
-   "goals_for": 28
   },
   {
    "team": "名桜大学",
@@ -57,20 +57,6 @@
    "goals_for": 53
   },
   {
-   "team": "福岡大学医学部",
-   "slug": "fukuokadaigakuigakubu",
-   "points": 0,
-   "games": 1,
-   "wins": 0,
-   "draws": 0,
-   "losses": 1,
-   "gf": 26,
-   "ga": 48,
-   "rank": 5,
-   "goal_diff": "-22",
-   "goals_for": 26
-  },
-  {
    "team": "久留米大学医学部",
    "slug": "kurumedaigakuigakubu",
    "points": 0,
@@ -80,9 +66,23 @@
    "losses": 1,
    "gf": 5,
    "ga": 37,
-   "rank": 6,
+   "rank": 5,
    "goal_diff": "-32",
    "goals_for": 5
+  },
+  {
+   "team": "福岡大学医学部",
+   "slug": "fukuokadaigakuigakubu",
+   "points": 0,
+   "games": 2,
+   "wins": 0,
+   "draws": 0,
+   "losses": 2,
+   "gf": 33,
+   "ga": 91,
+   "rank": 6,
+   "goal_diff": "-58",
+   "goals_for": 33
   }
  ]
 }

@@ -31,16 +31,16 @@
   {
    "team": "同志社大学",
    "slug": "doshisha",
-   "points": 6,
-   "games": 3,
-   "wins": 2,
+   "points": 9,
+   "games": 4,
+   "wins": 3,
    "draws": 0,
    "losses": 1,
-   "gf": 90,
-   "ga": 71,
+   "gf": 121,
+   "ga": 76,
    "rank": 3,
-   "goal_diff": "+19",
-   "goals_for": 90
+   "goal_diff": "+45",
+   "goals_for": 121
   },
   {
    "team": "近畿大学",
@@ -57,6 +57,20 @@
    "goals_for": 102
   },
   {
+   "team": "立命館大学",
+   "slug": "ritsumeikan",
+   "points": 3,
+   "games": 4,
+   "wins": 1,
+   "draws": 0,
+   "losses": 3,
+   "gf": 105,
+   "ga": 113,
+   "rank": 5,
+   "goal_diff": "-8",
+   "goals_for": 105
+  },
+  {
    "team": "関西大学",
    "slug": "kansai-u",
    "points": 3,
@@ -66,7 +80,7 @@
    "losses": 3,
    "gf": 70,
    "ga": 94,
-   "rank": 5,
+   "rank": 6,
    "goal_diff": "-24",
    "goals_for": 70
   },
@@ -74,43 +88,29 @@
    "team": "摂南大学",
    "slug": "setsunan",
    "points": 3,
-   "games": 3,
+   "games": 4,
    "wins": 1,
    "draws": 0,
-   "losses": 2,
-   "gf": 69,
-   "ga": 123,
-   "rank": 6,
-   "goal_diff": "-54",
-   "goals_for": 69
+   "losses": 3,
+   "gf": 74,
+   "ga": 154,
+   "rank": 7,
+   "goal_diff": "-80",
+   "goals_for": 74
   },
   {
    "team": "関西学院大学",
    "slug": "kwansei-gakuin",
    "points": 0,
-   "games": 3,
+   "games": 4,
    "wins": 0,
    "draws": 0,
-   "losses": 3,
+   "losses": 4,
    "gf": 60,
-   "ga": 77,
-   "rank": 7,
-   "goal_diff": "-17",
-   "goals_for": 60
-  },
-  {
-   "team": "立命館大学",
-   "slug": "ritsumeikan",
-   "points": 0,
-   "games": 3,
-   "wins": 0,
-   "draws": 0,
-   "losses": 3,
-   "gf": 74,
-   "ga": 113,
+   "ga": 108,
    "rank": 8,
-   "goal_diff": "-39",
-   "goals_for": 74
+   "goal_diff": "-48",
+   "goals_for": 60
   }
  ]
 }
