@@ -18,15 +18,15 @@
    "team": "京都産業大学",
    "slug": "kyoto-sangyo",
    "points": 12,
-   "games": 4,
+   "games": 5,
    "wins": 4,
    "draws": 0,
-   "losses": 0,
-   "gf": 173,
-   "ga": 109,
+   "losses": 1,
+   "gf": 199,
+   "ga": 136,
    "rank": 2,
-   "goal_diff": "+64",
-   "goals_for": 173
+   "goal_diff": "+63",
+   "goals_for": 199
   },
   {
    "team": "同志社大学",
@@ -43,6 +43,20 @@
    "goals_for": 121
   },
   {
+   "team": "関西大学",
+   "slug": "kansai-u",
+   "points": 6,
+   "games": 5,
+   "wins": 2,
+   "draws": 0,
+   "losses": 3,
+   "gf": 101,
+   "ga": 116,
+   "rank": 4,
+   "goal_diff": "-15",
+   "goals_for": 101
+  },
+  {
    "team": "近畿大学",
    "slug": "kindai",
    "points": 6,
@@ -52,7 +66,7 @@
    "losses": 2,
    "gf": 102,
    "ga": 128,
-   "rank": 4,
+   "rank": 5,
    "goal_diff": "-26",
    "goals_for": 102
   },
@@ -66,51 +80,37 @@
    "losses": 3,
    "gf": 105,
    "ga": 113,
-   "rank": 5,
+   "rank": 6,
    "goal_diff": "-8",
    "goals_for": 105
   },
   {
-   "team": "関西大学",
-   "slug": "kansai-u",
+   "team": "関西学院大学",
+   "slug": "kwansei-gakuin",
    "points": 3,
-   "games": 4,
+   "games": 5,
    "wins": 1,
    "draws": 0,
-   "losses": 3,
-   "gf": 70,
-   "ga": 94,
-   "rank": 6,
-   "goal_diff": "-24",
-   "goals_for": 70
+   "losses": 4,
+   "gf": 87,
+   "ga": 134,
+   "rank": 7,
+   "goal_diff": "-47",
+   "goals_for": 87
   },
   {
    "team": "摂南大学",
    "slug": "setsunan",
    "points": 3,
-   "games": 4,
+   "games": 5,
    "wins": 1,
    "draws": 0,
-   "losses": 3,
-   "gf": 74,
-   "ga": 154,
-   "rank": 7,
-   "goal_diff": "-80",
-   "goals_for": 74
-  },
-  {
-   "team": "関西学院大学",
-   "slug": "kwansei-gakuin",
-   "points": 0,
-   "games": 4,
-   "wins": 0,
-   "draws": 0,
    "losses": 4,
-   "gf": 60,
-   "ga": 108,
+   "gf": 96,
+   "ga": 185,
    "rank": 8,
-   "goal_diff": "-48",
-   "goals_for": 60
+   "goal_diff": "-89",
+   "goals_for": 96
   }
  ]
 }
