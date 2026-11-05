@@ -28,5 +28,10 @@
   "team": "久留米大学",
   "slug": "kurume",
   "block": "総合"
+ },
+ "久留米歯科大学": {
+  "team": "久留米歯科大学",
+  "slug": "kurumeshika",
+  "block": "総合"
  }
 }
