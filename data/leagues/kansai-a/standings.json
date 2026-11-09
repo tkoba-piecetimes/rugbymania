@@ -3,16 +3,16 @@
   {
    "team": "天理大学",
    "slug": "tenri",
-   "points": 12,
-   "games": 4,
-   "wins": 4,
+   "points": 15,
+   "games": 5,
+   "wins": 5,
    "draws": 0,
    "losses": 0,
-   "gf": 135,
-   "ga": 58,
+   "gf": 168,
+   "ga": 73,
    "rank": 1,
-   "goal_diff": "+77",
-   "goals_for": 135
+   "goal_diff": "+95",
+   "goals_for": 168
   },
   {
    "team": "京都産業大学",
@@ -32,15 +32,15 @@
    "team": "同志社大学",
    "slug": "doshisha",
    "points": 9,
-   "games": 4,
+   "games": 5,
    "wins": 3,
    "draws": 0,
-   "losses": 1,
-   "gf": 121,
-   "ga": 76,
+   "losses": 2,
+   "gf": 136,
+   "ga": 109,
    "rank": 3,
-   "goal_diff": "+45",
-   "goals_for": 121
+   "goal_diff": "+27",
+   "goals_for": 136
   },
   {
    "team": "関西大学",

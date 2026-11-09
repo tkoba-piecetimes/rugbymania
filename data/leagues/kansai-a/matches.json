@@ -315,9 +315,9 @@
   "home_slug": "tenri",
   "away_slug": "doshisha",
   "venue": "親里",
-  "status": "scheduled",
-  "home_score": null,
-  "away_score": null,
+  "status": "played",
+  "home_score": 33,
+  "away_score": 15,
   "note": "",
   "stage": "第5節",
   "source_url": "https://rugby-kansai.or.jp/gameuniversity"
