@@ -332,9 +332,9 @@
   "home_slug": "ritsumeikan",
   "away_slug": "kindai",
   "venue": "皇子山",
-  "status": "scheduled",
-  "home_score": null,
-  "away_score": null,
+  "status": "played",
+  "home_score": 31,
+  "away_score": 50,
   "note": "",
   "stage": "第5節",
   "source_url": "https://rugby-kansai.or.jp/gameuniversity"

@@ -43,6 +43,20 @@
    "goals_for": 136
   },
   {
+   "team": "近畿大学",
+   "slug": "kindai",
+   "points": 9,
+   "games": 5,
+   "wins": 3,
+   "draws": 0,
+   "losses": 2,
+   "gf": 152,
+   "ga": 159,
+   "rank": 4,
+   "goal_diff": "-7",
+   "goals_for": 152
+  },
+  {
    "team": "関西大学",
    "slug": "kansai-u",
    "points": 6,
@@ -52,37 +66,23 @@
    "losses": 3,
    "gf": 101,
    "ga": 116,
-   "rank": 4,
+   "rank": 5,
    "goal_diff": "-15",
    "goals_for": 101
-  },
-  {
-   "team": "近畿大学",
-   "slug": "kindai",
-   "points": 6,
-   "games": 4,
-   "wins": 2,
-   "draws": 0,
-   "losses": 2,
-   "gf": 102,
-   "ga": 128,
-   "rank": 5,
-   "goal_diff": "-26",
-   "goals_for": 102
   },
   {
    "team": "立命館大学",
    "slug": "ritsumeikan",
    "points": 3,
-   "games": 4,
+   "games": 5,
    "wins": 1,
    "draws": 0,
-   "losses": 3,
-   "gf": 105,
-   "ga": 113,
+   "losses": 4,
+   "gf": 136,
+   "ga": 163,
    "rank": 6,
-   "goal_diff": "-8",
-   "goals_for": 105
+   "goal_diff": "-27",
+   "goals_for": 136
   },
   {
    "team": "関西学院大学",
