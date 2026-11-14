@@ -80,6 +80,65 @@ RECORDS_MIN_PLAYED = 30  # 記録室を生成する最低試合数（データ�
 
 _sitemap_paths: list[str] = []
 
+# ---- 個別ページの上書き（題名・説明文・H1直下の導入文）。キーは出力パス。
+# 該当パスのページだけに効き、他のページの出力には影響しない。
+# intro 内の {L}/{R} は、そのページから見たリーグ直下／サイト直下への相対パス。
+OFFICIAL_SHEET_KANTO_L2 = "https://www.rugby.or.jp/univ/sheet/2910/"
+OFFICIAL_SHEET_KANTO_TB = "https://www.rugby.or.jp/univ/sheet/2907/"
+OFFICIAL_RANKING_KANSAI = "https://media.rugby-kansai.or.jp/media/2026/09/university-ranking-2026.pdf"
+PAGE_OVERRIDES = {
+    "kanto-league-2/": {
+        "title": "関東大学ラグビー リーグ戦2部 速報・試合結果・順位表【2026】 | ラグビーマニア",
+        "desc": ("関東大学ラグビー リーグ戦2部（2026年度）の速報。大東文化大・中央大・山梨学院大・白鷗大・國學院大・拓殖大・朝鮮大・国士館大"
+                 "8校の試合結果、今後の日程、順位表を毎日更新。公式勝点の決まり方も解説します。"),
+        "intro": (
+            '<p>関東大学リーグ戦2部（2026年度）は、大東文化大・中央大・山梨学院大・白鷗大・國學院大・拓殖大・朝鮮大・国士館大の8校が総当たりで戦うリーグです。'
+            '各校が全7試合を行い、このページでは最新の試合結果と今後の日程、順位表をまとめて確認できます。</p>'
+            '<p>公式の順位は、勝ち5・引分3・負け1の勝点に、7点差以内の負けと3トライ差以上の勝ちへのボーナス点（各1）を加えて決まります'
+            f'（<a href="{OFFICIAL_SHEET_KANTO_L2}">関東ラグビーフットボール協会の星取表</a>）。'
+            '当サイトの順位表は試合結果から算出した参考値のため、確定の順位は協会の星取表で確認してください。'
+            '日程・結果は<a href="{L}schedule/index.html">日程・結果ページ</a>、順位は<a href="{L}standings/index.html">順位表ページ</a>、'
+            '勝点の仕組みは<a href="{R}articles/university-rugby-standings-bonus-point-guide/index.html">大学ラグビーの順位の決まり方</a>で解説しています。</p>'
+        ),
+    },
+    "kansai-a/standings/": {
+        "title": "関西大学ラグビー Aリーグ 順位表【2026】勝点・得失点差 | ラグビーマニア",
+        "desc": ("関西大学ラグビーAリーグ（2026年度）の順位表。8校の勝敗・勝点・得失点差を毎日更新。"
+                 "公式の勝点制（勝ち4・引分2、ボーナス点あり）と入替戦の仕組みも解説します。"),
+        "intro": (
+            '<p>関西大学ラグビーAリーグ（関西大学リーグ）の2026年度順位表です。8校が総当たりで戦い、勝敗と勝点、得失点差の推移を毎日更新しています。</p>'
+            '<p>関西協会の規約では、勝ち点は勝ち4・引分2・負け0を基本に、3トライ差以上の勝利と7点差以内の敗戦に各1、全勝のチームに4のボーナス点が加わります。'
+            '同点の場合は直接対決の勝敗などで順位が決まり、Aリーグの下位2校はBリーグの上位2校と入替戦を行います'
+            f'（<a href="{OFFICIAL_RANKING_KANSAI}">関西協会の順位決定方式（PDF）</a>）。'
+            '下の表は試合結果から編集部が算出した参考値で、公式のボーナス点とは異なる場合があります。確定の順位は<a href="https://rugby-kansai.or.jp/gameuniversity/">関西協会の関西大学リーグのページ</a>で確認できます。'
+            '試合ごとの結果は<a href="{L}schedule/index.html">日程・結果ページ</a>、'
+            '順位の読み方は<a href="{R}articles/kansai-university-rugby-a-league-standings-guide/index.html">関西大学ラグビーAリーグの順位の解説</a>をご覧ください。</p>'
+        ),
+    },
+    "kanto-taiko-b/schedule/": {
+        "title": "関東大学ラグビー 対抗戦B 日程・結果【2026】試合一覧 | ラグビーマニア",
+        "desc": ("関東大学ラグビー対抗戦Bグループ（2026年度）の日程と試合結果の一覧。武蔵大・明治学院大・成蹊大・東京大・一橋大・成城大・上智大・学習院大の"
+                 "8校の全試合を毎日更新。今後の試合日程も確認できます。"),
+        "intro": (
+            '<p>関東大学ラグビー対抗戦Bグループ（2026年度）の全試合の日程と結果です。武蔵大・明治学院大・成蹊大・東京大・一橋大・成城大・上智大・学習院大の8校が総当たりで戦い、'
+            '終了した試合のスコアと、これから行われる試合のキックオフ時刻・会場を確認できます。</p>'
+            '<p>公式の順位は、勝ち5・引分3・負け1の勝点に、7点差以内の負けと3トライ差以上の勝ちへのボーナス点（各1）を加えて決まります'
+            f'（<a href="{OFFICIAL_SHEET_KANTO_TB}">関東ラグビーフットボール協会の星取表</a>）。'
+            'このリーグの順位は<a href="{L}standings/index.html">順位表ページ</a>、出場校は<a href="{L}teams/index.html">チーム一覧</a>で確認できます。'
+            'Aグループとの間には入替戦があります。</p>'
+        ),
+    },
+}
+
+
+def override_for(path, L, R):
+    """PAGE_OVERRIDES から該当パスの (題名, 説明文, 導入文HTML) を返す。無ければ (None, None, "")。"""
+    ov = PAGE_OVERRIDES.get(path)
+    if not ov:
+        return None, None, ""
+    intro = ov.get("intro", "").replace("{L}", L).replace("{R}", R)
+    return ov.get("title"), ov.get("desc"), intro
+
 
 # ---------------------------------------------------------------- data loading
 
@@ -882,15 +941,19 @@ def build_league(lg, articles):
     for block, entries in standings.items():
         if entries:
             body += '<section><h2>順位表</h2>' + standings_table(block, entries, L) + '</section>'
-    write_page(code, page(R, f'{league_name} 試合結果・日程・順位表 | ラグビーマニア', body, meta,
+    o_title, o_desc, o_intro = override_for(f"{code}/", L, R)
+    if o_intro:
+        body = body.replace('</p>', '</p>' + o_intro, 1)
+    write_page(code, page(R, o_title or f'{league_name} 試合結果・日程・順位表 | ラグビーマニア', body, meta,
                           path=f"{code}/",
-                          desc=f'{league_name}の試合結果・日程・順位表・チーム戦績を毎日更新。',
+                          desc=o_desc or f'{league_name}の試合結果・日程・順位表・チーム戦績を毎日更新。',
                           subnav=sub))
 
     # ---- schedule / standings / teams
     R, L = "../../", "../"
     sub = league_subnav(lg, L)
-    body = f'<h1>試合日程・結果</h1><p class="lead">{escape(league_name)}</p>'
+    o_title, o_desc, o_intro = override_for(f"{code}/schedule/", L, R)
+    body = f'<h1>試合日程・結果</h1><p class="lead">{escape(league_name)}</p>' + o_intro
     upcoming_all = [m for m in scheduled if m["date"] and m["date"] >= today]
     if upcoming_all:
         body += ('<section><h2>今後の試合</h2>'
@@ -907,19 +970,20 @@ def build_league(lg, articles):
         body += '<section><h2>不戦・中止等の公式発表</h2>' + match_table("".join(match_row(m,L) for m in announcements)) + '</section>'
     body += contact_cta(R, "schedule")
     write_page(f"{code}/schedule",
-               page(R, f'試合日程・結果 | {league_name} | ラグビーマニア', body, meta,
-                    path=f"{code}/schedule/", desc=f'{league_name}の全試合日程と結果の一覧。',
+               page(R, o_title or f'試合日程・結果 | {league_name} | ラグビーマニア', body, meta,
+                    path=f"{code}/schedule/", desc=o_desc or f'{league_name}の全試合日程と結果の一覧。',
                     subnav=sub))
 
-    body = f'<h1>順位表</h1><p class="lead">{escape(league_name)}</p>'
+    o_title, o_desc, o_intro = override_for(f"{code}/standings/", L, R)
+    body = f'<h1>順位表</h1><p class="lead">{escape(league_name)}</p>' + o_intro
     for block, entries in standings.items():
         if entries:
             body += standings_table(block, entries, L)
     body += '<p class="note">※順位・勝ち点は試合結果（勝ち点3・分け1）から編集部が算出した参考値です。公式のボーナスポイント制度とは異なる場合があります。</p>'
     body += contact_cta(R, "standings")
     write_page(f"{code}/standings",
-               page(R, f'順位表 | {league_name} | ラグビーマニア', body, meta,
-                    path=f"{code}/standings/", desc=f'{league_name}の順位表。勝点・得失点差を毎日更新。',
+               page(R, o_title or f'順位表 | {league_name} | ラグビーマニア', body, meta,
+                    path=f"{code}/standings/", desc=o_desc or f'{league_name}の順位表。勝点・得失点差を毎日更新。',
                     subnav=sub))
 
     body = f'<h1>チーム一覧</h1><p class="lead">{escape(league_name)}</p>'
