@@ -3,16 +3,16 @@
   {
    "team": "東海大",
    "slug": "tokai",
-   "points": 15,
-   "games": 5,
-   "wins": 5,
+   "points": 18,
+   "games": 6,
+   "wins": 6,
    "draws": 0,
    "losses": 0,
-   "gf": 260,
-   "ga": 120,
+   "gf": 331,
+   "ga": 132,
    "rank": 1,
-   "goal_diff": "+140",
-   "goals_for": 260
+   "goal_diff": "+199",
+   "goals_for": 331
   },
   {
    "team": "東洋大",
@@ -43,20 +43,6 @@
    "goals_for": 183
   },
   {
-   "team": "関東学院大",
-   "slug": "kantogakuin",
-   "points": 7,
-   "games": 5,
-   "wins": 2,
-   "draws": 1,
-   "losses": 2,
-   "gf": 123,
-   "ga": 123,
-   "rank": 4,
-   "goal_diff": "0",
-   "goals_for": 123
-  },
-  {
    "team": "日本大",
    "slug": "nihon",
    "points": 7,
@@ -66,9 +52,23 @@
    "losses": 2,
    "gf": 164,
    "ga": 195,
-   "rank": 5,
+   "rank": 4,
    "goal_diff": "-31",
    "goals_for": 164
+  },
+  {
+   "team": "関東学院大",
+   "slug": "kantogakuin",
+   "points": 7,
+   "games": 6,
+   "wins": 2,
+   "draws": 1,
+   "losses": 3,
+   "gf": 135,
+   "ga": 194,
+   "rank": 5,
+   "goal_diff": "-59",
+   "goals_for": 135
   },
   {
    "team": "立正大",
@@ -88,29 +88,29 @@
    "team": "専修大",
    "slug": "senshu",
    "points": 4,
-   "games": 5,
+   "games": 6,
    "wins": 1,
    "draws": 1,
-   "losses": 3,
-   "gf": 106,
-   "ga": 254,
+   "losses": 4,
+   "gf": 119,
+   "ga": 284,
    "rank": 7,
-   "goal_diff": "-148",
-   "goals_for": 106
+   "goal_diff": "-165",
+   "goals_for": 119
   },
   {
    "team": "法政大",
    "slug": "hosei",
-   "points": 0,
-   "games": 5,
-   "wins": 0,
+   "points": 3,
+   "games": 6,
+   "wins": 1,
    "draws": 0,
    "losses": 5,
-   "gf": 105,
-   "ga": 283,
+   "gf": 135,
+   "ga": 296,
    "rank": 8,
-   "goal_diff": "-178",
-   "goals_for": 105
+   "goal_diff": "-161",
+   "goals_for": 135
   }
  ]
 }
