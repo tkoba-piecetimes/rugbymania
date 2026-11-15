@@ -63,7 +63,7 @@ SPONSOR_CTA_URL = SPONSOR_SEARCH_URL
 # ---- 学生向け導線（2026-09-09決定：競技名入りガクチカ資料DLを主導線に） ----
 SPORT_NAME = "ラグビー"
 GAKUCHIKA_URL = f"https://shukatsu.tunakare.jp/download/gakuchika-template?utm_source={UTM_SOURCE}&utm_medium=referral&utm_campaign=gakuchika-template"
-INTERN_URL = "https://intern.tunakare.jp/assessment?utm_source=rugbymania&utm_medium=cta&utm_campaign=intern"  # ツナカレインターン16タイプ診断（学生集客戦略v2 §4 チャネル2・2026-09-12）
+SHUKATSU_BAND_URL = "https://shukatsu.tunakare.jp/register?utm_source=rugbymania&utm_medium=cta&utm_campaign=shukatsu_band"  # 就活相談の登録ページ（記事末尾・チームページ末尾の帯）
 
 # ---- お問い合わせ（中立リレーAPI経由・運営元秘匿。メディアSNS統合要件定義_2026-08 §3-1）
 CONTACT_MEDIA_KEY = "rugby"
@@ -744,20 +744,19 @@ def article_cta_band(article):
     return band
 
 
-def intern_cta_band():
-    """記事末尾に常時1つ表示する、ツナカレインターン16タイプ診断への導線CTA帯。
-    article_cta_band()（記事frontmatterのcta:に応じた既存CTA）とは独立・常時表示で、その直後に置く。
-    学生集客の戦略設計v2（tsunakare-intern/docs/business/27_student-acquisition-v2.md）
-    §4 チャネル2（部活メディア）・§5 メッセージ体系（S2低学年向け）2026-09-12。
+def shukatsu_cta_band(position="shukatsu_cta_band"):
+    """記事末尾・チームページ末尾に1つ表示する、就活相談の登録ページ（shukatsu.tunakare.jp）への導線CTA帯。
+    記事ページでは article_cta_band()（記事frontmatterのcta:に応じた既存CTA）とは独立・常時表示で、その直後に置く。
     左の縦線装飾（article-cta等のborder-left）は使わず、紺地の帯で視覚的に区別する。
+    2026-11-15決定: 記事末尾とチームページ末尾の帯は就活相談の登録
     """
-    heading = "オフシーズン・引退後に、長期インターンという選択"
-    sub = "部活で培った力を実務で試す。16タイプ診断（30秒）で合う企業がわかります。"
-    return (f'<section class="intern-cta-band" data-cta="cv_intern_click" data-position="intern_cta_band">'
+    heading = "部活を続けながら、就活も進めたい方へ"
+    sub = "体育会の学生のための就活相談です。無料で、メールアドレス・学年・所属の入力だけで始められます。"
+    return (f'<section class="shukatsu-cta-band" data-cta="cv_shukatsu_click" data-position="{position}">'
             '<span class="pr-tag pr-tag-light">PR</span>'
-            f'<p class="intern-cta-band-text"><strong>{escape(heading)}</strong><br>{escape(sub)}</p>'
-            f'<a class="cta" href="{escape(INTERN_URL)}" rel="noopener" '
-            'onclick="window.gtag&&gtag(\'event\',\'cv_intern_click\')">16タイプ診断を受ける →</a></section>')
+            f'<p class="shukatsu-cta-band-text"><strong>{escape(heading)}</strong><br>{escape(sub)}</p>'
+            f'<a class="cta" href="{escape(SHUKATSU_BAND_URL)}" rel="noopener" '
+            'onclick="window.gtag&&gtag(\'event\',\'cv_shukatsu_click\')">無料で就活相談を始める →</a></section>')
 
 
 def sticky_bar():
@@ -1061,6 +1060,7 @@ def build_league(lg, articles):
         body += contact_cta(R, "team")
         body += contact_feature_cta(R)
         body += sponsor_block()
+        body += shukatsu_cta_band("shukatsu_cta_band_team")
         write_page(f"{code}/clubs/{slug}",
                    page(R, f'{name} 試合結果・日程・戦績 | ラグビーマニア', body, meta,
                         path=f"{code}/clubs/{slug}/",
@@ -1229,7 +1229,7 @@ def build_articles(articles, meta):
             art_html = apply_glossary(art_html, glossary_terms, rel, article=a["slug"], glossary_link=True)
         body += f'<div class="article">{art_html}</div>'
         body += article_cta_band(a)
-        body += intern_cta_band()
+        body += shukatsu_cta_band()
         body += f'<section><h2>あわせて読む</h2><ul>{related}</ul></section>'
         write_page(f"articles/{a['slug']}",
                    page(rel, f'{a["title"]} | ラグビーマニア', body, meta,
@@ -1639,9 +1639,9 @@ table.detail td { white-space:normal; }
   margin-top:2.4em; box-shadow:0 1px 3px rgba(7,26,51,.06); }
 .article-cta p:first-child { font-weight:700; margin-top:0; }
 
-.intern-cta-band { display:flex; flex-wrap:wrap; align-items:center; gap:.6rem 1.2rem;
+.shukatsu-cta-band { display:flex; flex-wrap:wrap; align-items:center; gap:.6rem 1.2rem;
   background:var(--navy); border-radius:12px; padding:1.1rem 1.3rem; margin-top:1.6rem; }
-.intern-cta-band-text { margin:0; font-size:.85rem; flex:1 1 220px; color:#fff; }
+.shukatsu-cta-band-text { margin:0; font-size:.85rem; flex:1 1 220px; color:#fff; }
 .pr-tag-light { background:var(--accent); color:var(--navy); }
 
 .cat-line { font-size:.8rem; margin:.4rem 0; }
