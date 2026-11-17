@@ -192,6 +192,38 @@
   "source_url": "https://drive.google.com/file/d/1OlvPTQH3tPc1NQZajtV7I7pVxkreInUv/view?usp=drive_link"
  },
  {
+  "id": "2026-11-15-kyuushuukougyou-vs-miyazaki",
+  "date": "2026-11-15",
+  "time": "13:45",
+  "category": "九州学生リーグC",
+  "home": "九州工業大学",
+  "away": "宮崎大学",
+  "home_slug": "kyuushuukougyou",
+  "away_slug": "miyazaki",
+  "home_score": 55,
+  "away_score": 36,
+  "status": "played",
+  "venue": "福岡大学ラグビー場",
+  "note": "",
+  "source_url": "https://drive.google.com/file/d/10tDPizdYxLNmc_1ILqfaGlADopC0MXiz/view?usp=drive_link"
+ },
+ {
+  "id": "2026-11-15-kyuushuusangyou-vs-shigakukan",
+  "date": "2026-11-15",
+  "time": "ー",
+  "category": "九州学生リーグC",
+  "home": "九州産業大学",
+  "away": "志學館大学",
+  "home_slug": "kyuushuusangyou",
+  "away_slug": "shigakukan",
+  "home_score": null,
+  "away_score": null,
+  "status": "unscored",
+  "venue": "福岡大学ラグビー場",
+  "note": "不戦勝-棄権",
+  "source_url": "https://www.rugby-kyushu.jp/kyushuleague/2026-2027/kyushugakusei.html"
+ },
+ {
   "id": "2026-11-22-saga-vs-kyuushuudaigakuigakubu",
   "date": "2026-11-22",
   "time": "12:00",
@@ -205,38 +237,6 @@
   "status": "scheduled",
   "venue": "SAGAサンライズパークボールフィールド南",
   "note": "",
-  "source_url": "https://www.rugby-kyushu.jp/kyushuleague/2026-2027/kyushugakusei.html"
- },
- {
-  "id": "tbd-kyuushuukougyou-vs-miyazaki",
-  "date": null,
-  "time": "未定",
-  "category": "九州学生リーグC",
-  "home": "九州工業大学",
-  "away": "宮崎大学",
-  "home_slug": "kyuushuukougyou",
-  "away_slug": "miyazaki",
-  "home_score": null,
-  "away_score": null,
-  "status": "scheduled",
-  "venue": "福岡",
-  "note": "日程：11月14 日 or15日",
-  "source_url": "https://www.rugby-kyushu.jp/kyushuleague/2026-2027/kyushugakusei.html"
- },
- {
-  "id": "tbd-kyuushuusangyou-vs-shigakukan",
-  "date": null,
-  "time": "未定",
-  "category": "九州学生リーグC",
-  "home": "九州産業大学",
-  "away": "志學館大学",
-  "home_slug": "kyuushuusangyou",
-  "away_slug": "shigakukan",
-  "home_score": null,
-  "away_score": null,
-  "status": "unscored",
-  "venue": "福岡",
-  "note": "不戦勝-棄権 / 日程：11月14 日 or15日",
   "source_url": "https://www.rugby-kyushu.jp/kyushuleague/2026-2027/kyushugakusei.html"
  }
 ]

@@ -138,9 +138,9 @@
   "away_slug": "meiou",
   "home_score": null,
   "away_score": null,
-  "status": "scheduled",
+  "status": "unscored",
   "venue": "久留米大学医学部グラウンド",
-  "note": "",
+  "note": "棄権-不戦勝",
   "source_url": "https://www.rugby-kyushu.jp/kyushuleague/2026-2027/kyushugakusei.html"
  },
  {
@@ -152,11 +152,11 @@
   "away": "琉球大学",
   "home_slug": "kurume",
   "away_slug": "ryuukyuu",
-  "home_score": null,
-  "away_score": null,
-  "status": "scheduled",
+  "home_score": 31,
+  "away_score": 24,
+  "status": "played",
   "venue": "久留米大学医学部グラウンド",
   "note": "",
-  "source_url": "https://www.rugby-kyushu.jp/kyushuleague/2026-2027/kyushugakusei.html"
+  "source_url": "https://drive.google.com/file/d/1O3rXUS6XzVHM15NCPMpZJmBBElpn8NSr/view?usp=drive_link"
  }
 ]

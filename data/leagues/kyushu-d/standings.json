@@ -3,16 +3,16 @@
   {
    "team": "久留米大学",
    "slug": "kurume",
-   "points": 9,
-   "games": 3,
-   "wins": 3,
+   "points": 12,
+   "games": 4,
+   "wins": 4,
    "draws": 0,
    "losses": 0,
-   "gf": 102,
-   "ga": 32,
+   "gf": 133,
+   "ga": 56,
    "rank": 1,
-   "goal_diff": "+70",
-   "goals_for": 102
+   "goal_diff": "+77",
+   "goals_for": 133
   },
   {
    "team": "九州歯科大学",
@@ -29,20 +29,6 @@
    "goals_for": 112
   },
   {
-   "team": "琉球大学",
-   "slug": "ryuukyuu",
-   "points": 3,
-   "games": 2,
-   "wins": 1,
-   "draws": 0,
-   "losses": 1,
-   "gf": 68,
-   "ga": 76,
-   "rank": 3,
-   "goal_diff": "-8",
-   "goals_for": 68
-  },
-  {
    "team": "名桜大学",
    "slug": "meiou",
    "points": 3,
@@ -52,9 +38,23 @@
    "losses": 2,
    "gf": 74,
    "ga": 85,
-   "rank": 4,
+   "rank": 3,
    "goal_diff": "-11",
    "goals_for": 74
+  },
+  {
+   "team": "琉球大学",
+   "slug": "ryuukyuu",
+   "points": 3,
+   "games": 3,
+   "wins": 1,
+   "draws": 0,
+   "losses": 2,
+   "gf": 92,
+   "ga": 107,
+   "rank": 4,
+   "goal_diff": "-15",
+   "goals_for": 92
   },
   {
    "team": "久留米大学医学部",
