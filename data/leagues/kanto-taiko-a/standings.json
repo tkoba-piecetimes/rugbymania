@@ -1,32 +1,32 @@
 {
  "総合": [
   {
+   "team": "明治大",
+   "slug": "meiji",
+   "points": 18,
+   "games": 6,
+   "wins": 6,
+   "draws": 0,
+   "losses": 0,
+   "gf": 339,
+   "ga": 88,
+   "rank": 1,
+   "goal_diff": "+251",
+   "goals_for": 339
+  },
+  {
    "team": "帝京大",
    "slug": "teikyo",
    "points": 15,
-   "games": 5,
+   "games": 6,
    "wins": 5,
    "draws": 0,
-   "losses": 0,
-   "gf": 282,
-   "ga": 43,
-   "rank": 1,
-   "goal_diff": "+239",
-   "goals_for": 282
-  },
-  {
-   "team": "明治大",
-   "slug": "meiji",
-   "points": 15,
-   "games": 5,
-   "wins": 5,
-   "draws": 0,
-   "losses": 0,
-   "gf": 306,
-   "ga": 78,
+   "losses": 1,
+   "gf": 292,
+   "ga": 76,
    "rank": 2,
-   "goal_diff": "+228",
-   "goals_for": 306
+   "goal_diff": "+216",
+   "goals_for": 292
   },
   {
    "team": "早稲田大",
@@ -43,6 +43,20 @@
    "goals_for": 256
   },
   {
+   "team": "筑波大",
+   "slug": "tsukuba",
+   "points": 9,
+   "games": 6,
+   "wins": 3,
+   "draws": 0,
+   "losses": 3,
+   "gf": 241,
+   "ga": 145,
+   "rank": 4,
+   "goal_diff": "+96",
+   "goals_for": 241
+  },
+  {
    "team": "慶應義塾大",
    "slug": "keio",
    "points": 9,
@@ -52,65 +66,51 @@
    "losses": 2,
    "gf": 178,
    "ga": 153,
-   "rank": 4,
+   "rank": 5,
    "goal_diff": "+25",
    "goals_for": 178
-  },
-  {
-   "team": "筑波大",
-   "slug": "tsukuba",
-   "points": 6,
-   "games": 5,
-   "wins": 2,
-   "draws": 0,
-   "losses": 3,
-   "gf": 161,
-   "ga": 138,
-   "rank": 5,
-   "goal_diff": "+23",
-   "goals_for": 161
   },
   {
    "team": "立教大",
    "slug": "rikkyo",
    "points": 3,
-   "games": 5,
+   "games": 6,
    "wins": 1,
    "draws": 0,
-   "losses": 4,
-   "gf": 86,
-   "ga": 242,
+   "losses": 5,
+   "gf": 98,
+   "ga": 280,
    "rank": 6,
-   "goal_diff": "-156",
-   "goals_for": 86
+   "goal_diff": "-182",
+   "goals_for": 98
+  },
+  {
+   "team": "青山学院大",
+   "slug": "aoyamagakuin",
+   "points": 3,
+   "games": 6,
+   "wins": 1,
+   "draws": 0,
+   "losses": 5,
+   "gf": 60,
+   "ga": 373,
+   "rank": 7,
+   "goal_diff": "-313",
+   "goals_for": 60
   },
   {
    "team": "日本体育大",
    "slug": "nittaidai",
    "points": 0,
-   "games": 5,
+   "games": 6,
    "wins": 0,
    "draws": 0,
-   "losses": 5,
-   "gf": 58,
-   "ga": 311,
-   "rank": 7,
-   "goal_diff": "-253",
-   "goals_for": 58
-  },
-  {
-   "team": "青山学院大",
-   "slug": "aoyamagakuin",
-   "points": 0,
-   "games": 5,
-   "wins": 0,
-   "draws": 0,
-   "losses": 5,
-   "gf": 22,
-   "ga": 361,
+   "losses": 6,
+   "gf": 65,
+   "ga": 391,
    "rank": 8,
-   "goal_diff": "-339",
-   "goals_for": 22
+   "goal_diff": "-326",
+   "goals_for": 65
   }
  ]
 }
