@@ -131,12 +131,39 @@ PAGE_OVERRIDES = {
 }
 
 
+# インデックス未登録レーンの内部リンク補強（2026-11-24）。
+# 出力パス -> [(記事slug, アンカー文言, 導入文)]。リーグのインデックス済みページから節レビュー記事へ1文リンクを張る。
+LANE_PAGE_LINKS = {
+    "kanto-taiko-b/schedule/": [("review-kanto-taiko-b-20260913", "【関東大学対抗戦Bグループ】9月13日の結果まとめ", "開幕直後の節の結果は")],
+    "kanto-taiko-b/": [("review-kanto-taiko-b-20260913", "【関東大学対抗戦Bグループ】9月13日の結果まとめ", "秋の開幕戦の流れは")],
+    "kyushu-a/standings/": [("review-kyushu-a-20260919", "【九州学生リーグA】9月19日の結果まとめ", "9月中旬の節の結果と順位の動きは")],
+    "kyushu-a/": [("review-kyushu-a-20260919", "【九州学生リーグA】9月19日の結果まとめ", "直近の節の結果は")],
+    "kanto-league-2/": [("review-kanto-league-2-20260920", "【関東大学リーグ戦2部】9月20日の結果まとめ", "9月20日の節の試合結果は")],
+    "kanto-league-2/standings/": [("review-kanto-league-2-20260920", "【関東大学リーグ戦2部】9月20日の結果まとめ", "順位の動きを節ごとに追うなら")],
+    "kansai-a/standings/": [("review-kansai-a-20260926", "【関西大学ラグビーAリーグ】9月26日～27日の結果まとめ", "9月下旬の節の結果は")],
+    "kansai-a/": [("review-kansai-a-20260926", "【関西大学ラグビーAリーグ】9月26日～27日の結果まとめ", "9月26日～27日の試合結果は")],
+    "kansai-b/": [("review-kansai-b-20260920", "【関西大学ラグビーBリーグ】9月20日の結果まとめ", "9月20日の節の試合結果は")],
+    "kansai-b/standings/": [("review-kansai-b-20260920", "【関西大学ラグビーBリーグ】9月20日の結果まとめ", "順位の動きを節ごとに追うなら")],
+    "kanto-league-1/standings/": [("review-kanto-league-1-20260920", "【関東大学リーグ戦1部】9月20日～22日の結果まとめ", "9月下旬の節の結果は")],
+    "kanto-league-1/": [("review-kanto-league-1-20260920", "【関東大学リーグ戦1部】9月20日～22日の結果まとめ", "9月20日～22日の試合結果は")],
+}
+
+
+def lane_page_html(path, R):
+    out = ""
+    for slug, anchor, lead in LANE_PAGE_LINKS.get(path, []):
+        out += (f'<p class="more"><!-- index-lane-link -->{escape(lead)}'
+                f'<a href="{R}articles/{slug}/index.html">{escape(anchor)}</a>で確認できます。</p>')
+    return out
+
+
 def override_for(path, L, R):
     """PAGE_OVERRIDES から該当パスの (題名, 説明文, 導入文HTML) を返す。無ければ (None, None, "")。"""
     ov = PAGE_OVERRIDES.get(path)
+    lane = lane_page_html(path, R)
     if not ov:
-        return None, None, ""
-    intro = ov.get("intro", "").replace("{L}", L).replace("{R}", R)
+        return None, None, lane
+    intro = ov.get("intro", "").replace("{L}", L).replace("{R}", R) + lane
     return ov.get("title"), ov.get("desc"), intro
 
 
