@@ -15,6 +15,20 @@
    "goals_for": 339
   },
   {
+   "team": "早稲田大",
+   "slug": "waseda",
+   "points": 15,
+   "games": 6,
+   "wins": 5,
+   "draws": 0,
+   "losses": 1,
+   "gf": 300,
+   "ga": 31,
+   "rank": 2,
+   "goal_diff": "+269",
+   "goals_for": 300
+  },
+  {
    "team": "帝京大",
    "slug": "teikyo",
    "points": 15,
@@ -24,23 +38,9 @@
    "losses": 1,
    "gf": 292,
    "ga": 76,
-   "rank": 2,
+   "rank": 3,
    "goal_diff": "+216",
    "goals_for": 292
-  },
-  {
-   "team": "早稲田大",
-   "slug": "waseda",
-   "points": 12,
-   "games": 5,
-   "wins": 4,
-   "draws": 0,
-   "losses": 1,
-   "gf": 256,
-   "ga": 23,
-   "rank": 3,
-   "goal_diff": "+233",
-   "goals_for": 256
   },
   {
    "team": "筑波大",
@@ -60,15 +60,15 @@
    "team": "慶應義塾大",
    "slug": "keio",
    "points": 9,
-   "games": 5,
+   "games": 6,
    "wins": 3,
    "draws": 0,
-   "losses": 2,
-   "gf": 178,
-   "ga": 153,
+   "losses": 3,
+   "gf": 186,
+   "ga": 197,
    "rank": 5,
-   "goal_diff": "+25",
-   "goals_for": 178
+   "goal_diff": "-11",
+   "goals_for": 186
   },
   {
    "team": "立教大",

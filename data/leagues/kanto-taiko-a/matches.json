@@ -377,9 +377,9 @@
   "home_slug": "keio",
   "away_slug": "waseda",
   "venue": "秩父宮",
-  "status": "scheduled",
-  "home_score": null,
-  "away_score": null,
+  "status": "played",
+  "home_score": 8,
+  "away_score": 44,
   "note": "",
   "source_url": "https://www.rugby.or.jp/univ/result/2904/"
  },
