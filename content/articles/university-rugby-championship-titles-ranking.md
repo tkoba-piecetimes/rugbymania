@@ -117,7 +117,9 @@ cta: sponsor
 - [関西大学Aリーグの順位表](https://rugbymania.jp/kansai-a/standings/)
 - [九州学生リーグAの順位表](https://rugbymania.jp/kyushu-a/standings/)
 
-次回大会の日程や出場枠の決まり方については、[大学ラグビー選手権の日程はいつ発表される？](https://rugbymania.jp/articles/university-rugby-championship-schedule-guide/)で詳しく解説しています。対抗戦とリーグ戦の仕組みの違いが気になる方は、[対抗戦とリーグ戦の違い](https://rugbymania.jp/articles/university-rugby-league-format-guide/)もあわせてご覧ください。
+上位校の強さの背景を公開情報から整理した記事として、[帝京大学](https://rugbymania.jp/articles/teikyo-university-rugby-strength-reasons/)・[明治大学](https://rugbymania.jp/articles/meiji-university-rugby-strength-reasons/)・[早稲田大学](https://rugbymania.jp/articles/waseda-university-rugby-strength-reasons/)・[天理大学](https://rugbymania.jp/articles/tenri-university-rugby-strength-reasons/)の各記事もあります。関東の対抗戦A・リーグ戦1部の直近5年の優勝校は[関東大学ラグビー優勝校の推移](https://rugbymania.jp/articles/kanto-university-rugby-champions-history-2021-2025/)で確認できます。
+
+第63回大会（2026年度）は2026年11月22日に開幕しており、決勝は2027年1月10日（日）にMUFGスタジアム（国立競技場）で行われる予定です（出典: [日本ラグビーフットボール協会 第63回大会 大会概要](https://www.rugby-japan.jp/news/54283)）。全ラウンドの日程や出場枠は[大学ラグビー選手権2026（第63回）の日程・会場](https://rugbymania.jp/articles/university-rugby-championship-schedule-guide/)で詳しく解説しています。対抗戦とリーグ戦の仕組みの違いが気になる方は、[対抗戦とリーグ戦の違い](https://rugbymania.jp/articles/university-rugby-league-format-guide/)もあわせてご覧ください。
 
 ## まとめ
 
