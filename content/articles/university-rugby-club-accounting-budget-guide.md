@@ -89,7 +89,7 @@ OB会や保護者会、後援会は、部の活動を支える大切な存在で
 - **合宿・遠征**：移動手段や宿泊先の選び方で負担は変わります。費用の内訳は[大学ラグビー部の合宿費・遠征費はどれくらい？](https://rugbymania.jp/articles/university-rugby-camp-travel-cost-guide/)が参考になります。
 - **用具・装備**：全員分を一度に更新するのではなく、優先順位をつけて計画的に買い替える方法があります。相場感は[大学ラグビー部の用具・装備にかかる費用はどれくらい？](https://rugbymania.jp/articles/university-rugby-equipment-cost-guide/)で整理しています。
 
-そのうえで、収入側を増やす工夫も検討します。部費の内訳と資金確保の考え方は[大学ラグビー部の部費はなぜ足りない？](https://rugbymania.jp/articles/university-rugby-club-funding-guide/)、クラウドファンディングは[こちらの解説](https://rugbymania.jp/articles/university-rugby-crowdfunding-guide/)、企業・地域からの協賛は[大学ラグビー部がスポンサーを獲得するには？](https://rugbymania.jp/articles/university-rugby-sponsor-guide/)をご覧ください。
+そのうえで、収入側を増やす工夫も検討します。部費の内訳と資金確保の考え方は[大学ラグビー部の部費はなぜ足りない？](https://rugbymania.jp/articles/university-rugby-club-funding-guide/)、クラウドファンディングは[こちらの解説](https://rugbymania.jp/articles/university-rugby-crowdfunding-guide/)、企業・地域からの協賛は[大学ラグビー部がスポンサーを獲得するには？](https://rugbymania.jp/articles/university-rugby-sponsor-guide/)をご覧ください。企業へ協賛を依頼する際の資料づくりは、[大学ラグビー部の協賛依頼、提案資料と依頼文の作り方](https://rugbymania.jp/articles/university-rugby-sponsor-proposal-guide/)も参考になります。<!-- index-lane-link -->
 
 ## 協賛募集の窓口を持つという選択肢
 
