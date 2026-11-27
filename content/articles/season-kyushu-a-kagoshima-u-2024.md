@@ -25,6 +25,8 @@ cta: sponsor
 - 戦績: 1勝1分3敗
 - 得失点差: -189
 
+鹿児島大学が所属する九州学生リーグAの2026年度の動きは、[九州学生リーグA 9月26日の結果まとめ](https://rugbymania.jp/articles/review-kyushu-a-20260926/)で確認できます。 <!-- index-lane-link -->
+
 ## 出典
 
 - [九州ラグビーフットボール協会](https://www.rugby-kyushu.jp/kyushuleague.html)

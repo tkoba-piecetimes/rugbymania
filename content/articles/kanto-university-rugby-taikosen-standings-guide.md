@@ -105,7 +105,7 @@ cta: sponsor
 
 2024・2025年度の公式記録では、A・Bグループの入替戦は「Aグループ7位 対 Bグループ2位」「Aグループ8位 対 Bグループ1位」の2試合でした。この2年の計4試合は、いずれもA側が勝っています。
 
-2026年度の入替戦の形式と日程は、公式発表を確認してください。仕組みの詳細は[入替戦の解説](https://rugbymania.jp/articles/kanto-university-rugby-irekaesen-guide/)にあります。なお、対抗戦とリーグ戦の間に入替戦はありません。違いは[対抗戦とリーグ戦の違い](https://rugbymania.jp/articles/university-rugby-league-format-guide/)で整理しています。Bグループの状況は、当サイトの[対抗戦B順位表](https://rugbymania.jp/kanto-taiko-b/standings/)で確認できます。
+2026年度の入替戦の形式と日程は、公式発表を確認してください。仕組みの詳細は[入替戦の解説](https://rugbymania.jp/articles/kanto-university-rugby-irekaesen-guide/)にあります。なお、対抗戦とリーグ戦の間に入替戦はありません。違いは[対抗戦とリーグ戦の違い](https://rugbymania.jp/articles/university-rugby-league-format-guide/)で整理しています。Bグループの状況は、当サイトの[対抗戦B順位表](https://rugbymania.jp/kanto-taiko-b/standings/)で確認できます。Bグループの開幕直後の動きは、[関東大学対抗戦Bグループ 9月27日の結果まとめ](https://rugbymania.jp/articles/review-kanto-taiko-b-20260927/)で試合結果と順位表を振り返れます。 <!-- index-lane-link -->
 
 ## 残り2試合の日程と計算上の最大勝点
 

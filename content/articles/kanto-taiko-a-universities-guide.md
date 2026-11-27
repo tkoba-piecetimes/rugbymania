@@ -147,6 +147,8 @@ cta: sponsor
 
 今後の日程では、11月1日に帝京大学対早稲田大学と明治大学対慶應義塾大学（いずれも秩父宮）、11月22日に帝京大学対明治大学（秩父宮）、11月23日に慶應義塾大学対早稲田大学（秩父宮）、12月6日に早稲田大学対明治大学（MUFG国立）が組まれています。最新の状況は [順位表](https://rugbymania.jp/kanto-taiko-a/standings/) と [日程](https://rugbymania.jp/kanto-taiko-a/schedule/) をご確認ください。早明戦については [早明戦の日程ガイド](https://rugbymania.jp/articles/waseda-meiji-game-schedule-guide/) で詳しく扱っています。
 
+開幕第2節にあたる9月26日～27日の各試合の結果と当時の順位表は、[関東大学対抗戦Aグループ 9月26日～27日の結果まとめ](https://rugbymania.jp/articles/review-kanto-taiko-a-20260926/) で確認できます。 <!-- index-lane-link -->
+
 ## 一覧の使い方（観戦・進路の目線で）
 
 観戦なら拠点グラウンドと日程、進学を検討するなら公式サイトの部員募集・入部案内を一次情報として確認するのが近道です。
