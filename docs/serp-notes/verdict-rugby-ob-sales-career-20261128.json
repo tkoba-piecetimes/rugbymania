@@ -1,0 +1,63 @@
+{
+  "slug": "rugby-ob-sales-career",
+  "candidateId": "cmwsoh2tn005rjv08spjgfvqc",
+  "diagnosedAt": "2026-11-28",
+  "targetKeyword": "ラグビー部 営業（推定）",
+  "factors": [
+    {
+      "factor": "検索意図の一致",
+      "layer": "article",
+      "finding": "上位は企業採用ブログの体験談・体育会一般の解説・職種解説が混在し、専用の解説記事はほぼない。自記事は『向いているか＋注意点＋キャリア』の解説型で意図は概ね一致。",
+      "action": "型は変えない。注意点と営業の種類別の相性を厚くし、『向いているか』への答えをH2直下で先に示す。"
+    },
+    {
+      "factor": "タイトル・スニペット（CTR）",
+      "layer": "article",
+      "finding": "表示17/週・クリック0は母数が小さく有意差とは言えない。ただしtitleが長く（約45字）、後半が抽象的で『注意点』『向いていない場合』が見えない。",
+      "action": "title/descriptionを、結論（活きる力）と注意点・営業の種類を前に出す形に変更。"
+    },
+    {
+      "factor": "網羅性・情報量",
+      "layer": "article",
+      "finding": "上位が扱う『営業の種類（法人/個人・新規/ルート・有形/無形）ごとの相性』『体育会出身が誤解されやすい点』『面接での営業志望の語り方』が欠けている。FAQもない。",
+      "action": "営業の種類×活きる経験の表、注意点の具体化、面接での伝え方、FAQ3問を追加。"
+    },
+    {
+      "factor": "独自性（一次情報・E-E-A-T）",
+      "layer": "article",
+      "finding": "一次情報が0件。上位はラグビー出身営業パーソン本人の声が強み。自記事の独自要素はJRFUコアバリュー表のみ。",
+      "action": "obog-voices.md:30-31（ラグビー部OB・人材紹介営業）とhr-voices.md:62,64（営業支援企業人事）を出典付きで追加。"
+    },
+    {
+      "factor": "構成・読みやすさ",
+      "layer": "article",
+      "finding": "冒頭が長く結論が後ろ。各H2直下に結論1文がない。",
+      "action": "冒頭を3文程度に短縮し結論を先に、各H2直下に結論1文。"
+    },
+    {
+      "factor": "内部リンク・トピック構造",
+      "layer": "media",
+      "finding": "被リンクは3本（industry-selection・management-career・shinro-public-data）。親記事rugby-ob-career-strengthsからのリンクがなく、自記事から就活実務記事（shukatsu-appeal・ob-visit・early-career-gap）へのリンクもない。",
+      "action": "記事側: 自記事から3本追加。媒体側: rugby-ob-career-strengths・rugby-shukatsu-appeal・rugby-ob-early-career-gap-guideから本記事へリンクを張る（キャリア系クラスタの親子整理）。"
+    },
+    {
+      "factor": "ドメイン評価・被リンク",
+      "layer": "media",
+      "finding": "上位はpresident.jp・rikunabi・wantedly等の強ドメイン。新規ドメインで記事単体では対応不可。",
+      "action": "媒体戦略バックログへ。キャリア系記事群は取材OB記事（media.tunakare.jp）との相互参照・外部掲載依頼で評価を積む。"
+    },
+    {
+      "factor": "技術・表示",
+      "layer": "media",
+      "finding": "記事側の不備は確認できず（インデックスは表示が出ているため済み）。CWV・構造化データは未確認。",
+      "action": "記事側対応なし。FAQ追加時にFAQの構造化データをテンプレが出せるか媒体側で確認。"
+    },
+    {
+      "factor": "CV（事業価値）",
+      "layer": "article",
+      "finding": "クリック0のためCV評価不能。cta: careerは記事の意図（進路・職種選び）と合っている。",
+      "action": "cta: careerは維持。本文末に『職種選びに迷ったら相談』へつなぐ1文を置く（実績数値は書かない）。"
+    }
+  ],
+  "summary": "主因はKW需要の小ささ（表示17/週）と強ドメインの混在するSERPで、記事側では一次情報0件と注意点・営業の種類別整理の薄さが弱点。意図は一致しているため、型を保ったまま一次情報・表・FAQを足し、媒体側では親記事からの内部リンクを補う。"
+}

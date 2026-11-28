@@ -1,0 +1,59 @@
+{
+  "factors": [
+    {
+      "factor": "タイトル・スニペット(CTR)",
+      "layer": "article",
+      "finding": "平均順位約9位・表示24でクリック0（順位帯平均CTR 3〜4%台）。タイトルが「〜を続けるには？」の問い型で、検索者が知りたい大学名・大学選手権の枠・比較の結論が前方にない。上位は大学名や就職先を前面に出した一覧型。",
+      "action": "タイトルを「関西・九州の大学ラグビー進学ガイド｜関西Aリーグ8校・九州リーグAの所属大学と大学選手権の枠を比較」型に変更。descriptionの前半に関西A=上位3校・九州=順位決定戦1位が大学選手権、の結論を入れる。dateは変えない。"
+    },
+    {
+      "factor": "検索意図の一致",
+      "layer": "article",
+      "finding": "上位は大学名の一覧（強豪・所属リーグ）と大学公式の情報が中心。本記事は仕組み解説型で、関西は大学名ゼロ。意図は「関西・九州のどこの大学でラグビーを続けられるか」で、型は解説＋一覧の混合。なお「進路」は卒業後の就職先の意味でも検索されている（意図混在）。",
+      "action": "記事の意図（高校生の進学先選び）は変えずに、関西A・九州Aの所属大学表を追加して一覧性を補う。卒業後の就職先の意図には既存記事 rugby-club-shinro-shushokusaki-public-data-guide への内部リンクで応える。"
+    },
+    {
+      "factor": "網羅性・情報量",
+      "layer": "article",
+      "finding": "大学選手権の出場枠（関西A上位3校／九州は順位決定戦1位の1校）、九州5位の全国地区対抗大学大会出場資格、関西Aの2026年度所属8校が未記載。九州の所属例は2024年度のまま。",
+      "action": "「大学選手権への道」H2と関西A所属大学の表を追加し、九州の所属例を2026年度に更新。数値は同媒体の kansai-university-rugby-a-league-standings-guide／kyushu-university-rugby-league-standings-guide と同じ一次情報（関西協会・九州協会の公式）に揃える。"
+    },
+    {
+      "factor": "独自性(E-E-A-T)",
+      "layer": "article",
+      "finding": "協会公式の再構成のみで一次情報がない。「優勝したチームが大学選手権の出場権」は規約上「順位決定戦の1位」で表現が不正確。",
+      "action": "一次情報バンク shukatsu-media/docs/primary-sources/student-voices.md:209（神戸大学ラグビー部・2026-05-22取材・リーグ改編で自動降格しCリーグから1年でのBリーグ復帰を目標）を出典URL付きで関西の段階的リーグの具体例として1段落追加（個人名なし）。九州の出場権の記述を規約7(1)どおり「順位決定戦の1位」に修正。"
+    },
+    {
+      "factor": "構成・読みやすさ",
+      "layer": "article",
+      "finding": "冒頭が長く結論がない。関東・関西・九州の比較が文章のみで表がない。各H2直下に結論1文がない。",
+      "action": "導入を3文以内に短縮し結論（関西=細かい階層＋入替戦、九州=A〜D＋順位決定戦で翌年所属が決まる）を先に置く。「関東・関西・九州をどう比べるか」に地区比較表を追加。"
+    },
+    {
+      "factor": "内部リンク・トピック構造",
+      "layer": "article",
+      "finding": "被リンク元は媒体内に10記事あり孤立はしていない。ただし関西A・九州Aの順位ガイド（同地区の親記事候補）や大学選手権・寮・費用の記事へのリンクがない。",
+      "action": "kansai-university-rugby-a-league-standings-guide、kyushu-university-rugby-league-standings-guide、university-rugby-championship-schedule-guide、university-rugby-league-team-count-comparison、university-rugby-national-university-shinro-guide、university-rugby-dormitory-life-guide、rugby-university-scholarship-jasso-guide、rugby-club-shinro-shushokusaki-public-data-guide へ本文中からリンク。"
+    },
+    {
+      "factor": "ドメイン評価・被リンク",
+      "layer": "media",
+      "finding": "上位は大学公式・協会PDF・ベネッセなど評価の高いドメイン。専用の比較記事は上位になく、順位9位はドメインの差より記事側の要因が大きいと見る（仮説）。",
+      "action": "媒体戦略バックログ: 関西・九州の大学ラグビー部（取材済み団体を含む）へ記事紹介・掲載依頼を検討。記事側の対応はなし。"
+    },
+    {
+      "factor": "技術・表示",
+      "layer": "media",
+      "finding": "記事単体で技術的な問題は確認していない（未確認: Core Web Vitals・構造化データ）。frontmatterは5項目の単純形式で記事側に設定余地が少ない。",
+      "action": "媒体側で記事テンプレのArticle/FAQ構造化データ出力の有無を確認する。記事側の対応はなし。"
+    },
+    {
+      "factor": "CV",
+      "layer": "media",
+      "finding": "cta: none でクリック0のため、CVの評価は時期尚早。",
+      "action": "CTRが改善するまでは対応不要。媒体のCV導線設計の方針に従う。記事側では cta を変更しない。"
+    }
+  ],
+  "summary": "主因はタイトル・スニペット（9位で表示24・クリック0）と、上位が求める大学名・大学選手権の枠という一覧情報の不足。検索意図は変えずに、タイトル変更・関西A/九州Aの所属大学表・大学選手権の枠の追加と、九州の出場権表記の修正、一次情報（神戸大学ラグビー部の取材）の追加で対応する。ドメイン評価は主因ではない（仮説）。"
+}

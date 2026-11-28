@@ -1,0 +1,59 @@
+{
+  "factors": [
+    {
+      "factor": "検索意図の一致",
+      "layer": "article",
+      "finding": "上位は『不利？→結論→伝え方ステップ→理由別例文→NG→ES欄→FAQ』の解説＋例文型。自記事は同じ解説型だが例文がほぼなく、HowToとして実行できる部分が欠けている。『ラグビー部 辞めた 就活』では専用記事が上位に見当たらず、競技特化は意図に合う。",
+      "action": "型は変えずに、理由別の例文・NG例・ES部活動欄の書き方・FAQを追加し、上位と同じ答えの形にそろえる。"
+    },
+    {
+      "factor": "タイトル・スニペット(CTR)",
+      "layer": "article",
+      "finding": "表示19・クリック0・順位9〜10位台。表示が少なくCTRの比較はまだ当てにならない（未確認）。上位タイトルは『例文付き』を明示しており、自記事タイトルは『早期引退の伝え方』で例文があることが伝わらない。",
+      "action": "タイトルを『大学ラグビー部を途中で辞めたら就活で不利？怪我・費用など理由別の伝え方と面接・ES例文』に変更し、descriptionも例文・FAQの存在を前に出す。"
+    },
+    {
+      "factor": "網羅性・情報量",
+      "layer": "article",
+      "finding": "自記事は約3,500字。上位（crexgroup）は推定1.3万字で、理由別例文4本、NG3類型、履歴書・ESの記入例、FAQ3問を持つ。自記事にはこれらがない。",
+      "action": "H2『理由別の伝え方と例文』（怪我・費用/家庭・学業/進路・気持ちの変化の4本）、H2『避けたい伝え方』、H2『ESの部活動欄の書き方』、H2『よくある質問』を追加する。"
+    },
+    {
+      "factor": "独自性(E-E-A-T)",
+      "layer": "article",
+      "finding": "出典は内閣官房の日程だけ。一次情報バンク（shukatsu-media/docs/primary-sources）にある退部経験OB、活動費負担による退部、人事の評価観点の声を使っていない。ラグビー固有の要素（脳震盪の段階的復帰、活動費、マネージャー転向）は芯として持っている。",
+      "action": "取材記事の匿名化した声と活動費の公開情報を、出典URLつきで3点以上追加する。退部時期別（1〜2年／3年／4年直前）の伝え方の表を、上位にない独自要素として追加する。"
+    },
+    {
+      "factor": "構成・読みやすさ",
+      "layer": "article",
+      "finding": "冒頭の段落が約270字の1文構成で長く、結論が先に出ていない。H2直下にも結論の1文がない箇所がある。",
+      "action": "冒頭を短くし、2文目までに『辞めた事実より理由の説明とその後の行動が見られやすい』と結論を出す。各H2の最初の文を結論にする。"
+    },
+    {
+      "factor": "内部リンク・トピック構造",
+      "layer": "article",
+      "finding": "この記事へのリンク元は3本（rugby-shukatsu-appeal、rugby-retirement-burnout-guide、university-rugby-four-year-schedule-guide）。近いテーマの rugby-non-regular-shukatsu-appeal、rugby-shukatsu-interview-questions-guide、rugby-manager-shukatsu-appeal からはリンクがない。出口リンクも3本と少ない。",
+      "action": "上記3記事からリンクを張る。本文から rugby-shukatsu-interview-questions-guide、rugby-manager-shukatsu-appeal、rugby-acl-knee-injury-prevention-guide、rugby-university-scholarship-jasso-guide、rugby-internship-shukatsu-guide へリンクを追加。shukatsu-media の bukatsu-taibu-shukatsu、kega-koshou-gakuchika-reibun へも外部リンクで役割分担する。"
+    },
+    {
+      "factor": "ドメイン評価・被リンク",
+      "layer": "media",
+      "finding": "汎用クエリ『部活 途中で辞めた 就活』はリクナビ・外資就活・unistyle・就活の教科書など就活大手が独占しており、新しいドメインが記事だけで1位を取るのは難しいと見られる（仮説）。",
+      "action": "記事の狙いはラグビー特化クエリに絞る。汎用クエリはグループ内の shukatsu-media（bukatsu-taibu-shukatsu）の担当とし、媒体間でKWの担当を台帳に記録する。"
+    },
+    {
+      "factor": "技術・表示",
+      "layer": "media",
+      "finding": "pipeline/generate_site.py の構造化データは試合のSportsEventのみで、記事ページにArticle/FAQPage/BreadcrumbListのJSON-LDがない。著者・監修の表示もない。",
+      "action": "テンプレートに Article と BreadcrumbList のJSON-LDを追加し、FAQ見出しがある記事はFAQPageを出力する（媒体バックログ）。編集部・運営者ページの整備も合わせて行う。"
+    },
+    {
+      "factor": "CV",
+      "layer": "article",
+      "finding": "クリック0のためCVは判断できない。末尾のCTAはツナカレのトップページへのリンクのみで、退部経験者向けの相談内容が具体的でない。",
+      "action": "末尾CTAを『退部の経緯をESや面接でどう話すか相談できる』という具体的な言い方に変え、cta: shukatsu は維持する。実績や団体数は書かない。"
+    }
+  ],
+  "summary": "主な原因は網羅性と検索意図の一致。上位は理由別例文・NG例・ES欄の書き方・FAQを持つ1万字級の解説＋例文型なのに、自記事は約3,500字で例文がほぼない。汎用クエリは就活大手が独占しているので、ラグビー特化と一次情報で差をつけるリライトにし、構造化データと被リンクは媒体側の課題として扱う。"
+}
