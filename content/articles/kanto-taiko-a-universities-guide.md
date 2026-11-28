@@ -95,6 +95,8 @@ cta: sponsor
 
 対抗戦の直近5シーズンでは、2022年度と2023年度に2勝5敗が最多の勝ち数でした。チームページは [立教大学](https://rugbymania.jp/kanto-taiko-a/clubs/rikkyo/) です。
 
+過去の戦いぶりを振り返りたい方は、[2021年の関東大学対抗戦Aグループにおける立教大のシーズン全試合結果](https://rugbymania.jp/articles/season-kanto-taiko-a-rikkyo-2021/)もあわせてご覧ください。 <!-- index-lane-link -->
+
 出典: [立教大学 富士見総合グラウンド](https://www.rikkyo.ac.jp/campuslife/facilities/fujimi/)
 
 ### 帝京大学

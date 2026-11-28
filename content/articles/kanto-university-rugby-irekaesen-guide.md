@@ -141,6 +141,8 @@ cta: sponsor
 
 なお、各グループの上位校が出場する全国大学選手権については、[全国大学選手権の日程を紹介した記事](https://rugbymania.jp/articles/university-rugby-championship-schedule-guide/)があります。
 
+リーグ戦2部の当落線の動きを具体的に見たい方は、10月4日の試合結果と順位表をまとめた[関東大学リーグ戦2部の10月4日の結果まとめ](https://rugbymania.jp/articles/review-kanto-league-2-20261004/)もあわせてご覧ください。 <!-- index-lane-link -->
+
 ## 観戦のポイント
 
 公式記録から、観戦の参考になる事実を4つ挙げます。
